@@ -11,31 +11,50 @@
 ZSH_THEME="powerlevel9k/powerlevel9k"
 # ZSH_THEME="robbyrussell"
 #theme configuration for powerlenvel9k
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir_writable dir virtualenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ssh time)
+# prompt element
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir_writable dir virtualenv vcs status time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(ssh time)
 # POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_DISABLE_RPROMPT=false
-# POWERLEVEL9K_COLOR_SCHEME='light'
+POWERLEVEL9K_DISABLE_RPROMPT=true
+# color and font shecme
+POWERLEVEL9K_COLOR_SCHEME='dark'
 POWERLEVEL9K_MODE='awesome-fontconfig'
-# POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M \uf073 %d/%m/%y}"
-POWERLEVEL9K_STATUS_VERBOSE=false
+# Status
+POWERLEVEL9K_STATUS_VERBOSE=true
+POWERLEVEL9K_STATUS_CROSS=true
 POWERLEVEL9K_STATUS_OK_IN_NON_VERBOSE=true
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
-# coloring
-POWERLEVEL9K_OS_ICON_FOREGROUND="white"
-POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+#POWERLEVEL9K_STATUS_OK_ICON='\UF2B0'
+# dir
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+# POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="yellow"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="yellow"
+POWERLEVEL9K_DIR_HOME_BACKGROUND=""
+POWERLEVEL9K_DIR_HOME_FOREGROUND="yellow"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="yellow"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND=""
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="yellow"
+# os segment
+# POWERLEVEL9K_OS_ICON_BACKGROUND="yellow"
+POWERLEVEL9K_OS_ICON_FOREGROUND="yellow"
+# Double-Lined Prompt
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
+# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460\uf460%f"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf0a4%f"
+
+# powerlevel9k time formating
+POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M:%S}"
 #Icon config
 # POWERLEVEL9K_HOME_ICON='\UF20E'
 # POWERLEVEL9K_SUB_ICON='\UF07C'  
 # POWERLEVEL9K_FOLDER_ICON='\UF07B'
-#POWERLEVEL9K_STATUS_OK_ICON='\UF2B0'
-POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR='\UE0BC'
-POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR='\UE0BA'
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
+# POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR='\UE0BC'
+# POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR='\UE0BA'
+POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=''
+POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=''
+POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=''
+POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=''
 # 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -118,11 +137,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sdatemp="hddtemp /dev/sda"
-alias mp42mp3="python3 /home/dani/Project/tools/mp42mp3.py"
-alias gogh="bash /home/dani/Project/tools/gogh"
+# personal alias
+alias hddtemp="hddtemp /dev/sda; hddtemp /dev/sdb"
 alias rm="rm --interactive"
-alias aniD="cd /media/dani/DATA/ANIME/"
-alias aniC="cd /media/dani/WINDOWS/ANIME/"
-alias aniO="cd /opt/ANIME/"
-alias ls="colorls --sd"
+# directory alias
+#alias ls="colorls --sd"
+# alias for personal tools
+# alias for netwrking
+alias publicip="echo 'Public Ip Address'; curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'"
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/home/dani/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
