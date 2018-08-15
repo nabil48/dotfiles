@@ -1,0 +1,61 @@
+
+!!! ------URxvt------ !!!
+!! fonts
+URxvt.font:                     xft:SauceCodePro\ Nerd\ Font\ Mono:pixelsize=12:medium;antialias=False
+URxvt.letterSpace:              -0.5
+Xft.dpi:                        96
+Xft.antialias:                  true
+Xft.rgba:                       rgb
+Xft.hinting:                    true
+Xft.hintstyle:                  hintslight
+
+!! window 
+URxvt.title:                    Terminal
+URxvt.termName:                 rxvt-unicode
+!URxvt.geometry:                 115x24+366+211
+!URxvt.colorBD:                  #263238
+URxvt.borderless:               false
+URxvt.internalBorder:           0
+URxvt*scrollTtyOutput:          false
+URxvt*scrollWithBuffer:         true
+URxvt*scrollTtyKeypress:        true
+URxvt.scrollBar:                false
+URxvt.scrollBar_right:          false
+URxvt.scrollBar_floating:       false
+URxvt.scrollstyle:              rxvt
+URxvt.cursorBlink:              false
+URxvt.cursorUnderline:          true
+URxvt.hintslightColor:          #a9a9aa
+URxvt.hintslightTextColor:      #a9a9aa
+
+! perl extensions
+URxvt.perl-lib:                 ~/.urxvt/ext/
+URxvt.perl-ext-common:          default,clipboard,url-select,keyboard-select
+
+!! url handling
+URxvt.url-launcher:             /usr/bin/xdg-open
+URxvt.matcher.button:           1
+URxvt.underlineURLs:            true
+URxvt.urlButton: 1 
+
+!! keybinding
+!fix keyboard error in urxvt+zsh
+!URxvt.keysym.Home:              \033[7~
+!URxvt.keysym.End:               \033[8~
+!URxvt.keysym.KP_Home:           \033[7~
+!URxvt.keysym.KP_End:            \033[8~
+URxvt.keysym.Control-Up:         \033[1;5A
+URxvt.keysym.Control-Down:       \033[1;5B
+URxvt.keysym.Control-Left:       \033[1;5D
+URxvt.keysym.Control-Right:      \033[1;5C
+
+! copy and paste in urxvt
+URxvt.keysym.Control-Alt-C:      perl:clipboard:copy
+URxvt.keysym.Control-Alt-V:      perl:clipboard:paste
+
+
+!! Others
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.loginShell: true
+!!! ------End URxvt------ !!!
