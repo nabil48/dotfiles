@@ -1,0 +1,22 @@
+!! ------------------------------------------------------------------------------
+!! Import other Configuration from ~/.xrdb
+!! ------------------------------------------------------------------------------
+#include "/home/dani/.xrdb/color/adaptaColor"
+#include "/home/dani/.xrdb/urxvt"
+#include "/home/dani/.xrdb/xterm"
+!#include "/home/dani/.xrdb/xautolock"
+#include "/home/dani/.Xresources"
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! ------------------------------------------------------------------------------
+Xft.lcdfilter                   : lcddefault
+!Xft.dpi                         : 96
+!Xft.dpi                         : 1
+Xft.antialias                   : true
+Xft.rgba                        : rgb
+Xft.hinting                     : true
+Xft.autohint                    : false
+Xft.hintstyle                   : hintslight
+
+Xcursor.theme: breeze_cursors

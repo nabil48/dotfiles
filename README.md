@@ -1,15 +1,3 @@
-# dotfiles
-tempat backup configurasi dekstop
-
-## conky
-**nabbi-v2**  
-original by:[thiago93br.deviantart.com](https://thiago93br.deviantart.com/art/Nabbi-conky-theme-edits-679737150)   
-![alt text](https://raw.githubusercontent.com/nabil48/dotfiles/master/conky/Nabbi-v2/nabbi-v2%20preview.png "nabbi-v2")
-## tmux
-![alt text](https://raw.githubusercontent.com/nabil48/dotfiles/master/tmux/tmux%20preview.png "tmux")
-## zsh
-![alt text](https://raw.githubusercontent.com/nabil48/dotfiles/master/zsh/zsh%20preview.png "oh-my-zsh")
-## ncmpcpp
-![alt text](https://raw.githubusercontent.com/nabil48/dotfiles/master/ncmpcpp/ncmpcpp%20preview.png "ncmcpp")
-## urxvt
-![alt text](https://raw.githubusercontent.com/nabil48/dotfiles/master/urxvt/urxvt%20preview.png "urxvt")
+![Dotfiles Header](https://raw.githubusercontent.com/nabil48/dotfiles/master/images/header.png)
+## introduction
+Dotfiles are used to customize your system. The “dotfiles” name is derived from the configuration files in Unix-like systems that start with a dot (e.g. .bash_profile and .gitconfig). For normal users, this indicates these are not regular documents, and by default are hidden in directory listings. For power users, however, they are a core tool belt.</tspan>!
