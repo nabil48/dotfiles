@@ -1,7 +1,7 @@
 # mpd server
 system_encoding = "utf-8"
 mpd_host = "localhost"
-mpd_port = "8012"
+mpd_port = "6006"
 mpd_connection_timeout = "5"
 mpd_crossfade_time = "5"
 mpd_music_dir = "~/Music"
@@ -28,11 +28,13 @@ song_list_format= "$0$8%l$0$8$1 $8{$4%t$8}|{$4%f$8} $R $8%20a$1$1$8$0"
 song_library_format = "{%n > }{%t}|{%f}"
 
 # Now playing
-song_status_format = "{%a ♪ %t}|{♪ %t}"
+song_status_format = "$8{%a ♪ %t}|{♪ %t}|{%f}$0"
 
 # progress bar
 #progressbar_look = "─  "
+# progressbar_look = "─╼─"
 progressbar_look = "─╼─"
+
 # progressbar_look = "▃▃▃"
 
 # Browser
@@ -44,10 +46,12 @@ visualizer_fifo_path = "/tmp/mpd.fifo"
 visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "30" 
 visualizer_in_stereo = "no"
-visualizer_type = "spectrum" (spectrum/wave)
+visualizer_type = "wave_filled" (spectrum/wave)
 # visualizer_look = "▋▋"
 # visualizer_look = "▬▬"
-visualizer_look = "■■"
+# visualizer_look = "■■"
+visualizer_look = "●┃"
+
 
 
 # Colors
@@ -68,11 +72,11 @@ current_item_suffix = "$/r$(end)"
 # current_item_suffix = "$0$8▐$0"
 current_item_inactive_column_prefix = "$(red)$r"
 current_item_inactive_column_suffix = "$/r$(end)"
-# now_playing_prefix = "$0$8▌$0"
-# now_playing_suffix = "$0$8▐$0"
-now_playing_prefix = "$(white)$r"
-now_playing_suffix = "$/r$(end)"
-# visualizer_color = "white"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+# now_playing_prefix = "$(white)$r"
+# now_playing_suffix = "$/r$(end)"
+#visualizer_color = "white"
 
 # Others
 # song_window_title_format = "MPD: {%a > }{%t}{ [%b{ Disc %d}]}|{%f}"
@@ -84,7 +88,7 @@ display_volume_level = "no"
 incremental_seeking = "yes"
 seek_time = "10"
 volume_change_step = "5"
-playlist_disable_highlight_delay = "2"
+playlist_disable_highlight_delay = "1"
 jump_to_now_playing_song_at_start = "yes"
 ask_before_clearing_playlists = "yes"
 playlist_show_remaining_time = "no"

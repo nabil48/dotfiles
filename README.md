@@ -7,14 +7,14 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | :--- | :---- |
 | OS | Manjaro 18.0 |
 | WM | I3wm, Openbox |
-| Shell | Zsh |
+| Shell | Zsh _oh-my-zsh_ |
 | DM | Lightdm |
-| Font | iosevka Nerd Font, SauceCodePro Nerd Font |
-| Compositor | compton |
-| Notification | dunst |
-| Terminal | URxvt, termite |
+| Font | Iosevka Nerd Font, SauceCodePro Nerd Font |
+| Compositor | Compton |
+| Notification | Dunst |
+| Terminal | URxvt, Termite |
 | Launcher | rofi, dmenu |
-| Bar | Polybar |
+| Bar | polybar |
 | Wallpaper | feh |
 | Lock Screen | i3lock, mantablockscreen |
 | Logout / Shutdown |  |
@@ -23,3 +23,32 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Network Applet | nm-applet |
 | Bluetooth Applet | blueman-applet |
 | Text Editor | vim, nano, vscode |
+
+## Table of Contents
+| Item | Value |
+| :--- | :---- |
+| Conky | [.config/conky]() |
+| Openbox | [.config/openbox]() |
+| I3-wm | [.config/i3]() |
+| Kvantum | [.config/Kvantum]() |
+| Ncmpcpp | [.ncmpcpp]() |
+| Polybar | [.config/polybar]() |
+| Rofi | [.config/rofi]() |
+| Screenshot | [preview]() |
+| Termite | [.config/termite]() |
+| Tint2 | [.config/tint2]() |
+| Theme | [.themes]() |
+| Tmux | [.tmux.conf]() |
+| URxvt | [.xrdb/urxvt]() |
+| Vim | [.vimrc]() |
+| Wallpaper | [wallpaper]() |
+| Xreource | [.Xdefault](), [.xrdb]() |
+| Xterm | [.xrdb/xterm]() |
+| Zsh | [.zshrc]() |
+
+## ScreenShot
+*Coming Soon*
+
+_Note: Beberapa file yang ada di dotfiles ini hasil nyuri dari berbagai
+repositori master dotfiles indonesia dan dari forum di internet
+yang dikasih sedikit bumbu agar sesuai_

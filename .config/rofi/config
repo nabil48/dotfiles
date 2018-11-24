@@ -1,0 +1,20 @@
+! Rofi config file
+rofi.lines                : 12
+rofi.font                 : Source Sans Pro 12
+rofi.fake-transparency    : true
+rofi.show-icons           : false
+rofi.theme                : ~/.config/rofi/theme/Adapta-Nektar.rasi
+rofi.display-window       : window
+rofi.display-drun         : drun
+rofi.display-run          : run
+rofi.display-keys         : key
+rofi.sidebar-mode         : false
+rofi.modi                 : drun,run
+rofi.show                 : drun
+rofi.drun-match-fields    : name
+rofi.window-match-fields  : name
+rofi.columns              : 1
+rofi.width                : 900
+rofi.columns              : 2
+rofi.terminal             : urxvt
+!rofi.pid                  : /tmp/rofi.pid
