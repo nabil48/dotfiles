@@ -27,37 +27,23 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 ## Table of Contents
 | Item | Value |
 | :--- | :---- |
-| Conky |
-[.config/conky](https://github.com/nabil48/dotfiles/tree/master/.config/conky) |
-| Openbox |
-[.config/openbox](https://github.com/nabil48/dotfiles/tree/master/.config/openbox) |
-| I3-wm |
-[.config/i3](https://github.com/nabil48/dotfiles/tree/master/.config/i3) |
-| Kvantum |
-[.config/Kvantum](https://github.com/nabil48/dotfiles/tree/master/.config/Kvantum) |
+| Conky | [.config/conky](https://github.com/nabil48/dotfiles/tree/master/.config/conky) |
+| Openbox | [.config/openbox](https://github.com/nabil48/dotfiles/tree/master/.config/openbox) |
+| I3-wm | [.config/i3](https://github.com/nabil48/dotfiles/tree/master/.config/i3) |
+| Kvantum | [.config/Kvantum](https://github.com/nabil48/dotfiles/tree/master/.config/Kvantum) |
 | Ncmpcpp | [.ncmpcpp](https://github.com/nabil48/dotfiles/tree/master/.ncmpcpp) |
-| Polybar |
-[.config/polybar](https://github.com/nabil48/dotfiles/tree/master/.config/polybar) |
-| Rofi |
-[.config/rofi](https://github.com/nabil48/dotfiles/tree/master/.config/rofi) |
-| Screenshot |
-[preview](https://github.com/nabil48/dotfiles/tree/master/preview) |
-| Termite |
-[.config/termite](https://github.com/nabil48/dotfiles/tree/master/.config/termite) |
-| Tint2 |
-[.config/tint2](https://github.com/nabil48/dotfiles/tree/master/.config/tint2) |
+| Polybar | [.config/polybar](https://github.com/nabil48/dotfiles/tree/master/.config/polybar) |
+| Rofi | [.config/rofi](https://github.com/nabil48/dotfiles/tree/master/.config/rofi) |
+| Screenshot | [preview](https://github.com/nabil48/dotfiles/tree/master/preview) |
+| Termite | [.config/termite](https://github.com/nabil48/dotfiles/tree/master/.config/termite) |
+| Tint2 | [.config/tint2](https://github.com/nabil48/dotfiles/tree/master/.config/tint2) |
 | Theme | [.themes]() |
-| Tmux |
-[.tmux.conf](https://github.com/nabil48/dotfiles/blob/master/.tmux.conf) |
-| URxvt |
-[.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.xrdb/urxvt) |
+| Tmux | [.tmux.conf](https://github.com/nabil48/dotfiles/blob/master/.tmux.conf) |
+| URxvt | [.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.xrdb/urxvt) |
 | Vim | [.vimrc](https://github.com/nabil48/dotfiles/blob/master/.vimrc) |
-| Wallpaper |
-[wallpaper](https://github.com/nabil48/dotfiles/tree/master/wallpaper) |
-| Xresource |
-[.Xdefault](https://github.com/nabil48/dotfiles/blob/master/.Xdefaults), [.xrdb](https://github.com/nabil48/dotfiles/tree/master/.xrdb) |
-| Xterm |
-[.xrdb/xterm](https://github.com/nabil48/dotfiles/blob/master/.xrdb/xterm) |
+| Wallpaper | [wallpaper](https://github.com/nabil48/dotfiles/tree/master/wallpaper) |
+| Xresource | [.Xdefault](https://github.com/nabil48/dotfiles/blob/master/.Xdefaults), [.xrdb](https://github.com/nabil48/dotfiles/tree/master/.xrdb) |
+| Xterm | [.xrdb/xterm](https://github.com/nabil48/dotfiles/blob/master/.xrdb/xterm) |
 | Zsh | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zshrc) |
 
 ## ScreenShot
