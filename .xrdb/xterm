@@ -1,0 +1,25 @@
+!! ------------------------------------------------------------------------------
+!! XTerm configs
+!! ------------------------------------------------------------------------------
+
+XTerm.termName                  : xterm-256color
+XTerm.vt100.locale              : true
+XTerm.vt100.metaSendsEscape     : true
+XTerm.vt100.backarrowKey        : false
+XTerm.ttyModes                  : erase ^?
+
+!! font
+XTerm.vt100.faceName            : SauceCodePro\ Nerd\ Font\ Mono:pixelsize=11
+! start with TrueType fonts enable
+XTerm.vt100.renderFont          : true
+XTerm.scaleHeight               : 1
+
+!! key binding
+XTerm.vt100.translations        : #override \n\
+    Ctrl <Key>M: maximize() \n\
+    Ctrl <Key>R: restore() \n\
+    Ctrl Alt <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Alt <Key>V: insert-selection(CLIPBOARD)
+
+!! window
+XTerm.set-utf8-title            : true

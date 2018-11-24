@@ -1,0 +1,3 @@
+! xautolock configuration
+xautolock.time          : 15
+xautolock.locker        : mantablockscreen
