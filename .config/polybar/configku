@@ -18,7 +18,7 @@
 ;==========================================================
 
 [colors]
-background      = #991a2228
+background      = #131c26
 foreground      = #d3dae3
 
 black           =#3a4e56
@@ -26,6 +26,7 @@ brightblack     =#556064
 
 red             =#e14245
 brightred       =#e16f7e
+red-alt         =#c67d6f
 
 green           = #5ca75b
 brightgreen     = #add488
@@ -45,26 +46,37 @@ brightcyan      = #73c5e2
 white           = #a9a9aa
 brightwhite     = #fcfcfc
 
+
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
 compositing-background = screen
 compositing-foreground = source
 ;compositing-border = over
+pseudo-transparency = true
+format-foreground = ${colors.foreground}
+format-background = ${colors.brightblack}
+;format-underline =
+;format-overline =
+;format-spacing =
+;format-padding =
+;format-margin =
+;format-offset =
+
 
 [global/wm]
 margin-top = 0
 margin-bottom = 0
 
 
-[bar/top]
+[bar/bar1]
 ; Use the following command to list available outputs:
-; If unspecified, the application will pick the first one it finds.
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
 monitor = "LVDS1"
+bottom = false
 width = 100%
-height = 18
-offset-x = 0%
+height = 20
+offset-x = 0
 offset-y = 0
 radius = 0
 fixed-center = true
@@ -75,10 +87,10 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-top-size = 2
-border-top-color = ${colors.background}
-border-bottom-size = 1
-border-bottom-color = ${colors.background}
+border-top-size = 0
+border-bottom-size = 0
+border-left-size = 0
+border-right-size = 0
 
 padding-left = 0
 padding-right = 0
@@ -87,23 +99,34 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = "SauceCodePro Nerd Font Mono:pixelsize=11:Light"
-font-1 = "Hack Nerd Font Mono:pixelsize=11;0"
-font-2 = "Radio Space:pixelsize=11;0"
+font-1 = "Hack Nerd Font Mono:pixelsize=11"
+font-2 = "Radio Space:pixelsize=11"
 font-3 = "Siji:Regular:pixelsize=12"
 font-4 = "bitocra13full:Regular:pixelsize=12"
 
-modules-left = ewmh mpd_control
-modules-center = title
-modules-right = wlan temperature hdd0 hdd1 cpu memory xbacklight pulseaudio date
+modules-left = ewmh mpd_control title
+;modules-center = 
+modules-right = wlan temperature hdd0 hdd1 cpu memory xbacklight pulseaudio battery date
 
-tray-position = top
-tray-padding = 0
-tray-transparent = true
+tray-position = center
+tray-padding = 1
+tray-detached = false
+tray-maxsize = 16
+;tray-transparent = false
+tray-scale = 1.0
+tray-background = ${colors.background}
+tray-foreground = ${colors.foreground}
+tray-offses-x = 0
+tray-offset-y = 0
 
 cursor-click = pointer
 cursor-scroll = ns-resize
 
 separator = " "
+
+;wm-restack = i3
+;override-redirect = true
+
 
 
 [module/ewmh]
@@ -143,13 +166,12 @@ type = internal/xwindow
 format = <label>
 format-prefix = " "
 format-suffix = " "
-format-foreground = ${colors.foreground}
 format-padding = 0
+format-background = ${colors.background}
 
 label = %title%
 label-font = 5
 label-maxlen = 50
-label-empty = None
 
 
 
@@ -158,8 +180,6 @@ type = internal/mpd
 host = 127.0.0.1
 port = 6006
 format-online = <label-song>
-format-online-foreground = ${colors.foreground}
-format-online-background = ${colors.background}
 format-online-font = 1
 format-playing = ${self.format-online}
 format-paused =
@@ -174,13 +194,12 @@ port = 6006
 format-online = <icon-prev> <icon-repeat> <icon-random> <icon-pause> <icon-play> <icon-next> 
 format-online-font = 5
 format-online-padding = 1
-format-online-background = ${colors.brightblack}
 
-label-offline =  <icon-prev> <icon-repeat> <icon-random> <icon-pause> <icon-play> <icon-next>
+label-offline =  mpd is offline
 label-offline-font = 5
 label-offline-foreground = ${colors.black}
-format-offline-background = ${colors.brightblack}
-format-offline-padding = 1
+label-offline-background = ${colors.brightblack}
+label-offline-padding = 1
 
 format-offline = <label-offline>
 format-playing = ${self.format-online}
@@ -211,49 +230,19 @@ use-ui-max = true
 format-volume = <label-volume>
 format-volume-prefix = "墳 "
 format-volume-suffix = "%"
-format-volume-font = 5
-format-volume-background = ${colors.brightblack}
 format-volume-padding = 1
 
 format-muted = <label-muted>
 format-muted-prefix = "墳 "
 format-muted-suffix = "%"
-format-muted-font = 5
 format-muted-padding = 1
 format-muted-foreground = ${colors.black}
-format-muted-background = ${colors.brightblack}
 
-label-volume = %percentage%
-label-muted = %percentage%
+label-volume = %percentage:3:3%
+label-volume-font = 5
+label-muted = %percentage:3:3%
+label-muted-font = 5
 
-; Only applies if <ramp-volume> is used
-ramp-volume-0 = 🔈
-ramp-volume-1 = 🔉
-ramp-volume-2 = 🔊
-
-bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.foreground}
-bar-volume-foreground-1 = ${colors.foreground}
-bar-volume-foreground-2 = ${colors.foreground}
-bar-volume-foreground-3 = ${colors.foreground}
-bar-volume-foreground-4 = ${colors.foreground}
-bar-volume-foreground-5 = ${colors.foreground}
-bar-volume-foreground-6 = ${colors.foreground}
-bar-volume-foreground-7 = ${colors.foreground}
-bar-volume-foreground-8 = ${colors.foreground}
-bar-volume-foreground-9 = ${colors.foreground}
-
-bar-volume-gradient = false
-
-bar-volume-indicator = 
-bar-volume-indicator-font = 1
-
-bar-volume-fill = 
-bar-volume-fill-font = 1
-
-bar-volume-empty = 
-bar-volume-empty-font = 1
-bar-volume-empty-foreground = ${colors.brightblack}
 
 
 [module/xbacklight]
@@ -264,27 +253,10 @@ enable-scroll = false
 format = <label>
 format-prefix = " "
 format-suffix = "%"
-format-background = ${colors.brightblack}
 format-padding = 1
 
-label = %percentage%
+label = %percentage:3:3%
 label-font = 5
-
-; Only applies if <ramp> is used
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑
-
-; Only applies if <bar> is used
-bar-width = 10
-bar-indicator = 
-bar-indicator-background = ${colors.foreground}
-bar-fill = 
-bar-fill-background = ${colors.foreground}
-bar-empty = 
-bar-empty-background = ${colors.brightblack}
 
 
 [module/cpu]
@@ -294,21 +266,10 @@ interval = 1
 format = <label>
 format-prefix = " "
 format-suffix = "%"
-format-background = ${colors.brightblack}
 format-padding = 1
 
 label = %percentage:3:3%
 label-font = 5
-;label-underline = ${colors.brightcyan}
-
-ramp-coreload-0 = ▁
-ramp-coreload-1 = ▂
-ramp-coreload-2 = ▃
-ramp-coreload-3 = ▄
-ramp-coreload-4 = ▅
-ramp-coreload-5 = ▆
-ramp-coreload-6 = ▇
-ramp-coreload-7 = █
 
 
 [module/memory]
@@ -317,42 +278,10 @@ interval = 1
 format = <label>
 format-prefix = " "
 format-suffix = "%"
-format-background = ${colors.brightblack}
 format-padding = 1
 
-label = %percentage_used%
+label = %percentage_used:3:3%
 label-font = 5
-
-; Only applies if <bar-used> is used
-bar-used-indicator =
-bar-used-width = 50
-bar-used-foreground-0 = #55aa55
-bar-used-foreground-1 = #557755
-bar-used-foreground-2 = #f5a70a
-bar-used-foreground-3 = #ff5555
-bar-used-fill = ▐
-bar-used-empty = ▐
-bar-used-empty-foreground = #444444
-
-; Only applies if <ramp-used> is used
-ramp-used-0 = ▁
-ramp-used-1 = ▂
-ramp-used-2 = ▃
-ramp-used-3 = ▄
-ramp-used-4 = ▅
-ramp-used-5 = ▆
-ramp-used-6 = ▇
-ramp-used-7 = █
-
-; Only applies if <ramp-free> is used
-ramp-free-0 = ▁
-ramp-free-1 = ▂
-ramp-free-2 = ▃
-ramp-free-3 = ▄
-ramp-free-4 = ▅
-ramp-free-5 = ▆
-ramp-free-6 = ▇
-ramp-free-7 = █
 
 
 [module/date]
@@ -366,13 +295,12 @@ time = %H:%M %p
 time-alt = %A, %d %B %Y
 
 format = <label>
-format-prefix = " "
-format-background = ${colors.brightblack}
+;format-prefix = " "
+format-prefix = %{T2}%{T-}
 format-padding = 1
 
 label = %time%
 label-font = 5
-label-foreground = ${colors.foreground}
 
 
 [module/wlan]
@@ -385,14 +313,11 @@ unknown-as-up = true
 
 format-connected = <label-connected>
 format-connected-prefix ="直 "
-format-connected-background = ${colors.brightblack}
 format-connected-padding = 1
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix ="直 "
 format-disconnected-foreground = ${colors.black}
-;label-disconnected-underline = ${colors.brightcyan}
-format-disconnected-background = ${colors.brightblack}
 format-disconnected-padding = 1
 
 format-packetloss = <animation-packetloss> <label-connected>
@@ -404,25 +329,6 @@ label-connected-font = 5
 
 label-disconnected = offline
 label-disconnected-font = 5
-
-;label-packetloss = %essid%
-;label-packetloss-foreground = #eefafafa
-
-; Only applies if <ramp-signal> is used
-ramp-signal-0 = 😱
-ramp-signal-1 = 😠
-ramp-signal-2 = 😒
-ramp-signal-3 = 😊
-ramp-signal-4 = 😃
-ramp-signal-5 = 😈
-
-; Only applies if <animation-packetloss> is used
-animation-packetloss-0 = ⚠
-animation-packetloss-0-foreground = #ffa64c
-animation-packetloss-1 = 📶
-animation-packetloss-1-foreground = #000000
-; Framerate in milliseconds
-animation-packetloss-framerate = 500
 
 
 [module/spotify]
@@ -461,12 +367,11 @@ exec = hddtemp /dev/sdb | cut -b 33-37
 type = internal/temperature
 interval = 1
 thermal-zone = 0
-hwmon-path = /sys/devices/virtual/hwmon/hwmon0/temp1_input
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
 warn-temperature = 60
 units = true
 format = <label>
 format-prefix = " "
-format-background = ${colors.brightblack}
 format-padding = 1
 
 format-warn = <label-warn>
@@ -479,3 +384,30 @@ label-font = 5
 
 label-warn = %temperature-c%
 label-warn-font = 5
+
+
+[module/battery]
+type = internal/battery
+full-at = 99
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = ADP0
+
+format-charging = "<animation-charging><label-charging>"
+;format-charging-underline = ${colors.foreground}
+
+format-discharging = "<ramp-capacity><label-discharging>"
+;format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = "  "
+;format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
+
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-framerate = 750

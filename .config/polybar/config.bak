@@ -1,3 +1,4 @@
+; vim:ft=dosini
 ;==========================================================
 ;
 ;
@@ -17,7 +18,7 @@
 ;==========================================================
 
 [colors]
-background      = #1a2228
+background      = #001a2228
 foreground      = #d3dae3
 
 black           =#3a4e56
@@ -47,15 +48,13 @@ brightwhite     = #fcfcfc
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
+compositing-background = screen
+compositing-foreground = source
 ;compositing-border = over
 
 [global/wm]
 margin-top = 0
 margin-bottom = 0
-
-; vim:ft=dosini
 
 
 [bar/top]
@@ -63,56 +62,57 @@ margin-bottom = 0
 ; If unspecified, the application will pick the first one it finds.
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
 monitor = "LVDS1"
-width = 100%
-height = 22
-offset-x = 0
+width = 30%
+height = 18
+offset-x = 70%
 offset-y = 0
 radius = 0
 fixed-center = false
-;-----------------------
+
 background = ${colors.background}
 foreground = ${colors.foreground}
-;-----------------------
+
 line-size = 3
 line-color = #f00
-;-----------------------
+
 border-top-size = 2
 border-top-color = ${colors.background}
 border-bottom-size = 0
 border-bottom-color = ${colors.background}
-;-----------------------
+
 padding-left = 0
-padding-right = 1
-;-----------------------
+padding-right = 0
+
 module-margin-left = 1
 module-margin-right = 0
 ;font-0 = fixed:pixelsize=10;1
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
-font-0 = "SauceCodePro Nerd Font Mono:pixelsize=12;0"
-font-1 = "Hack Nerd Font Mono:pixelsize=12;0"
-font-2 = "Radio SPace:pixelsize=12;0"
-;-----------------------
-modules-left = ewmh
+font-0 = "SauceCodePro Nerd Font Mono:pixelsize=11;0"
+font-1 = "Hack Nerd Font Mono:pixelsize=11;0"
+font-2 = "Radio Space:pixelsize=11;0"
+font-3 = "SauceCodePro Nerd Font Mono:pixelsize=32;0"
+
+modules-left = 
 modules-center = 
-modules-right = cpu memory xbacklight pulseaudio mpd
-;-----------------------
-tray-position = right
+modules-right = mpd_control cpu memory xbacklight pulseaudio ewmh
+
+tray-position = bottom
 tray-padding = 0
 tray-transparent = true
-# tray-background = #0063ff
-;-----------------------
+;tray-background = #0063ff
+
 ;wm-restack = bspwm
 ;wm-restack = i3
-;-----------------------
+
 ;override-redirect = true
-;-----------------------
+
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
-;-----------------------
+
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
-;-----------------------
+
 cursor-click = pointer
 cursor-scroll = ns-resize
 
@@ -158,14 +158,12 @@ label-monitor = %name%
 label-active = "  "
 label-active-foreground = ${colors.foreground}
 label-active-background = ${colors.background}
-;label-active-underline = ${colors.brightcyan}
 ; Available tokens:
 ;   %name%
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
 label-occupied = "  "
-label-occupied-underline = ${colors.brightcyan}
 ; Available tokens:
 ;   %name%
 ;   %icon%
@@ -174,7 +172,6 @@ label-occupied-underline = ${colors.brightcyan}
 label-urgent = "  "
 label-urgent-foreground = ${colors.foreground}
 label-urgent-background = ${colors.background}
-label-urgent-underline = ${colors.brightcyan}
 ; Available tokens:
 ;   %name%
 ;   %icon%
@@ -184,15 +181,29 @@ label-empty = "  "
 label-empty-foreground = ${colors.foreground}
 
 
-[module/mpd]
+[module/mpd_title]
+type = internal/mpd
+host = 127.0.0.1
+port = 6006
+format-online = <label-song>
+format-online-foreground = ${colors.foreground}
+format-online-background = ${colors.background}
+format-online-font = 1
+format-playing = ${self.format-online}
+format-paused =
+format-offline =
+label-song =  %artist%  %title%
+
+
+[module/mpd_control]
 type = internal/mpd
 ; Host where mpd is running (either ip or domain name)
 ; Can also be the full path to a unix socket where mpd is running.
 host = 127.0.0.1
-port = 8012
+port = 6006
 ; Seconds to sleep between progressbar/song timer sync
 ; Default: 1
-interval = 1
+;interval = 2
 ; Available tags:
 ;   <label-song> (default)
 ;   <label-time>
@@ -211,17 +222,6 @@ interval = 1
 ;   <icon-next>
 ;   <icon-seekb>
 ;   <icon-seekf>
-format-online =  <icon-prev> <icon-pause> <icon-play> <icon-next>
-format-online-underline = ${colors.brightblack}
-format-online.font = 1
-format-playing = ${self.format-online}
-;format-paused = ${self.format-online}
-;format-stopped = ${self.format-online}
-
-; Available tags:
-;   <label-offline>
-;format-offline = <label-offline>
-
 ; Available tokens:
 ;   %artist%
 ;   %album-artist%
@@ -229,7 +229,7 @@ format-playing = ${self.format-online}
 ;   %date%
 ;   %title%
 ; Default: %artist% - %title%
-label-song = 𝄞 %artist% - %title%
+label-song = %artist% %title%
 label-song-font = 1
 ; Available tokens:
 ;   %elapsed%
@@ -239,10 +239,23 @@ label-song-font = 1
 ;
 ; Available tokens:
 ;   None
-label-offline = <icon-prev> <icon-pause> <icon-play> <icon-next>
-label-offline-underline = ${colors.brightblack}
-label-offline-font = 1
+format-online = <icon-prev> <icon-repeat> <icon-random> <icon-pause> <icon-play> <icon-next>
+format-online-font = 4
+format-online-background = ${colors.red}
+;format-online-underline = ${colors.brightcyan}
+
+; Available tags:
+;   <label-offline>
+label-offline =  <icon-prev> <icon-repeat> <icon-random> <icon-pause> <icon-play> <icon-next>
+label-offline-font = 4
 label-offline-foreground = ${colors.brightblack}
+format-offline = <label-offline>
+;format-offline-underline = ${colors.brightcyan}
+
+format-playing = ${self.format-online}
+;format-paused = ${self.format-online}
+;format-stopped = ${self.format-online}
+
 ; Only applies if <icon-X> is used
 icon-play = 
 icon-pause = 
@@ -261,10 +274,13 @@ icon-consume = ✀
 toggle-on-foreground = ${colors.white}
 toggle-off-foreground = ${colors.brightwhite}
 ; Only applies if <bar-progress> is used
-bar-progress-width = 45
-bar-progress-indicator = |
-bar-progress-fill = ─
-bar-progress-empty = ─
+bar-progress-width = 10
+bar-progress-indicator = ━
+bar-progress-indicator-foreground = ${colors.foreground}
+bar-progress-fill = ━
+bar-progress-fill-foreground = ${colors.foreground}
+bar-progress-empty = ━
+bar-progress-empty-foreground = ${colors.brightblack}
 
 
 [module/pulseaudio]
@@ -297,15 +313,14 @@ format-volume = <label-volume>
 ;   %percentage% (default)
 ;label-volume = %percentage%%
 label-volume = 墳 %percentage%%
-label-volume-underline = ${colors.brightblack}
 label-volume-font = 3
 label-volume-foreground = ${colors.foreground}
-label-volume-background = ${colors.background}
+;label-volume-underline = ${colors.brightcyan}
 ; Available tokens:
 ;   %percentage% (default)
-label-muted = 婢
-label-muted-underline = ${colors.brightblack}
+label-muted = 婢 %percentage%%
 label-muted-foreground = ${colors.brightblack}
+;label-muted-underline = ${colors.brightcyan}
 ;
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 🔈
@@ -349,7 +364,7 @@ format = <label>
 ;   %percentage% (default)
 label =  %percentage%%
 label-font = 3
-label-underline = ${colors.brightblack}
+;label-underline = ${colors.brightcyan}
 ; Only applies if <ramp> is used
 ramp-0 = 🌕
 ramp-1 = 🌔
@@ -382,9 +397,9 @@ type = internal/cpu
 ;   <ramp-coreload>
 interval = 1
 format = <label>
-label =  %percentage:2%%
+label =  %percentage:3:3%%
 label-font = 3
-label-underline = ${colors.brightblack}
+;label-underline = ${colors.brightcyan}
 ramp-coreload-0 = ▁
 ramp-coreload-1 = ▂
 ramp-coreload-2 = ▃
@@ -424,8 +439,8 @@ format = <label>
 ;   %gb_swap_total%
 ;   %gb_swap_free%
 ;   %gb_swap_used%
-label =  %percentage_free%%
-label-underline = ${colors.brightblack}
+label =  %percentage_used%%
+;label-underline = ${colors.brightcyan}
 label-font = 3
 ; Only applies if <bar-used> is used
 bar-used-indicator =
@@ -524,11 +539,12 @@ interval = 1.0
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = %Y-%m-%d%
 ; Optional time format
-time = %H:%M
+time = %A, %H:%M
 ; if `date-alt` or `time-alt` is defined, clicking
 ; the module will toggle between formats
 date-alt = %A, %d %B %Y
-time-alt = %H:%M:%S
+;time-alt = %H:%M:%S
+time-alt = %A, %d %B %Y
 ; Available tags:
 ;   <label> (default)
 format = <label>
@@ -539,6 +555,110 @@ format-foreground = ${colors.foreground}
 ;   %date%
 ;   %time%
 ; Default: %date%
-label = %date% %time%
+label = %time%
 label-font = 3
 label-foreground = ${colors.foreground}
+
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 1
+
+; Test connectivity every Nth update
+; A value of 0 disables the feature
+; NOTE: Experimental (needs more testing)
+; Default: 0
+;ping-interval = 3
+
+; @deprecated: Define min width using token specifiers (%downspeed:min% and %upspeed:min%)
+; Minimum output width of upload/download rate
+; Default: 3
+udspeed-minwidth = 2
+
+; Accumulate values from all interfaces
+; when querying for up/downspeed rate
+; Default: false
+accumulate-stats = true
+
+; Consider an `UNKNOWN` interface state as up.
+; Some devices have an unknown state, even when they're running
+; Default: false
+unknown-as-up = true
+; Available tags:
+;   <label-connected> (default)
+;   <ramp-signal>
+format-connected = <label-connected>
+
+; Available tags:
+;   <label-disconnected> (default)
+; format-disconnected = <label-disconnected>
+format-disconnected = <label-disconnected>
+
+; Available tags:
+;   <label-connected> (default)
+;   <label-packetloss>
+;   <animation-packetloss>
+format-packetloss = <animation-packetloss> <label-connected>
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+label-connected = 直 %essid%
+label-connected-font = 3
+;label-connected-underline = ${colors.brightcyan}
+label-connected-foreground = ${colors.foreground}
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+; Default: (none)
+label-disconnected = 睊 offline
+label-disconnected-font = 1
+label-disconnected-foreground = ${colors.brightblack}
+;label-disconnected-underline = ${colors.brightcyan}
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %linkspeed% [wired]
+; Default: (none)
+;label-packetloss = %essid%
+;label-packetloss-foreground = #eefafafa
+
+; Only applies if <ramp-signal> is used
+ramp-signal-0 = 😱
+ramp-signal-1 = 😠
+ramp-signal-2 = 😒
+ramp-signal-3 = 😊
+ramp-signal-4 = 😃
+ramp-signal-5 = 😈
+
+; Only applies if <animation-packetloss> is used
+animation-packetloss-0 = ⚠
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 📶
+animation-packetloss-1-foreground = #000000
+; Framerate in milliseconds
+animation-packetloss-framerate = 500
+
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python /home/dani/.config/polybar/script/spotify_status.py -f '{artist}: {song}'
+;format-underline = #1db954

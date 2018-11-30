@@ -150,6 +150,15 @@ format-muted-suffix = %{T2}%{T-}
 format-muted-suffix-foreground = ${colors.background}
 format-muted-suffix-background = ${colors.yellow}
 
+label-padding = ${variables.label-padding}
+label-warn-padding = ${variables.label-padding}
+label-connected-padding = ${variables.label-padding}
+label-disconnected-padding = ${variables.label-padding}
+label-volume-padding = ${variables.label-padding}
+label-muted-padding = ${variables.label-padding}
+label-charging-padding = ${variables.label-padding}
+label-discharging-padding = ${variables.label-padding}
+label-full-padding = ${variables.label-padding}
 
 [bar/top]
 ; Use the following command to list available outputs:
@@ -184,7 +193,7 @@ font-0 = "Iosevka Nerd Font:Regular:pixelsize=10:antialias=true;1"
 font-1 = "Iosevka Nerd Font:Regular:pixelsize=12:antialias=true;2"
 font-2 = "Iosevka Nerd Font:Regular:pixelsize=10:antialias=true;1"
 
-modules-left = ws_icon i3 lhb lbs wlan lsb title lhb
+modules-left = ws_icon i3 lhb wlan lsb mpd_control lhb
 modules-center = 
 modules-right = temperature hdd0 hdd1 cpu memory xbacklight volume date
 
@@ -346,7 +355,7 @@ type = internal/cpu
 inherit = section/base
 interval = 1
 label-font = 2
-label = %{T3}龍%{T-} %percentage%%
+label = %{T3}%{T-} %percentage%%
 
 
 [module/memory]
@@ -393,3 +402,37 @@ format-suffix = " "
 
 label-font = 2
 label = %{T3}%{T-} %time%
+
+[module/mpd_control]
+type = internal/mpd
+host = 127.0.0.1
+port = 6006
+format-online = <icon-prev> <icon-repeat> <icon-random> <icon-pause> <icon-play> <icon-next> 
+format-online-font = 2
+format-online-padding = 1
+
+label-offline =  mpd is offline
+label-offline-font = 2
+label-offline-padding = 1
+
+format-offline = <label-offline>
+format-playing = ${self.format-online}
+format-paused = ${self.format-online}
+format-stopped = ${self.format-online}
+
+; Only applies if <icon-X> is used
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-seekb = 
+icon-seekf = 
+icon-random = 
+icon-repeat = 凌
+icon-repeatone = 綾
+icon-single = 綾
+icon-consume = ✀
+
+toggle-on-foreground = ${colors.background}
+toggle-off-foreground = ${colors.black}

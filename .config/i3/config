@@ -230,7 +230,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 # decrease
 bindsym Print exec --no-startup-id flameshot gui
 
 # Restart, Suspend, Shutdown, Logout Dialog
-bindsym $mod+End exec --no-startup-id ~/.local/bin/rofi-power "i3-msg exit"
+bindsym $mod+End exec --no-startup-id ~/.config/rofi-tools/rofi-power
 
 # color list
 set $background     #131c26
@@ -272,22 +272,21 @@ client.placeholder      $background      $background     $foreground     $backgr
 client.background       $background
 
 # Settings for I3 next gap git
-# for_window [class="^.*"] border pixel 0
-# gaps inner 0
+# for_window [class="^.*"] border pixel 1
+# gaps inner 10
 # gaps outer 10
 
 # autostart program
-exec_always killall compton; compton --dbus -b
-# exec --no-startup-id feh --bg-scale '$HOME/Pictures/wal HD/wallhaven-713412.jpg'
-exec --no-startup-id feh --bg-scale "$HOME/Pictures/wal HD/DIY/hex_131c26.png"
-# exec --no-startup-id conky -c $HOME/.config/conky/sidecard/sidecard.conkyrc
-exec --no-startup-id conky -c $HOME/.config/conky/conky_solarized 
-exec_always killall polybar; polybar top
 exec mpd
 exec xfce4-power-manager
 exec dunst
-exec nm-applet ; nm-applet
+exec nm-applet
 #exec blueman-applet
+exec_always killall compton; compton --dbus -b
+exec --no-startup-id feh --bg-scale "$HOME/Pictures/wal HD/DIY/hex_131c26.png"
+exec_always $HOME/.config/polybar/launch.sh
+exec --no-startup-id conky -c $HOME/.config/conky/conky_solarized 
+# exec --no-startup-id conky -c $HOME/.config/conky/sidecard/sidecard.conkyrc
 exec xautolock -time 5 -locker mantablockscreen
 #exec xautolock -time 30 -locker "systemctl suspend"
-exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+# exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
