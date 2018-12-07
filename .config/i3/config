@@ -91,7 +91,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle border pixel 1 move position center
+bindsym $mod+Shift+space floating toggle border pixel 2 move position center
 
 # resize floating window
 floating_minimum_size 75 x 50
@@ -108,8 +108,8 @@ bindsym $mod+a focus parent
 
 # window configuration
 title_align center
-default_border normal 1
-default_floating_border normal
+default_border pixel 2
+default_floating_border pixel 2
 hide_edge_borders smart
 
 # Cycle through active workspaces
@@ -232,39 +232,42 @@ bindsym Print exec --no-startup-id flameshot gui
 # Restart, Suspend, Shutdown, Logout Dialog
 bindsym $mod+End exec --no-startup-id ~/.config/rofi-tools/rofi-power
 
-# color list
-set $background     #131c26
-set $foreground     #d3dae3
 
-set $black          #3a4e56
-set $bblack         #556064
+# read color from xresource
+# set_from_resource $<name> <resource_name> <fallback>
+# set $name <color>
 
-set $red            #e14245
-set $bred           #e16f7e
-set $ared           #c67d6f
+set_from_resource $background     background    #131c26
+set_from_resource $foreground     foreground    #d3dae3
 
-set $green          #5ca75b
-set $bgreen         #add488
+set_from_resource $black        color0          #3a4e56
+set_from_resource $bblack       color8          #556064
 
-set $yellow         #f6ab32
-set $byellow        #fdc35f
+set_from_resource $red          color1          #e14245
+set_from_resource $bred         color9          #e16f7e
+set $ared                                       #c67d6f
 
-set $blue           #4877b1
-set $bblue          #8ca9bf
+set_from_resource $green        color2          #5ca75b
+set_from_resource $bgreen       color10         #add488
 
-set $mangenta       #a660c3
-set $bmangenta      #e2afec
+set_from_resource $yellow       color3          #f6ab32
+set_from_resource $byellow      color11         #fdc35f
 
-set $cyan           #00bcd4
-set $bcyan          #73c5e2
+set_from_resource $blue         color4          #4877b1
+set_from_resource $bblue        color12         #8ca9bf
 
-set $white          #a9a9aa
-set $bwhite         #fcfcfc
-# alt color
+set_from_resource $mangenta     color5          #a660c3
+set_from_resource $bmangenta    color13         #e2afec
+
+set_from_resource $cyan         color6          #00bcd4
+set_from_resource $bcyan        color14         #73c5e2
+
+set_from_resource $white        color7          #a9a9aa
+set_from_resource $bwhite       color15         #fcfcfc
 
 # Changing colors
 # class                 border           backgr.         text            indicator       child_border
-client.focused          $bblack          $bblack         $foreground     $background     $background
+client.focused          $bblack          $bblack         $foreground     $background     $bblack
 client.focused_inactive $bblack          $bblack         $foreground     $foreground     $background
 client.unfocused        $background      $background     $foreground     $background     $background
 client.urgent           $background      $background     $foreground     $background     $background

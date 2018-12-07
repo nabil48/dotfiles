@@ -56,7 +56,7 @@ compositing-foreground = source
 ;compositing-border = over
 pseudo-transparency = true
 format-foreground = ${colors.foreground}
-format-background = ${colors.brightblack}
+format-background = ${colors.background}
 ;format-underline =
 ;format-overline =
 ;format-spacing =
@@ -73,7 +73,7 @@ margin-bottom = 0
 [bar/top]
 ; Use the following command to list available outputs:
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = ${env:MONITOR:}
+monitor = ${env:MONITOR:LVDS1}
 bottom = false
 width = 100%
 height = 20
@@ -123,7 +123,7 @@ tray-offset-y = 0
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-separator = " "
+separator = "*"
 
 ;wm-restack = i3
 ;override-redirect = true
@@ -186,21 +186,18 @@ icon-default = ♟
 format = <label-state>
 label-active = %name%
 label-active-font = 5
-label-active-background = ${colors.black}
+label-active-foreground = ${colors.brightwhite}
 label-active-padding = 1
 
 label-occupied = %name%
 label-occupied-font = 5
-label-occupied-background = ${colors.brightblack}
 label-occupied-padding = 1
 
 label-urgent = %name%
 label-urgent-font = 5
-label-urgent-background = ${colors.brightblack}
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-background = ${colors.brightblack}
 label-empty-padding = 1
 
 
@@ -420,7 +417,6 @@ interval = 1
 label-font = 5
 format = <label>
 format-prefix = " "
-format-background = ${colors.brightblack}
 format-padding = 1
 exec = hddtemp /dev/sda | cut -b 33-37
 ;format-underline = #1db954
@@ -432,7 +428,6 @@ interval = 1
 label-font = 5
 format = <label>
 format-prefix = " "
-format-background = ${colors.brightblack}
 format-padding = 1
 exec = hddtemp /dev/sdb | cut -b 33-37
 ;format-underline = #1db954
