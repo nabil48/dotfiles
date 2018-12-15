@@ -39,4 +39,18 @@ let g:vim_markdown_conceal = 0
 let g:mkdp_auto_close = 0
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" php configuration
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! PhpSyntaxOverride()
+  " Put snippet overrides in this function.
+  hi! link phpDocTags phpDefine
+  hi! link phpDocParam phpType
+endfunction
+
+augroup phpSyntaxOverride
+  autocmd!
+  autocmd FileType php call PhpSyntaxOverride()
+augroup END
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

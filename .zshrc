@@ -70,10 +70,10 @@ POWERLEVEL9K_OS_ICON_FOREGROUND="white"
 
 # spaceship-shell configuration
 # prompt
-SPACESHIP_PROMPT_ORDER=(dir git venv exec_time line_sep char)
+SPACESHIP_PROMPT_ORDER=(time dir git venv exec_time line_sep char)
 SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
-SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
+SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=false
+SPACESHIP_PROMPT_DEFAULT_PREFIX="%{%F{black}%}\u25A0 %{%F{default}%}"
 SPACESHIP_PROMPT_DEFAULT_SUFFIX="%{%F{black}%} \u25A0%{%F{default}%}"
 # 
 # char
@@ -81,6 +81,11 @@ SPACESHIP_CHAR_SYMBOL="\uF63D "
 # SPACESHIP_CHAR_SYMBOL="$ "
 # 
 # time
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_TIME_PREFIX=$SPACESHIP_PROMPT_DEFAULT_PREFIX
+SPACESHIP_TIME_SUFFIX=" "
+SPACESHIP_TIME_FORMAT="%{%F{black}%} %D{%H:%M:%S}%{%F{default}%}"
+SPACESHIP_TIME_12HR=true
 # 
 # user
 SPACESHIP_USER_SHOW=always
@@ -89,7 +94,7 @@ SPACESHIP_USER_SUFFIX=""
 # 
 # directory
 SPACESHIP_DIR_TRUNC=2
-SPACESHIP_DIR_PREFIX="%{%F{black}%}\u25A0 %{%F{default}%}"
+SPACESHIP_DIR_PREFIX=$SPACESHIP_PROMPT_DEFAULT_PREFIX
 SPACESHIP_DIR_LOCK_SYMBOL="|\uf023"
 # 
 # git
@@ -210,17 +215,20 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 
 # heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/home/dani/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+HEROKU_AC_ZSH_SETUP_PATH=$HOME/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 # perl
-PATH="/home/dani/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/dani/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/dani/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/dani/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/dani/perl5"; export PERL_MM_OPT;
+PATH="$HOME/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="$HOME/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # ruby
-export PATH="/home/dani/.gem/ruby/2.5.0/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.5.0/bin:$PATH"
 # lampp
 export PATH="/opt/lampp/bin:$PATH"
+# toys
+export PATH="$HOME/.toys:$PATH"
+#fzf
 source "/usr/share/fzf/key-bindings.zsh"
 source "/usr/share/fzf/completion.zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

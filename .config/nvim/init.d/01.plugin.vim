@@ -15,11 +15,11 @@ Plug 'scrooloose/nerdtree'
 
 
 " Utility
-Plug 'Valloric/YouCompleteMe'
-Plug 'w0rp/ale'
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'godlygeek/tabular'
 Plug 'honza/vim-snippets'
-Plug 'tpope/vim-surround'
+Plug 'tpope/vim-surround' "plugin provides mappings to easily delete, change and add such surroundings in pairs.
+Plug 'tpope/vim-unimpaired' 
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jiangmiao/auto-pairs'
 "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
@@ -28,6 +28,16 @@ Plug 'Chiel92/vim-autoformat'
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips'
+"Plug 'ervandew/supertab'
+Plug 'python-mode/python-mode', { 'branch': 'develop' } "make vim like python ide
+Plug 'junegunn/vim-easy-align'
+
+" Autocomplete
+Plug 'Valloric/YouCompleteMe'
+
+" Linter
+Plug 'vim-syntastic/syntastic'
+"Plug 'w0rp/ale'
 
 " Programgin support
 " CSS
@@ -45,22 +55,31 @@ Plug 'groenewege/vim-less'
 
 " Markdown
 Plug 'plasticboy/vim-markdown'
-Plug 'iamcco/mathjax-support-for-mkdp'
+"Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
+
+" PHP
+Plug 'StanAngeloff/php.vim'
 " SASS
 
 " SCSS
 
+" Emoji
+"Plug 'junegunn/vim-emoji'
+
 " Git Support
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 " Theme
-Plug 'morhetz/gruvbox'
-Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'morhetz/gruvbox'
+"Plug 'drewtempelmeyer/palenight.vim'
 "Plug 'joshdick/onedark.vim'
 "Plug 'srcery-colors/srcery-vim'
+Plug 'morhetz/gruvbox'
 "Plug 'ajh17/spacegray.vim'
+"Plug 'ayu-theme/ayu-vim'
 
 " Icon
 Plug 'ryanoasis/vim-devicons'
