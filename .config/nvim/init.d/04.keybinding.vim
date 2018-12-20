@@ -4,9 +4,12 @@
 " leader
 let mapleader=','
 " move among buffers with CTRL
-map <C-l> :bnext<CR>
-map <C-h> :bprev<CR>
-map <leader>d :bdelete<CR>
+"map <C-l> :bnext<CR>
+"map <C-h> :bprev<CR>
+"map <leader>d :bdelete<CR>
+nmap <A-l> :bn<cr>
+nmap <A-h> :bp<cr>
+nmap <leader>d :bd<cr>
 
 " moving
 no <left> <Nop>
@@ -33,6 +36,12 @@ onoremap <F9> <C-C>za
 " Line bubbling
 nmap <C-j> ]e
 nmap <C-k> [e
+
+" for move to each split on NerdTree
+nmap <C-h> <C-w><C-h>
+nmap <C-j> <C-w><C-j>
+nmap <C-k> <C-w><C-k>
+nmap <C-l> <C-w><C-l>
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -58,4 +67,17 @@ nmap <F8> :TagbarToggle<CR>
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <F2> :NERDTreeToggle<CR>
 map <C-\> :NERDTreeToggle<CR>
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Git fugitif
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <Leader>ga :Gwrite<CR>
+noremap <Leader>gc :Gcommit<CR>
+noremap <Leader>gsh :Gpush<CR>
+noremap <Leader>gll :Gpull<CR>
+noremap <Leader>gs :Gstatus<CR>
+noremap <Leader>gb :Gblame<CR>
+noremap <Leader>gd :Gvdiff<CR>
+noremap <Leader>gr :Gremove<CR>
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

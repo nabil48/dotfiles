@@ -1,20 +1,31 @@
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Encoding
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
+set bomb
+set binary
+
+"" Fix backspace indent
+set backspace=indent,eol,start
+
 au CursorHold,CursorHoldI * checktime " auto update trigger when cursor stops moving
 au FocusGained,BufEnter * :checktime " auto update trigger on buffer change or terminal focus
 au BufRead /tmp/mutt-* set tw=72 "Configuring editors to work with mutt"
 
-filetype off                  " required
+filetype on                  " required
 
-set autoread " make vim monitor realtime changes to a file
+set noautoread " make vim monitor realtime changes to a file
 set nocompatible              " required
-set backspace=indent,eol,start " make backspace a more flexible
-set backup " make backup files
+
+"" Backup 
+set nobackup " make backup files
 set backupdir=~/.local/share/nvim/backup " where to put backup files
+"set directory=~/.local/share/nvim/swap " directory to place swap files in
+
 set clipboard=unnamedplus " share clipboard
-set directory=~/.local/share/nvim/swap " directory to place swap files in
-set encoding=utf-8
 set gdefault " global substitutions are default s/a/b/g
 set hidden " you can change buffers without saving
 set noerrorbells " don't make noise

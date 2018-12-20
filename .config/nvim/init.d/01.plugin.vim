@@ -12,7 +12,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'severin-lemaignan/vim-minimap'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
-
+Plug 'jistr/vim-nerdtree-tabs'
 
 " Utility
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -29,29 +29,36 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips'
 "Plug 'ervandew/supertab'
-Plug 'python-mode/python-mode', { 'branch': 'develop' } "make vim like python ide
 Plug 'junegunn/vim-easy-align'
+Plug 'tpope/vim-commentary'
 
 " Autocomplete
 Plug 'Valloric/YouCompleteMe'
 
 " Linter
-Plug 'vim-syntastic/syntastic'
+"Plug 'vim-syntastic/syntastic'
 "Plug 'w0rp/ale'
 
 " Programgin support
 " CSS
 Plug 'hail2u/vim-css3-syntax'
 
-" HTML
+" HTML Bundle
+Plug 'hail2u/vim-css3-syntax'
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'tpope/vim-haml'
 Plug 'mattn/emmet-vim'
-Plug 'othree/html5.vim'
 
 " JavaScript
 Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
 
 " Less
 Plug 'groenewege/vim-less'
+
+" Lua Bundle
+"Plug 'xolox/vim-lua-ftplugin'
+"Plug 'xolox/vim-lua-inspect'
 
 " Markdown
 Plug 'plasticboy/vim-markdown'
@@ -60,6 +67,11 @@ Plug 'iamcco/markdown-preview.vim'
 
 " PHP
 Plug 'StanAngeloff/php.vim'
+Plug 'arnaud-lb/vim-php-namespace'
+
+" Python
+Plug 'python-mode/python-mode', { 'branch': 'develop' } "make vim like python ide
+
 " SASS
 
 " SCSS
@@ -79,7 +91,8 @@ Plug 'tpope/vim-fugitive'
 "Plug 'srcery-colors/srcery-vim'
 Plug 'morhetz/gruvbox'
 "Plug 'ajh17/spacegray.vim'
-"Plug 'ayu-theme/ayu-vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'tomasr/molokai'
 
 " Icon
 Plug 'ryanoasis/vim-devicons'
