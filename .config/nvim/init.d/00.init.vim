@@ -7,7 +7,7 @@ endif
 " auto start plugin
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" start ale
-let g:ale_completion_enabled = 1
+let g:ale_completion_enabled = 0
 
 "" start airline
 let g:airline#extensions#tabline#enabled = 1

@@ -15,7 +15,7 @@ set splitbelow
 set splitright
 
 set cursorline " visually mark current line
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevel=0 " default unfold when open a file
 set formatoptions+=l "adjust textwidth automatically
 set hlsearch " highlight search matches

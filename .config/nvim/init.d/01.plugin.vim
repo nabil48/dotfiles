@@ -16,28 +16,29 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 " Utility
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'godlygeek/tabular'
-Plug 'honza/vim-snippets'
+Plug 'godlygeek/tabular' "Vim script for text filtering and alignment 
+Plug 'honza/vim-snippets' "snippets files for various programming languages
 Plug 'tpope/vim-surround' "plugin provides mappings to easily delete, change and add such surroundings in pairs.
-Plug 'tpope/vim-unimpaired' 
-Plug 'terryma/vim-multiple-cursors'
-Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-unimpaired' "Pairs of handy bracket mappings
+Plug 'terryma/vim-multiple-cursors' "True Sublime Text style multiple selections for Vim
+Plug 'jiangmiao/auto-pairs' "Insert or delete brackets, parens, quotes in pair.
 "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 "Plug 'junegunn/fzf.vim'
-Plug 'Chiel92/vim-autoformat'
+Plug 'Chiel92/vim-autoformat' "Provide easy code formatting in Vim by integrating existing code formatters. 
 "Plug 'ctrlpvim/ctrlp.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'SirVer/ultisnips'
+Plug 'sheerun/vim-polyglot' "A solid language pack for Vim. 
+Plug 'SirVer/ultisnips' "The ultimate snippet solution for Vim
 "Plug 'ervandew/supertab'
-Plug 'junegunn/vim-easy-align'
-Plug 'tpope/vim-commentary'
+Plug 'junegunn/vim-easy-align' "A simple, easy-to-use Vim alignment plugin.
+Plug 'tpope/vim-commentary' 
+Plug 'gko/vim-coloresque' "css/less/sass/html color preview for vim 
 
 " Autocomplete
 Plug 'Valloric/YouCompleteMe'
 
 " Linter
 "Plug 'vim-syntastic/syntastic'
-"Plug 'w0rp/ale'
+Plug 'w0rp/ale'
 
 " Programgin support
 " CSS
