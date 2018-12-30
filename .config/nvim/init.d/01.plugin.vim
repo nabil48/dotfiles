@@ -1,6 +1,6 @@
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim-Plug
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.local/share/nvim/plugged')
@@ -13,6 +13,7 @@ Plug 'severin-lemaignan/vim-minimap'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+" Plug 'edkolev/tmuxline.vim'
 
 " Utility
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -27,7 +28,6 @@ Plug 'jiangmiao/auto-pairs' "Insert or delete brackets, parens, quotes in pair.
 Plug 'Chiel92/vim-autoformat' "Provide easy code formatting in Vim by integrating existing code formatters. 
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sheerun/vim-polyglot' "A solid language pack for Vim. 
-Plug 'SirVer/ultisnips' "The ultimate snippet solution for Vim
 "Plug 'ervandew/supertab'
 Plug 'junegunn/vim-easy-align' "A simple, easy-to-use Vim alignment plugin.
 Plug 'tpope/vim-commentary' 
@@ -35,18 +35,19 @@ Plug 'gko/vim-coloresque' "css/less/sass/html color preview for vim
 
 " Autocomplete
 Plug 'Valloric/YouCompleteMe'
+" Plug 'SirVer/ultisnips' "The ultimate snippet solution for Vim
 
 " Linter
 "Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 
 " Programgin support
-" CSS
-Plug 'hail2u/vim-css3-syntax'
+" CSS, SCSS, SASS
+Plug 'hail2u/vim-css3-syntax' "Css support 
+Plug 'cakebaker/scss-syntax.vim' "Scss Support
 
 " HTML Bundle
-Plug 'hail2u/vim-css3-syntax'
-Plug 'gorodinskiy/vim-coloresque'
+Plug 'gorodinskiy/vim-coloresque' "Color hightlinter
 Plug 'tpope/vim-haml'
 Plug 'mattn/emmet-vim'
 
@@ -73,9 +74,6 @@ Plug 'arnaud-lb/vim-php-namespace'
 " Python
 Plug 'python-mode/python-mode', { 'branch': 'develop' } "make vim like python ide
 
-" SASS
-
-" SCSS
 
 " Emoji
 "Plug 'junegunn/vim-emoji'
@@ -100,4 +98,4 @@ Plug 'ryanoasis/vim-devicons'
 
 " Initialize plugin system
 call plug#end()
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

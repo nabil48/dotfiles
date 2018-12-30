@@ -1,6 +1,6 @@
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " markdown-preview
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:mkdp_path_to_chrome = "/usr/bin/firefox"
 " path to the chrome or the command to open chrome(or other modern browsers)
 " if set, g:mkdp_browserfunc would be ignored
@@ -28,4 +28,4 @@ let g:mkdp_refresh_slow = 1
 let g:mkdp_command_for_global = 0
 " set to 1, the MarkdownPreview command can be use for all files,
 " by default it just can be use in markdown file<Paste>
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

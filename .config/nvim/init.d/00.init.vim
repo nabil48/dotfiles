@@ -3,13 +3,19 @@ if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
 
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " auto start plugin
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" start ale
-let g:ale_completion_enabled = 0
+let g:ale_completion_enabled = 1
+let g:ale_set_balloons = 1
 
 "" start airline
 let g:airline#extensions#tabline#enabled = 1
-" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"" emmet
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
