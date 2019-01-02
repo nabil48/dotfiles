@@ -59,7 +59,7 @@ set fileformat=unix
 " auto start plugin
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" start ale
-let g:ale_completion_enabled = 1
+let g:ale_completion_enabled = 0
 let g:ale_set_balloons = 1
 
 "" start airline

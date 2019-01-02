@@ -15,7 +15,7 @@ set splitbelow
 set splitright
 
 set cursorline                      " visually mark current line
-set foldmethod=indent
+set foldmethod=syntax
 set foldlevel=0                     " default unfold when open a file
 set formatoptions+=l                " adjust textwidth automatically
 set hlsearch                        " highlight search matches
@@ -41,8 +41,7 @@ set sidescrolloff=10                " keep 5 lines at the size
 set t_Co=256                        " set terminal 256 color
 set wrap                            " Vim to word wrap visually
 "set showbreak=↪ " indicate wrapped line
-" IMPORTANT: :help Ncm2PopupOpen for more information
-set completeopt=noinsert,menuone,noselect
+set completeopt=noinsert,menuone,noselect,preview
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

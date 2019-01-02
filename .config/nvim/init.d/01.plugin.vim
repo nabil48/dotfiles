@@ -9,7 +9,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
-Plug 'severin-lemaignan/vim-minimap'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
@@ -28,7 +27,7 @@ Plug 'terryma/vim-multiple-cursors' " True Sublime Text style multiple selection
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'tpope/vim-commentary'
-Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
+" Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
 
 " Deoplete autocomplete
 if has('nvim')
@@ -40,6 +39,14 @@ else
 endif
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
+
+" LSP client
+" Plug 'autozimu/LanguageClient-neovim', {
+"     \ 'branch': 'next',
+"     \ 'do': 'bash install.sh',
+"     \ }
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
 
 " Programgin support
 " CSS, SCSS, SASS
@@ -67,8 +74,8 @@ Plug 'iamcco/markdown-preview.vim'
 Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 
 " Python
-Plug 'python-mode/python-mode', { 'branch': 'develop' } "make vim like python ide
 Plug 'zchee/deoplete-jedi'
+Plug 'davidhalter/jedi-vim'
 
 " vimL
 Plug 'Shougo/neco-vim'
@@ -79,14 +86,14 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 
 " Theme
-Plug 'morhetz/gruvbox'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'joshdick/onedark.vim'
-Plug 'srcery-colors/srcery-vim'
-Plug 'morhetz/gruvbox'
-Plug 'ajh17/spacegray.vim'
+" Plug 'morhetz/gruvbox'
+" Plug 'drewtempelmeyer/palenight.vim'
+" Plug 'joshdick/onedark.vim'
+" Plug 'srcery-colors/srcery-vim'
+" Plug 'morhetz/gruvbox'
+" Plug 'ajh17/spacegray.vim'
+" Plug 'tomasr/molokai'
 Plug 'ayu-theme/ayu-vim'
-Plug 'tomasr/molokai'
 
 " Icon
 Plug 'ryanoasis/vim-devicons'
