@@ -46,11 +46,11 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Tint2      | [.config/tint2](https://github.com/nabil48/dotfiles/tree/master/.config/tint2)                                                                          |
 | Theme      | [.themes]()                                                                                                                                             |
 | Tmux       | [.tmux.conf](https://github.com/nabil48/dotfiles/blob/master/.tmux.conf)                                                                                |
-| URxvt      | [.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.xrdb/urxvt)                                                                              |
+| URxvt      | [.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/urxvt)                                                                              |
 | Vscode     | [vscode-settings](https://github.com/nabil48/dotfiles/blob/master/vscode-settings.json)                                                                 |
 | Wallpaper  | [wallpaper](https://github.com/nabil48/dotfiles/tree/master/wallpaper)                                                                                  |
 | Xresource  | [.Xresource](https://github.com/nabil48/dotfiles/blob/master/.Xresources) [.Xresource.d](https://github.com/nabil48/dotfiles/tree/master/.Xresources.d) |
-| Xterm      | [.xrdb/xterm](https://github.com/nabil48/dotfiles/blob/master/.xrdb/xterm)                                                                              |
+| Xterm      | [.xrdb/xterm](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/xterm)                                                                              |
 | Zsh        | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zshrc)                                                                                        |
 
 ## ScreenShot
