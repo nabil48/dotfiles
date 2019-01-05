@@ -27,7 +27,7 @@ Plug 'terryma/vim-multiple-cursors' " True Sublime Text style multiple selection
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'tpope/vim-commentary'
-" Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
+Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
 
 " Deoplete autocomplete
 if has('nvim')
@@ -41,12 +41,8 @@ Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
 " LSP client
-" Plug 'autozimu/LanguageClient-neovim', {
-"     \ 'branch': 'next',
-"     \ 'do': 'bash install.sh',
-"     \ }
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
+" Plug 'prabirshrestha/async.vim'
+" Plug 'prabirshrestha/vim-lsp'
 
 " Programgin support
 " CSS, SCSS, SASS
@@ -89,8 +85,6 @@ Plug 'airblade/vim-gitgutter'
 " Plug 'morhetz/gruvbox'
 " Plug 'drewtempelmeyer/palenight.vim'
 " Plug 'joshdick/onedark.vim'
-" Plug 'srcery-colors/srcery-vim'
-" Plug 'morhetz/gruvbox'
 " Plug 'ajh17/spacegray.vim'
 " Plug 'tomasr/molokai'
 Plug 'ayu-theme/ayu-vim'

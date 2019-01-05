@@ -41,9 +41,9 @@ set wildmode=full
 
 " Mouse support
 set mouse=a
-if &term =~ '^screen'
-    set ttymouse=xterm2              " tmux knows the extended mouse mode
-endif
+" if &term =~ '^screen'
+"     set ttymouse=xterm2              " tmux knows the extended mouse mode
+" endif
 
 " Global Indentation
 set tabstop=4
@@ -53,9 +53,7 @@ set textwidth=79
 set expandtab
 set autoindent
 set fileformat=unix
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " auto start plugin
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" start ale

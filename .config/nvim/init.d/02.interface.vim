@@ -40,11 +40,8 @@ set scrolloff=5                     " keep 10 lines (top/bottom) for scope
 set sidescrolloff=10                " keep 5 lines at the size
 set t_Co=256                        " set terminal 256 color
 set wrap                            " Vim to word wrap visually
-"set showbreak=↪ " indicate wrapped line
-set completeopt=noinsert,menuone,noselect,preview
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set completeopt=menuone,noselect,preview
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim theme configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if (has("termguicolors"))

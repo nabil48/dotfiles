@@ -40,9 +40,6 @@ nmap <C-l> <C-w><C-l>
 nmap <C-A-k> <C-w>t<C-w>K
 nmap <C-A-h> <C-w>t<C-w>H
 
-"Tagbar
-nmap <f8> :tagbartoggle<cr>
-
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
 map <C-\> :NERDTreeToggle<CR>
@@ -64,20 +61,23 @@ map <Leader>/ :Commentary<CR>
 nmap <Leader>f :ALEFix<CR>
 
 " Jedi-vim
-let g:jedi#goto_command = "<leader>d"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#goto_definitions_command = ""
-let g:jedi#documentation_command = "K"
-let g:jedi#usages_command = "<leader>n"
-let g:jedi#completions_command = "<C-Space>"
-let g:jedi#rename_command = "<leader>r"
+let g:jedi#goto_command             = '<leader>d'
+let g:jedi#goto_assignments_command = '<leader>g'
+let g:jedi#goto_definitions_command = ''
+let g:jedi#documentation_command    = 'K'
+let g:jedi#usages_command           = '<leader>n'
+let g:jedi#completions_command      = '<C-Space>'
+let g:jedi#rename_command           = '<leader>r'
 
 " Deoplete
 " use tab to forward cycle
 inoremap <silent><expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 " use tab to backward cycle
-inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
+inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>"' : "\<s-tab>"
 
 " UltiSnip
-let g:UltiSnipsExpandTrigger="<A-tab>"
+let g:UltiSnipsExpandTrigger='<A-tab>'
+
+" Emmet
+map <Leader>e <C-y>,
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
