@@ -54,5 +54,7 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Zsh        | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zshrc)                                                                                        |
 
 ## ScreenShot
-
-_Coming Soon_
+### i3-gaps
+![i3-gaps preview](https://raw.githubusercontent.com/nabil48/dotfiles/master/preview/i3-wm%20preview.png)
+### Tmux & neovim
+![tmux-nvim](https://raw.githubusercontent.com/nabil48/dotfiles/master/preview/i3-wm%20preview.png)
