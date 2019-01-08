@@ -21,7 +21,7 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Wallpaper             | feh                                       |
 | Lock Screen           | i3lock, mantablockscreen                  |
 | Logout / Shutdown     | rofi-tools                                |
-| Volume Control        | pulseaudio-ctl                            |
+| Volume Control        | pulseaudio-ctl, amixer                    |
 | Brightness Controller | xbacklight                                |
 | Network Applet        | nm-applet                                 |
 | Bluetooth Applet      | blueman-applet                            |
@@ -44,17 +44,20 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Screenshot | [preview](https://github.com/nabil48/dotfiles/tree/master/preview)                                                                                      |  |
 | Termite    | [.config/termite](https://github.com/nabil48/dotfiles/tree/master/.config/termite)                                                                      |
 | Tint2      | [.config/tint2](https://github.com/nabil48/dotfiles/tree/master/.config/tint2)                                                                          |
-| Theme      | [.themes]()                                                                                                                                             |
 | Tmux       | [.tmux.conf](https://github.com/nabil48/dotfiles/blob/master/.tmux.conf)                                                                                |
-| URxvt      | [.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/urxvt)                                                                              |
+| URxvt      | [.xrdb/urxvt](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/urxvt)                                                                      |
 | Vscode     | [vscode-settings](https://github.com/nabil48/dotfiles/blob/master/vscode-settings.json)                                                                 |
 | Wallpaper  | [wallpaper](https://github.com/nabil48/dotfiles/tree/master/wallpaper)                                                                                  |
 | Xresource  | [.Xresource](https://github.com/nabil48/dotfiles/blob/master/.Xresources) [.Xresource.d](https://github.com/nabil48/dotfiles/tree/master/.Xresources.d) |
-| Xterm      | [.xrdb/xterm](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/xterm)                                                                              |
+| Xterm      | [.Xresources.d/xterm](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/xterm)                                                              |
 | Zsh        | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zshrc)                                                                                        |
 
 ## ScreenShot
+
 ### i3-gaps
+
 ![i3-gaps preview](https://raw.githubusercontent.com/nabil48/dotfiles/master/preview/i3-wm%20preview.png)
+
 ### Tmux & neovim
+
 ![tmux-nvim](https://raw.githubusercontent.com/nabil48/dotfiles/master/preview/tmux%20preview.png)
