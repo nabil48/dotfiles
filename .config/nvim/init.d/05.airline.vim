@@ -8,8 +8,7 @@ endif
 
 
 " airline configuration
-"let g:airline_theme = 'bubblegum'
-let g:airline_theme                        = 'minimalist'
+let g:airline_theme                        = 'gruvbox'
 let g:airline#extensions#tabline#fnamemod  = ':t'
 let g:airline#extensions#branch#enabled    = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'

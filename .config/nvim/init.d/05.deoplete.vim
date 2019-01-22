@@ -3,11 +3,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Global Configuring
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('num_processes', 0)
 
-function Multiple_cursors_before()
+function! Multiple_cursors_before()
   let g:deoplete#disable_auto_complete = 1
 endfunction
-function Multiple_cursors_after()
+function! Multiple_cursors_after()
   let g:deoplete#disable_auto_complete = 0
 endfunction
 
@@ -25,4 +26,9 @@ let g:python3_host_prog                      = '/usr/bin/python'
 " Phpcd
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:phpcd_php_cli_executable = '/opt/lampp/bin/php'
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" emoji
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" call deoplete#custom#source('emoji', 'filetypes', ['markdown'])
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

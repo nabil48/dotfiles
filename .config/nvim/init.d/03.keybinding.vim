@@ -59,6 +59,7 @@ map <Leader>/ :Commentary<CR>
 
 " ALe
 nmap <Leader>f :ALEFix<CR>
+nmap <Leader>F :Autoformat<CR>
 
 " Jedi-vim
 let g:jedi#goto_command             = '<leader>d'
@@ -73,11 +74,11 @@ let g:jedi#rename_command           = '<leader>r'
 " use tab to forward cycle
 inoremap <silent><expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 " use tab to backward cycle
-inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>"' : "\<s-tab>"
+inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
 
 " UltiSnip
 let g:UltiSnipsExpandTrigger='<A-tab>'
 
 " Emmet
 map <Leader>e <C-y>,
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

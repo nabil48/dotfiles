@@ -37,7 +37,7 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Jgmenu     | [.config/jgmenu](https://github.com/nabil48/dotfiles/tree/master/.config/jgmenu)                                                                        |
 | Kvantum    | [.config/Kvantum](https://github.com/nabil48/dotfiles/tree/master/.config/Kvantum)                                                                      |
 | Ncmpcpp    | [.ncmpcpp](https://github.com/nabil48/dotfiles/tree/master/.ncmpcpp)                                                                                    |
-| Neovim     | [.vimrc](https://github.com/nabil48/dotfiles/blob/master/.config/nvim)                                                                                  |
+| Neovim     | [init.nvim](https://github.com/nabil48/dotfiles/blob/master/.config/nvim)                                                                               |
 | Polybar    | [.config/polybar](https://github.com/nabil48/dotfiles/tree/master/.config/polybar)                                                                      |
 | Rofi       | [.config/rofi](https://github.com/nabil48/dotfiles/tree/master/.config/rofi)                                                                            |
 | Rofi-tools | [.config/rofi-tools](https://github.com/nabil48/dotfiles/tree/master/.config/rofi-tools)                                                                |

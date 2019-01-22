@@ -8,7 +8,7 @@ set fileencodings=utf-8
 set bomb
 set binary
 
-if (has("nvim"))
+if (has('nvim'))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
 
@@ -38,13 +38,9 @@ set ttimeoutlen=50                   " make Esc work faster
 set ttyfast                          " i have a fast terminal
 set wildmenu                         " turn on command line completion wild style
 set wildmode=full
+set mouse=a                          " Enable mouse mode
 
 " Mouse support
-set mouse=a
-" if &term =~ '^screen'
-"     set ttymouse=xterm2              " tmux knows the extended mouse mode
-" endif
-
 " Global Indentation
 set tabstop=4
 set softtabstop=4
