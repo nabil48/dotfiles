@@ -1,7 +1,7 @@
 !!   Adapta color scheme
 *.foreground:           #d3dae3
 !*.background:           #263238
-*.background:           #1a2228
+*.background:           #131c26
 
 !black and bright black
 *.color0:               #3a4e56

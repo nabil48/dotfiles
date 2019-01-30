@@ -11,7 +11,8 @@ autocmd FileType html,jinja.html setlocal expandtab shiftwidth=2 softtabstop=2 t
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType javascript setlocal expandtab shiftwidth=4 softtabstop=4
 autocmd FileType jst,ezt setlocal expandtab shiftwidth=2 softtabstop=2
-au BufReadPost *.ezt,*.jst set syntax=html
+" autocmd FileType javascript.jsx set syntax=javascript
+" au BufReadPost *.ezt,*.jst set syntax=html
 
 " Markdown
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

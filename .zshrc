@@ -204,8 +204,6 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 
 #fzf
-source "/usr/share/fzf/key-bindings.zsh"
-source "/usr/share/fzf/completion.zsh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # PATH SETUP
@@ -218,10 +216,12 @@ PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
 PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # ruby
-export PATH="$HOME/.gem/ruby/2.5.0/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
 # lampp
 export PATH="/opt/lampp/bin:$PATH"
 # toys
 export PATH="$HOME/.toys:$PATH"
 # ngrok
 export PATH="/opt/ngrok:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

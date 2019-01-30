@@ -14,9 +14,9 @@ URxvt.iconFile                  : terminal
 !URxvt.geometry                 : 115x24+366+211
 !URxvt.colorBD                  : #263238
 URxvt.borderless                : false
-URxvt.internalBorder            : 5
+URxvt.internalBorder            : 0
 URxvt.externalBorder            : 0 
-URxvt.borderColor               : [90]#131c26
+URxvt.borderColor               : [100]#282828
 URxvt*scrollTtyOutput           : false
 URxvt*scrollWithBuffer          : true
 URxvt*scrollTtyKeypress         : true
@@ -34,7 +34,7 @@ URxvt.secondaryScroll           : false
 ! - For real transparency (composite):
 URxvt*depth                     : 32
 !URxvt.background                : [100]#1a2228
-URxvt.background                : [100]#131c26
+URxvt.background                : [100]#282828
 URxvt.foreground                : #d3dae3
 
 

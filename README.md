@@ -41,7 +41,7 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Polybar    | [.config/polybar](https://github.com/nabil48/dotfiles/tree/master/.config/polybar)                                                                      |
 | Rofi       | [.config/rofi](https://github.com/nabil48/dotfiles/tree/master/.config/rofi)                                                                            |
 | Rofi-tools | [.config/rofi-tools](https://github.com/nabil48/dotfiles/tree/master/.config/rofi-tools)                                                                |
-| Screenshot | [preview](https://github.com/nabil48/dotfiles/tree/master/preview)                                                                                      |  |
+| Screenshot | [preview](https://github.com/nabil48/dotfiles/tree/master/preview)                                                                                      |
 | Termite    | [.config/termite](https://github.com/nabil48/dotfiles/tree/master/.config/termite)                                                                      |
 | Tint2      | [.config/tint2](https://github.com/nabil48/dotfiles/tree/master/.config/tint2)                                                                          |
 | Tmux       | [.tmux.conf](https://github.com/nabil48/dotfiles/blob/master/.tmux.conf)                                                                                |

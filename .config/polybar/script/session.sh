@@ -13,7 +13,7 @@ terminal_exec       = termite
 #columns             = 1
 
 menu_margin_x       = 5
-menu_margin_y       = 20
+menu_margin_y       = 25
 #menu_width          = 200
 #menu_height_min     = 0
 #menu_height_max     = 0
@@ -24,14 +24,14 @@ menu_padding_bottom = 5
 menu_padding_left   = 5
 menu_radius         = 1
 menu_halign         = right
-menu_valign         = top
+menu_valign         = bottom
 
 font                = Iosevka Nerd Font Light 10
 
-color_menu_bg       = #131c26 85
+color_menu_bg       = #282828 85
 color_menu_border   = #d3dae3 8
 
-color_norm_bg       = #131c26 00
+color_norm_bg       = #282828 00
 color_norm_fg       = #d3dae3 100
 
 color_sel_bg        = #ffffff 20

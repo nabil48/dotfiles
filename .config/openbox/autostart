@@ -14,17 +14,16 @@
 
 # If you want to use XFCE config tools...
 #
-#xfce-mcs-manager &
-#dahulukan tint2 baru polybar biar system traynya berada di tint2
-xcompmgr &
-xcompmgr &
+# xfce-mcs-manager &
 dunst &
 mpd &
+xfce4-power-manager &
 nm-applet &
-tint2 -c "/home/dani/.config/tint2/minima.tint2rc" &
+blueman-applet &
 polybar top &
-feh --bg-scale "/home/dani/Pictures/wal HD/DIY/birghtblack.png" &
-conky -c "/home/dani/.config/conky/syclo/syclo-cyan-topleft.conkyrc" &
-killall xcompmgr &
-compton --config .config/compton/compton.conf &
+feh --bg-scale "$HOME/Pictures/wal HD/wallhaven-705386.jpg" &
+conky -c "$HOME/.config/conky/sidecard/sidecard.conkyrc" &
+tint2 -c "$HOME/.config/tint2/minima.tint2rc" &
+xautolock -time 5 -locker mantablockscreen &
+compton --dbus -b &
 

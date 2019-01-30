@@ -6,9 +6,9 @@ set completeopt=menuone,noselect,preview
 set conceallevel=0                             " Text is shown normally
 set cursorline                                 " visually mark current line
 set foldlevel=0                                " default unfold when open a file
-set foldmethod=syntax
+set foldmethod=manual
 set formatoptions+=l                           " adjust textwidth automatically
-set guifont=SauceCodePro\ Nerd\ Font\ Mono\ 11
+set guifont=Iosevka\ Nerd\ Font\ 11
 set hlsearch                                   " highlight search matches
 set ignorecase                                 " ignore case
 set incsearch                                  " incremental search aka search as you type

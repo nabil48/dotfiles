@@ -29,37 +29,42 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
+Plug '~/.fzf'
+Plug 'KabbAmine/vCoolor.vim'
 
 " Deoplete autocomplete
 if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
 endif
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
+" Plug 'Shougo/neosnippet'
+" Plug 'Shougo/neosnippet-snippets'
+
+" vim lsp client
+" Plug 'autozimu/LanguageClient-neovim', {
+"             \ 'branch': 'next',
+"             \ 'do': 'bash install.sh',
+"             \ }
 
 " Programgin support
 " CSS, SCSS, SASS, LESS
 Plug 'groenewege/vim-less'
 Plug 'cakebaker/scss-syntax.vim'  " Scss Support
-Plug 'gorodinskiy/vim-coloresque' " css/less/sass/html color preview for vim
 
 " HTML Bundle
 Plug 'mattn/emmet-vim'
 
 " JavaScript
 Plug 'wokalski/autocomplete-flow'
+Plug 'carlitux/deoplete-ternjs'
 
 " Markdown
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.vim'
-
-" PHP
-Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 " Python
 Plug 'zchee/deoplete-jedi'

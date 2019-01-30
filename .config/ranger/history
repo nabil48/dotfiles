@@ -1,3 +1,5 @@
 open_with 
 delete
 help
+shell nvim a.html
+

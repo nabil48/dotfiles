@@ -2,37 +2,37 @@
 !! Ayu mirage colorscheme
 !! """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-*background     : #111314
-*foreground     : #B3B1AD
+*.background:           #0a0e14
+*.foreground:           #d3dae3
 
-! black
-*color0         : #2C2F33
-*color8         : #4B5056
+!black and bright black
+*.color0:               #3a4e56
+*.color8:               #556064
 
-! red
-*color1         : #F07178
-*color9         : #D96C75
+!red and bright red
+*.color1:               #e14245
+*.color9:               #e16f7e
 
-! green
-*color2         : #91B362
-*color10        : #C2D94C
+! green and bright green
+*.color2:               #5ca75b
+*.color10:              #add488
 
-! yellow
-*color3         : #E2995C
-*color11        : #E2995C
+! yellow and bright yellow
+*.color3:               #f6ab32
+*.color11:              #fdc35f
 
-! blue
-*color4         : #66899D
-*color12        : #66899D
+! blue and bright blue
+*.color4:               #4877b1
+*.color12:              #8ca9bf
 
-! magenta
-*color5         : #8D6494
-*color13        : #8D6494
+! mangenta and bright mangenta
+*.color5:               #a660c3
+*.color13:              #e2afec
 
-! cyan
-*color6         : #527C77
-*color14        : #527C77
+! cyan and bright cyan
+*.color6:               #00bcd4
+*.color14:              #73c5e2
 
-! white
-*color7         : #606360
-*color15        : #DDE3DC
+! white and bright white
+*.color7:               #a9a9aa
+*.color15:              #fcfcfc

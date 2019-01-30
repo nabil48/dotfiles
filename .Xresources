@@ -2,26 +2,27 @@
 !! Import other Configuration from ~/.Xresources.d
 !! ------------------------------------------------------------------------------
 !#include "/home/dani/.Xresources.d/xautolock"
-#include "/home/dani/.Xresources.d/color/adaptaColor"
+#include "/home/dani/.Xresources.d/color/gruvbox"
 #include "/home/dani/.Xresources.d/urxvt"
 #include "/home/dani/.Xresources.d/xterm"
 !! ------------------------------------------------------------------------------
 
 !! ------------------------------------------------------------------------------
-!! Xft Font Configuration
+!! Font Configuration
 !! ------------------------------------------------------------------------------
-Xft.lcdfilter                   : lcddefault
-!Xft.dpi                         : 96
-!Xft.dpi                         : 1
-Xft.antialias                   : true
-Xft.rgba                        : rgb
-Xft.hinting                     : true
-Xft.autohint                    : false
-Xft.hintstyle                   : hintslight
+Xft.antialias                        : true
+Xft.autohint                         : true
+!Xft.dpi                              : 96
+!Xft.dpi                              : 1
+Xft.lcdfilter                        : lcddefault
+Xft.hinting                          : true
+Xft.hintstyle                        : hintslight
+Xft.rgba                             : rgba
 !! ------------------------------------------------------------------------------
 
 !! ------------------------------------------------------------------------------
 !! Xcursor theme
 !! ------------------------------------------------------------------------------
-Xcursor.theme: breeze_cursors
+Xcursor.theme                        : breeze_cursors
+Xcursor.size                         : 16
 !! ------------------------------------------------------------------------------

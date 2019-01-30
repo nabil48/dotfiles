@@ -40,6 +40,9 @@ nmap <C-l> <C-w><C-l>
 nmap <C-A-k> <C-w>t<C-w>K
 nmap <C-A-h> <C-w>t<C-w>H
 
+" omni copletion
+imap <C-Space> <C-x><C-o>
+
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
 map <C-\> :NERDTreeToggle<CR>
@@ -57,8 +60,9 @@ noremap <Leader>gr :Gremove<CR>
 " Commentary
 map <Leader>/ :Commentary<CR>
 
-" ALe
+" Autoformat
 nmap <Leader>f :ALEFix<CR>
+" nmap <Leader>f :call LanguageClient#textDocument_formatting()<CR>
 nmap <Leader>F :Autoformat<CR>
 
 " Jedi-vim
@@ -81,4 +85,13 @@ let g:UltiSnipsExpandTrigger='<A-tab>'
 
 " Emmet
 map <Leader>e <C-y>,
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Indent guides
+nmap <silent> <Leader>ig :IndentGuidesToggle<CR>
+
+" lsp
+" nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+" Or map each action separately
+" nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+" nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

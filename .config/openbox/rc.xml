@@ -159,7 +159,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>BottomRight</position>
+    <position>Bottom</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -264,12 +264,6 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-    <keybind key="Print">
-      <action name="Execute">
-        <command>flameshot gui</command>
-      </action>
-    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -331,12 +325,6 @@
         <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind> -->
-    <!-- Launch urxvt when urxvt is pressed -->
-    <keybind key="C-A-T">
-      <action name="Execute">
-        <command>urxvt</command>
-      </action>
-    </keybind>
     <!-- brightness/kecerahan layar -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
@@ -351,34 +339,25 @@
     <!-- volume -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer set Master 5%+</command>
+        <command>pulseaudio-ctl up</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer set Master 5%-</command>
+        <command>pulseaudio-ctl down</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer set Master toggle</command>
+        <command>pulseaudio-ctl mute</command>
       </action>
     </keybind>
-    <!-- window -->
+    <!-- window decoration-->
     <keybind key="S-W-a">
       <action name="Decorate"/>
     </keybind>
     <keybind key="S-W-z">
       <action name="Undecorate"/>
-    </keybind>
-    <keybind key="W-l">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>oblogout</name>
-        </startupnotify>
-        <command>oblogout</command>
-      </action>
     </keybind>
     <!-- tilling keybinding -->
     <keybind key="W-Right">
@@ -403,8 +382,8 @@
     <keybind key="W-Down">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>80%</width>
-        <height>80%</height>
+        <width>85%</width>
+        <height>85%</height>
       </action>
       <action name="MoveToCenter"/>
     </keybind>
@@ -426,21 +405,91 @@
         <width>50%</width>
       </action>
     </keybind>
-    <keybind key="W-space">
-      <action name="Execute">
-        <command>rofi -show window</command>
-      </action>
-    </keybind>
-    <keybind key="W-m">
-      <action name="ToggleShowDesktop"/>
-    </keybind>
     <keybind key="W-F11">
       <action name="Reconfigure"/>
     </keybind>
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
+    <keybind key="W-1">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-2">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-3">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-4">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-PgUp">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- keybinding for aplication -->
+    <!-- oblogout -->
+    <!-- <keybind key="W-l">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>oblogout</name>
+        </startupnotify>
+        <command>oblogout</command>
+      </action>
+    </keybind> -->
+    <!-- rofi -->
+    <keybind key="W-space">
+      <action name="Execute">
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
+    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>flameshot gui</command>
+      </action>
+    </keybind>
+    <!-- Launch urxvt when urxvt is pressed -->
+    <keybind key="C-A-T">
+      <action name="Execute">
+        <command>urxvt</command>
+      </action>
+    </keybind>
   </keyboard>
+  <!-- sparator -->
+  <!-- sparator -->
+  <!-- sparator -->
+  <!-- sparator -->
   <!-- sparator -->
   <!-- mouse keybinding -->
   <mouse>
@@ -484,7 +533,7 @@
           <menu>client-menu</menu>
         </action>
       </mousebind>
-      <mousebind button="W-Up" action="Click">
+      <!--       <mousebind button="W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -513,7 +562,7 @@
         <action name="SendToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind> -->
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
@@ -708,7 +757,7 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
+      <!--       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -737,7 +786,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind> -->
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -788,7 +837,7 @@
        just don't make menu ids clash or, well, it'll be kind of pointless -->
     <!-- default menu file (or custom one in $HOME/.config/openbox/) -->
     <!-- system menu files on Debian systems -->
-    <file>/var/lib/openbox/debian-menu.xml</file>
+    <!-- <file>/var/lib/openbox/debian-menu.xml</file> -->
     <file>menu.xml</file>
     <hideDelay>200</hideDelay>
     <!-- if a press-release lasts longer than this setting (in milliseconds), the
@@ -899,5 +948,14 @@
 
   # end of the example
 -->
+    <application class="*">
+      <decor>no</decor>
+    </application>
+    <application class="krunner">
+      <position force="yes">
+        <x>400</x>
+        <y>0</y>
+      </position>
+    </application>
   </applications>
 </openbox_config>

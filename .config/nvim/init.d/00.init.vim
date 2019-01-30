@@ -45,7 +45,7 @@ set mouse=a                          " Enable mouse mode
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set textwidth=79
+" set textwidth=79
 set expandtab
 set autoindent
 set fileformat=unix
@@ -53,6 +53,7 @@ set fileformat=unix
 " auto start plugin
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" start ale
+let g:ale_enabled = 1
 let g:ale_completion_enabled = 0
 let g:ale_set_balloons = 1
 
@@ -63,6 +64,11 @@ let g:airline#extensions#tabline#enabled = 1
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
+" Deoplete
 let g:deoplete#enable_at_startup = 1
+
+" LSP
+" let g:LanguageClient_autoStart = 1
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

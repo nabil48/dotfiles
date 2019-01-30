@@ -14,26 +14,21 @@ follow_now_playing_lyrics = "yes"
 
 ##############################################################################
 # Playlist song format
-# song_columns_list_format = "$L(9)[white]{l} (20)[red]{a} (30)[green]{b}$R(20)[cyan]{t}"
-# now_playing_prefix = "$b$1♪$7♪$8♪ "
-# now_playing_suffix = "$/b$0"
 playlist_display_mode = "classic" (classic/columns)
 autocenter_mode = "no"
 centered_cursor = "no"
 cyclic_scrolling = "yes"
 mouse_list_scroll_whole_page = "no"
-# song_list_format= "$0$8%l$0$8$1 ╣$7{$4%t$7 $R $8%20a$1}|{$4%f$7 $R}$1╠$7"
 song_list_format= "$0$8%l$0$8$1 $8{$4%t$8}|{$4%f$8} $R $8%20a$1$1$8$0"
-# song_list_format = " $0$8$8%l$0$8 $1│$7 $4%a$7 $1│$7 $2%t$1 $R $8%b$1"
 song_library_format = "{%n > }{%t}|{%f}"
 
 # Now playing
 song_status_format = "$8{%a ♪ %t}|{♪ %t}|{%f}$0"
 
 # progress bar
-#progressbar_look = "─  "
 # progressbar_look = "─╼─"
-progressbar_look = "─╼─"
+# progressbar_look = "─╼─"
+progressbar_look = "━━━"
 
 # progressbar_look = "▃▃▃"
 
@@ -47,9 +42,6 @@ visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "30" 
 visualizer_in_stereo = "no"
 visualizer_type = "wave_filled" (spectrum/wave)
-# visualizer_look = "▋▋"
-# visualizer_look = "▬▬"
-# visualizer_look = "■■"
 visualizer_look = "●┃"
 
 

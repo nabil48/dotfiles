@@ -9,7 +9,7 @@ XTerm.vt100.backarrowKey        : false
 XTerm.ttyModes                  : erase ^?
 
 !! font
-XTerm.vt100.faceName            : SauceCodePro\ Nerd\ Font\ Mono:pixelsize=11
+XTerm.vt100.faceName            : SauceCodePro\ Nerd\ Font\ Mono:Light:size=10
 ! start with TrueType fonts enable
 XTerm.vt100.renderFont          : true
 XTerm.scaleHeight               : 1

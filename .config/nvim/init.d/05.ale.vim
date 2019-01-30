@@ -1,6 +1,8 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ale configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ale_linters_explicit = 1
+
 let g:ale_linters = {
             \   'css': ['prettier'],
             \   'html': ['prettier'],
@@ -32,11 +34,10 @@ let g:ale_fixers = {
             \   'yaml': ['prettier'],
             \}
 
-let g:ale_python_pycodestyle_options = '--ignore=E501'
+let g:ale_python_pycodestyle_options = '--ignore=E501,E402'
 let g:ale_set_balloons_legacy_echo=1
 
 " linter symbols
-let g:ale_linters_explicit = 1
 
 let g:ale_sign_error               = 'EE'
 let g:ale_sign_warning             = 'WW'

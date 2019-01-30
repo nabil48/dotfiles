@@ -1,9 +1,9 @@
 [options]
-#allow_bold = true
+allow_bold = true
 #audible_bell = false
 clickable_url = true
-dynamic_title = true
-font = SauceCodePro\ Nerd\ Font\ Mono 10
+dynamic_title = false
+font =  Iosevka Nerd Font 11
 #fullscreen = true
 #geometry = 640x480
 icon_name = terminal
@@ -36,7 +36,7 @@ cursor_shape = block
 #size_hints = false
 
 # "off", "left" or "right"
-#scrollbar = off
+scrollbar = off
 
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
@@ -44,9 +44,9 @@ cursor_shape = block
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
-foreground = #d3dae3
-#foreground_bold = #ffffff
-background = #131c26
+foreground = #ebdbb2
+foreground_bold = #fbf1c7
+background = #282828
 
 # 20% background transparency (requires a compositor)
 #background = rgba(63, 63, 63, 0.8)
@@ -58,36 +58,36 @@ background = #131c26
 # Colors from color0 to color254 can be set
 
 # black and bright black
-color0 = #3a4e56
-color8 = #556064
+color0 = #282828
+color8 = #3c3836
 
 # red and bright red
-color1 = #e14245
-color9 = #e16f7e
+color1 = #cc241d
+color9 = #fb4934
 
 # green and bright green
-color2 = #5ca75b
-color10 = #add488
+color2 = #98971a
+color10 = #b8bb26
 
 # yellow and bright yellow
-color3 = #f6ab32
-color11 = #fdc35f
+color3 = #d79921
+color11 = #fabd2f
 
 # blue and bright blue
-color4 = #4877b1
-color12 = #8ca9bf
+color4 = #458588
+color12 = #83a598
 
 # mangenta and bright mangenta
-color5 = #a660c3
-color13 = #e2afec
+color5 = #b16286
+color13 = #d3869b
 
 # cyan and bright cyan
-color6 = #00bcd4
-color14 = #73c5e2
+color6 = #689d6a
+color14 = #8ec07c
 
 # white and bright white
-color7 = #a9a9aa
-color15 = #fcfcfc
+color7 = #ebdbb2
+color15 = #fbf1c7
 
 [hints]
 #font = Monospace 12
@@ -95,9 +95,9 @@ color15 = #fcfcfc
 #background = #3f3f3f
 #active_foreground = #e68080
 #active_background = #3f3f3f
-#padding = 2
+# padding = 20
 #border = #3f3f3f
-#border_width = 0.5
+#border_width = 0
 #roundness = 2.0
 
 # vim: ft=dosini cms=#%s

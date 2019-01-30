@@ -65,7 +65,7 @@
 
     # Defines color of the frame around the notification window.
     #frame_color = "#ffffff"
-    frame_color = "#a9a9aa"
+    frame_color = "#fb4934"
     # Define a color for the separator.
     # possible values are:
     #  * auto: dunst tries to find a color fitting to the background;
@@ -166,7 +166,7 @@
 
     # Paths to default icons.
     # icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-    icon_path = /usr/share/icons/Papirus-Adapta-Nokto/16x16/status/:/usr/share/icons/Papirus-Adapta-Nokto/16x16/devices/
+    icon_path = /usr/share/icons/DarK/16x16/status/:/usr/share/icons/DarK/16x16/devices/
 
     ### History ###
 
@@ -197,7 +197,7 @@
     # Print a notification on startup.
     # This is mainly for error detection, since dbus (re-)starts dunst
     # automatically after a crash.
-    startup_notification = true
+    startup_notification = false
 
     # Manage dunst's desire for talking
     # Can be one of the following values:
@@ -277,15 +277,15 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     # background = "#fdc35f"
     # foreground = "#888888"
-    background = "#131c26"
-    foreground = "#d3dae3"
+    background = "#282828"
+    foreground = "#ebdbb2"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#131c26"
-    foreground = "#d3dae3"
+    background = "#282828"
+    foreground = "#ebdbb2"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon

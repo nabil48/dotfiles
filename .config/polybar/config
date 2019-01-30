@@ -18,9 +18,8 @@
 ;==========================================================
 
 [colors]
-;background      = ${xrdb:background:#131c26}
-background      = #00131c26
-foreground      = ${xrdb:foreground:#d3dae3}
+background      = ${xrdb:background}
+foreground      = ${xrdb:foreground}
 
 black           = ${xrdb:color0}
 brightblack     = ${xrdb:color8}
@@ -70,11 +69,11 @@ margin-top = 0
 margin-bottom = 0
 
 
-[bar/top]
+[bar/bottom]
 ; Use the following command to list available outputs:
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
 monitor = ${env:MONITOR:LVDS1}
-bottom = false
+bottom = true
 width = 100%
 height = 20
 offset-x = 0
@@ -86,12 +85,15 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 0
-line-color = #f00
 
-border-top-size = 0
+border-top-size = 3
+border-top-color = ${colors.background}
 border-bottom-size = 0
+border-bottom-color = ${colors.brightblack}
 border-left-size = 0
+border-left-color = ${colors.brightblack}
 border-right-size = 0
+border-right-color = ${colors.brightblack}
 
 padding-left = 0
 padding-right = 0
@@ -208,6 +210,7 @@ format-prefix = " "
 format-suffix = " "
 format-padding = 0
 format-background = ${colors.background}
+format-foreground = ${colors.background}
 
 label = %title%
 label-font = 5
@@ -360,7 +363,7 @@ format-connected-padding = 1
 
 format-disconnected = <label-disconnected>
 ;format-disconnected-prefix ="龍 "
-format-disconnected-foreground = ${colors.black}
+format-disconnected-foreground = ${colors.brightblack}
 format-disconnected-padding = 1
 
 format-packetloss = <animation-packetloss> <label-connected>
@@ -371,7 +374,7 @@ label-connected = "%downspeed:%  %upspeed:%"
 label-connected-font = 5
 ;label-connected-underline = ${colors.brightcyan}
 
-label-disconnected = offline
+label-disconnected = " -- KB/s   -- KB/s"
 label-disconnected-font = 5
 
 [module/wlan]
@@ -388,7 +391,7 @@ format-connected-padding = 1
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix ="直 "
-format-disconnected-foreground = ${colors.black}
+format-disconnected-foreground = ${colors.brightblack}
 format-disconnected-padding = 1
 
 format-packetloss = <animation-packetloss> <label-connected>
