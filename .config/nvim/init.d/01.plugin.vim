@@ -1,4 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim-Plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
@@ -30,6 +29,7 @@ Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete,
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
 Plug '~/.fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'KabbAmine/vCoolor.vim'
 
 " Deoplete autocomplete

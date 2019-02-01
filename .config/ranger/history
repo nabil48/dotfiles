@@ -3,3 +3,4 @@ delete
 help
 shell nvim a.html
 
+open_with 0

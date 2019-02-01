@@ -1,4 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim Keybindings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " leader
@@ -94,4 +93,10 @@ nmap <silent> <Leader>ig :IndentGuidesToggle<CR>
 " Or map each action separately
 " nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 " nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+
+" color picker
+let g:vcoolor_map = '<Leader>c'
+let g:vcool_ins_rgb_map = '<Leader>cr'
+let g:vcool_ins_hsl_map = '<Leader>ch'
+let g:vcool_ins_rgba_map = '<Leader>cR'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

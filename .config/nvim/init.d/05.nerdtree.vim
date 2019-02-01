@@ -1,4 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd StdinReadPre * let s:std_in=1
@@ -13,15 +12,15 @@ autocmd StdinReadPre * let s:std_in=1
 " nerdtree github configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeIndicatorMapCustom = {
-            \ 'Modified'  : '✹',
-            \ 'Staged'    : '',
-            \ 'Untracked' : '*',
-            \ 'Renamed'   : '',
-            \ 'Unmerged'  : '═',
-            \ 'Deleted'   : '',
-            \ 'Dirty'     : '✗',
-            \ 'Clean'     : '',
-            \ 'Ignored'   : '',
-            \ 'Unknown'   : '?'
-            \}
+            \ "Modified"  : "✹",
+            \ "Staged"    : "✚",
+            \ "Untracked" : "✭",
+            \ "Renamed"   : "➜",
+            \ "Unmerged"  : "═",
+            \ "Deleted"   : "✖",
+            \ "Dirty"     : "✗",
+            \ "Clean"     : "✔︎",
+            \ 'Ignored'   : '☒',
+            \ "Unknown"   : "?"
+            \ }
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
