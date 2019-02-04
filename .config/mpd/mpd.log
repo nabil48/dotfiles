@@ -42888,3 +42888,212 @@ Feb 01 11:06 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3
 Feb 01 11:09 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
 Feb 01 11:13 : client: [29] opened from 127.0.0.1:55112
 Feb 01 11:13 : client: [29] closed
+Feb 03 01:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 01:09 : config: option 'device' on line 21 was not recognized
+Feb 03 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 01:09 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:09 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:09 : client: [0] opened from [::1]:41568
+Feb 03 01:09 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:09 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 01:09 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:09 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:09 : client: [0] closed
+Feb 03 01:13 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 03 01:13 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:13 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:16 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 03 01:16 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:16 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:20 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 03 01:20 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:20 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:23 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 03 01:23 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:23 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:25 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 03 01:25 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:25 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:28 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 03 01:28 : exception: Failed to enable output "pulse audio" (pulse)
+Feb 03 01:28 : exception: nested: pa_context_connect() has failed: Connection refused
+Feb 03 01:31 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 03 01:48 : client: [1] opened from [::1]:42472
+Feb 03 01:49 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Feb 03 01:52 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Feb 03 01:55 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 03 01:58 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 03 02:02 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 03 02:04 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 03 02:04 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Feb 03 02:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 02:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 02:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 02:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 02:28 : config: option 'device' on line 21 was not recognized
+Feb 03 02:28 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 03 02:31 : client: [0] opened from [::1]:47122
+Feb 03 02:35 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 03 02:38 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 03 02:41 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 03 02:44 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 03 02:47 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 03 02:50 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 03 02:53 : client: [1] opened from 127.0.0.1:60354
+Feb 03 02:53 : client: [1] closed
+Feb 03 02:53 : client: [2] opened from 127.0.0.1:60356
+Feb 03 02:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 03 03:11 : client: [3] opened from 127.0.0.1:60562
+Feb 03 03:11 : client: [3] closed
+Feb 03 03:11 : client: [4] opened from 127.0.0.1:60564
+Feb 03 03:11 : client: [4] closed
+Feb 03 03:11 : client: [5] opened from 127.0.0.1:60566
+Feb 03 03:11 : client: [5] closed
+Feb 03 03:14 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 03 03:18 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 03 03:21 : client: [6] opened from 127.0.0.1:60662
+Feb 03 03:21 : client: [6] closed
+Feb 03 03:46 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 03 06:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 06:59 : config: option 'device' on line 21 was not recognized
+Feb 03 06:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 06:59 : client: [0] opened from 127.0.0.1:39718
+Feb 03 06:59 : client: [1] opened from [::1]:45802
+Feb 03 07:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 07:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 07:29 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 03 07:31 : client: [0] closed
+Feb 03 07:31 : client: [2] opened from 127.0.0.1:39728
+Feb 03 07:31 : client: [2] closed
+Feb 03 07:31 : client: [3] opened from 127.0.0.1:39730
+Feb 03 07:31 : client: [3] closed
+Feb 03 07:31 : client: [4] opened from 127.0.0.1:39732
+Feb 03 07:32 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 03 07:34 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 03 07:38 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 03 07:41 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 03 07:45 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 03 07:48 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 03 07:52 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 03 07:53 : client: [4] closed
+Feb 03 07:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 03 08:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 08:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 08:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 08:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 08:18 : config: option 'device' on line 21 was not recognized
+Feb 03 08:18 : client: [0] opened from 127.0.0.1:55716
+Feb 03 08:18 : client: [1] opened from 127.0.0.1:55718
+Feb 03 08:18 : client: [1] closed
+Feb 03 08:44 : client: [2] opened from 127.0.0.1:56062
+Feb 03 08:44 : client: [2] closed
+Feb 03 08:45 : client: [3] opened from 127.0.0.1:56080
+Feb 03 08:45 : client: [3] closed
+Feb 03 09:11 : client: [4] opened from 127.0.0.1:56372
+Feb 03 09:11 : client: [4] closed
+Feb 03 09:12 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 03 09:14 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 03 09:17 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 03 09:17 : client: [5] opened from 127.0.0.1:56570
+Feb 03 09:17 : client: [5] closed
+Feb 03 13:49 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 03 13:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 13:50 : config: option 'device' on line 21 was not recognized
+Feb 03 13:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 13:50 : client: [0] opened from 127.0.0.1:52904
+Feb 03 14:49 : client: [1] opened from 127.0.0.1:53830
+Feb 03 14:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 14:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 14:49 : client: [1] closed
+Feb 03 14:50 : client: [2] opened from 127.0.0.1:53832
+Feb 03 14:50 : client: [2] closed
+Feb 03 15:19 : client: [0] closed
+Feb 03 15:19 : client: [3] opened from 127.0.0.1:54666
+Feb 03 15:19 : client: [3] closed
+Feb 03 15:20 : client: [4] opened from 127.0.0.1:54668
+Feb 03 15:20 : client: [4] closed
+Feb 03 15:20 : client: [5] opened from 127.0.0.1:54670
+Feb 03 15:27 : client: [5] closed
+Feb 03 15:27 : client: [6] opened from 127.0.0.1:54820
+Feb 03 15:27 : client: [7] opened from 127.0.0.1:54822
+Feb 03 15:27 : client: [7] closed
+Feb 03 15:29 : client: [8] opened from 127.0.0.1:54826
+Feb 03 15:29 : client: [8] closed
+Feb 03 17:12 : client: [9] opened from 127.0.0.1:58296
+Feb 03 17:12 : client: [9] closed
+Feb 03 17:13 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 03:03 : client: [10] opened from 127.0.0.1:59432
+Feb 04 03:03 : client: [10] closed
+Feb 04 03:06 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 04 03:10 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 04 03:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 03:19 : config: option 'device' on line 21 was not recognized
+Feb 04 03:19 : client: [0] opened from 127.0.0.1:40198
+Feb 04 03:23 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 04 03:26 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 04 03:28 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 04 03:32 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 04 03:35 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 04 03:39 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 04 03:42 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 04 03:45 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 04 03:48 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 04 03:51 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 04 03:54 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 04 03:56 : client: [1] opened from 127.0.0.1:41400
+Feb 04 03:56 : client: [1] closed
+Feb 04 04:43 : client: [0] closed
+Feb 04 04:43 : client: [2] opened from 127.0.0.1:42470
+Feb 04 04:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 04:43 : config: option 'device' on line 21 was not recognized
+Feb 04 04:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 04:44 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 04:44 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 04:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 04:46 : config: option 'device' on line 21 was not recognized
+Feb 04 04:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 04:46 : client: [0] opened from 127.0.0.1:45262
+Feb 04 05:06 : client: [0] closed
+Feb 04 05:06 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 05:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 05:10 : config: option 'device' on line 21 was not recognized
+Feb 04 05:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 05:10 : client: [0] opened from 127.0.0.1:52778
+Feb 04 05:17 : client: [1] opened from 127.0.0.1:52942
+Feb 04 05:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 05:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 05:17 : client: [1] closed
+Feb 04 05:18 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 05:23 : client: [2] opened from 127.0.0.1:53110
+Feb 04 05:23 : client: [2] closed
+Feb 04 05:25 : client: [0] closed
+Feb 04 05:25 : client: [3] opened from 127.0.0.1:53122
+Feb 04 05:26 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 04 05:30 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 04 05:31 : client: [3] closed
+Feb 04 05:31 : client: [4] opened from 127.0.0.1:53190
+Feb 04 05:33 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 04 05:36 : client: [4] closed
+Feb 04 05:36 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 04 05:36 : client: [5] opened from 127.0.0.1:53220
+Feb 04 05:39 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 04 05:43 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 04 05:46 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 04 05:50 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 04 05:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 04 05:54 : client: [5] closed
+Feb 04 05:54 : client: [6] opened from 127.0.0.1:53298
+Feb 04 05:56 : client: [6] closed
+Feb 04 05:56 : client: [7] opened from 127.0.0.1:53300
+Feb 04 05:56 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 04 05:58 : client: [7] closed
+Feb 04 05:58 : client: [8] opened from 127.0.0.1:53332
+Feb 04 05:59 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 04 06:02 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 04 06:02 : client: [9] opened from 127.0.0.1:53432
+Feb 04 06:02 : client: [9] closed

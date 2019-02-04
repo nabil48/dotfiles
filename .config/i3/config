@@ -32,7 +32,6 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
-#bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -104,7 +103,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+Shift+a focus child
 
 # window configuration
 title_align center
@@ -356,6 +355,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight - 5 # decrease scr
 
 # Screenshot
 bindsym Print exec --no-startup-id flameshot gui
+bindsym Shift+Print exec --no-startup-id flameshot full
 
 # Clipmenu
 bindsym $mod+p exec --no-startup-id clipmenu
@@ -367,6 +367,12 @@ bindsym $mod+End exec --no-startup-id ~/.config/rofi-tools/rofi-power
 # Blank Space under i3
 bindsym $mod+o exec --no-startup-id i3-msg open
 
+# Arandr
+bindsym XF86Display exec --no-startup-id arandr
+
+# TouchPad 
+# bindsym XF86TouchpadOn exec --no-startup-id xinput --enable "SynPS/2 Synaptics TouchPad"
+# bindsym XF86TouchpadOff exec --no-startup-id xinput --disable "SynPS/2 Synaptics TouchPad"
 
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
@@ -414,15 +420,14 @@ client.background       $background
 
 # autostart program
 exec mpd
-exec_always killall pulseeffects; pulseeffects --gapplication-service
+exec pulseeffects --gapplication-service
 exec xfce4-power-manager
 # exec nm-applet
 # exec blueman-applet
 exec_always killall compton; compton --dbus -b
-exec --no-startup-id feh --bg-scale "$HOME/Pictures/wal HD/DIY/hex_282828.png"
+exec feh --bg-scale "$HOME/Pictures/wal HD/DIY/hex_282828.png"
 exec_always $HOME/.config/polybar/launch.sh
-# exec --no-startup-id conky -c $HOME/.config/conky/conky_solarized 
-exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/sidecard.conkyrc
+exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
 exec xautolock -time 5 -locker mantablockscreen
 # exec xautolock -time 30 -locker "systemctl suspend"
 exec --no-startup-id xbacklight -set 40

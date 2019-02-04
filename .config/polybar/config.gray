@@ -47,7 +47,7 @@ font-1 = "Material Icons:size=13;4"
 ;==========================================================
 
 [assets]
-bar-monitor = ${env:MONITOR:LVDS1}
+bar-monitor = ${env:MONITOR:LVDS-1}
 bar-height = 20
 bar-width = 100%
 
@@ -78,7 +78,7 @@ monitor = ${assets.bar-monitor}
 width = ${assets.bar-width}
 height = ${assets.bar-height}
 bottom = true
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.brightwhite}
@@ -98,7 +98,7 @@ tray-padding = 0
 tray-maxsize = 16
 ; tray-offset-x = 20%
 
-modules-left = jgmenu i3 mpd
+modules-left = i3 mpd
 modules-right = wlan network temperature hdd0 hdd1 memory cpu backlight volume date session
 
 ;== Module base ===========================================
@@ -133,8 +133,8 @@ format-warn-background = ${colors.red}
 format-warn-padding = 1
 
 content-font = 1
-content-background = ${colors.brightcyan}
-content-foreground = ${colors.background}
+content-background = ${colors.brightblack}
+content-foreground = ${colors.brightwhite}
 content-padding = 1
 
 label-font = 1
@@ -356,7 +356,7 @@ label = %gb_used%
 [module/backlight]
 type = internal/xbacklight
 inherit = section/base
-output = LVDS1
+output = ${assets.bar-monitor}
 enable-scroll = false
 
 format = <label>

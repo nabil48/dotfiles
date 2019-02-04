@@ -28,7 +28,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
-Plug '~/.fzf'
+Plug '/usr/share/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'KabbAmine/vCoolor.vim'
 

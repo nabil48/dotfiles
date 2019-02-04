@@ -1,10 +1,10 @@
 !! ------------------------------------------------------------------------------
 !! Import other Configuration from ~/.Xresources.d
 !! ------------------------------------------------------------------------------
-!#include "/home/dani/.Xresources.d/xautolock"
-#include "/home/dani/.Xresources.d/color/gruvbox"
-#include "/home/dani/.Xresources.d/urxvt"
-#include "/home/dani/.Xresources.d/xterm"
+!#include "/home/nabil/.Xresources.d/xautolock"
+#include "/home/nabil/.Xresources.d/color/gruvbox"
+#include "/home/nabil/.Xresources.d/urxvt"
+#include "/home/nabil/.Xresources.d/xterm"
 !! ------------------------------------------------------------------------------
 
 !! ------------------------------------------------------------------------------
