@@ -27,14 +27,14 @@ autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 " Jedi
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:deoplete#sources#jedi#statement_length = 100 " Sets the maximum length of completion description text
-let g:deoplete#sources#jedi#enable_typeinfo  = 0   " Enables type information of completions
+let g:deoplete#sources#jedi#enable_typeinfo  = 1   " Enables type information of completions
 let g:deoplete#sources#jedi#show_docstring   = 1   " Shows docstring in preview window
 let g:python_host_prog                       = '/usr/bin/python2'
 let g:python3_host_prog                      = '/usr/bin/python'
 
 " JavaScript
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:deoplete#sources#ternjs#tern_bin = 'tern'
+let g:deoplete#sources#ternjs#tern_bin = '/usr/bin/tern'
 let g:deoplete#sources#ternjs#timeout = 1
 let g:deoplete#sources#ternjs#types = 1
 let g:deoplete#sources#ternjs#depths = 1

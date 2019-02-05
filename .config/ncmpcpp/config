@@ -6,8 +6,8 @@ mpd_connection_timeout = "5"
 mpd_crossfade_time = "5"
 mpd_music_dir = "~/Music"
 allow_for_physical_item_deletion = "no"
-lyrics_directory  = ~/.ncmpcpp/lyrics
-ncmpcpp_directory  = ~/.ncmpcpp
+lyrics_directory  = ~/.config/ncmpcpp/lyrics
+ncmpcpp_directory  = ~/.config/ncmpcpp
 store_lyrics_in_song_dir = "yes"
 follow_now_playing_lyrics = "yes"
 

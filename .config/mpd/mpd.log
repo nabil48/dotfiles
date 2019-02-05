@@ -43097,3 +43097,37 @@ Feb 04 05:59 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.
 Feb 04 06:02 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
 Feb 04 06:02 : client: [9] opened from 127.0.0.1:53432
 Feb 04 06:02 : client: [9] closed
+Feb 04 06:41 : client: [10] opened from 127.0.0.1:53970
+Feb 04 06:41 : client: [10] closed
+Feb 04 06:42 : client: [8] closed
+Feb 04 06:42 : client: [11] opened from 127.0.0.1:53974
+Feb 04 06:44 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 04 06:47 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 07:35 : client: [12] opened from 127.0.0.1:55448
+Feb 04 07:35 : client: [12] closed
+Feb 04 07:39 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 04 07:42 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 04 07:46 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 04 07:49 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 04 07:51 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 04 07:55 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 04 07:58 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 04 08:02 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 04 08:03 : client: [13] opened from 127.0.0.1:55786
+Feb 04 08:03 : client: [13] closed
+Feb 04 08:07 : client: [11] closed
+Feb 04 08:07 : client: [14] opened from 127.0.0.1:55910
+Feb 04 08:11 : client: [15] opened from 127.0.0.1:55918
+Feb 04 08:11 : client: [15] closed
+Feb 04 08:11 : client: [16] opened from 127.0.0.1:55920
+Feb 04 08:11 : client: [16] closed
+Feb 04 11:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 04 12:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 12:05 : config: option 'device' on line 21 was not recognized
+Feb 04 12:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 12:05 : client: [0] opened from 127.0.0.1:40188
+Feb 04 12:37 : client: [1] opened from [::1]:44826
+Feb 04 12:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 12:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 12:39 : client: [2] opened from 127.0.0.1:40192
+Feb 04 12:39 : client: [2] closed

@@ -3,8 +3,8 @@ audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 audio_device_state:1:glava_fifo
 state: pause
-current: 12
-time: 28.822000
+current: 1
+time: 134.959000
 random: 0
 repeat: 0
 single: 0
