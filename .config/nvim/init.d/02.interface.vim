@@ -36,6 +36,12 @@ set splitright
 set t_Co=256                             " set terminal 256 color
 set wrap                                 " Vim to word wrap visually
 
+" augroup numbertoggle
+"   autocmd!
+"   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+"   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+" augroup END
+
 " vim theme configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if (has('termguicolors'))

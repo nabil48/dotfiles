@@ -1,4 +1,0 @@
-# configuration for rofi-power tool
-LAUNCHER="rofi -width 900 -dmenu -i -p Session:"
-USE_LOCKER="false"
-LOCKER="i3lock"

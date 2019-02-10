@@ -61,7 +61,6 @@ map <Leader>/ :Commentary<CR>
 
 " Autoformat
 nmap <Leader>f :ALEFix<CR>
-" nmap <Leader>f :call LanguageClient#textDocument_formatting()<CR>
 nmap <Leader>F :Autoformat<CR>
 
 " Jedi-vim
@@ -89,10 +88,16 @@ map <Leader>e <C-y>,
 nmap <silent> <Leader>ig :IndentGuidesToggle<CR>
 
 " lsp
-" nnoremap <F5> :call LanguageClient_contextMenu()<CR>
-" Or map each action separately
-" nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-" nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+" nnoremap <leader>ld :call LanguageClient#textDocument_definition()<CR>
+" nnoremap <leader>lr :call LanguageClient#textDocument_rename()<CR>
+" nnoremap <leader>lf :call LanguageClient#textDocument_formatting()<CR>
+" nnoremap <leader>lt :call LanguageClient#textDocument_typeDefinition()<CR>
+" nnoremap <leader>lx :call LanguageClient#textDocument_references()<CR>
+" nnoremap <leader>la :call LanguageClient_workspace_applyEdit()<CR>
+" nnoremap <leader>lc :call LanguageClient#textDocument_completion()<CR>
+" nnoremap <leader>lh :call LanguageClient#textDocument_hover()<CR>
+" nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
+" nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
 
 " color picker
 let g:vcoolor_map = '<Leader>c'

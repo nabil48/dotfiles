@@ -16,7 +16,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Utility
 Plug 'Chiel92/vim-autoformat'       " Provide easy code formatting in Vim by integrating existing code formatters.
-Plug 'SirVer/ultisnips'             " ultimate snippet solution for Vim
+Plug 'SirVer/ultisnips'             " ultimate snn for Vim
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'            " Vim script for text filtering and alignment
 Plug 'honza/vim-snippets'           " snippets files for various programming languages
@@ -58,7 +58,7 @@ Plug 'cakebaker/scss-syntax.vim'  " Scss Support
 Plug 'mattn/emmet-vim'
 
 " JavaScript
-Plug 'wokalski/autocomplete-flow'
+" Plug 'wokalski/autocomplete-flow'
 Plug 'carlitux/deoplete-ternjs'
 
 " Markdown

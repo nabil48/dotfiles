@@ -36,14 +36,14 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
+# start rofi (a program launcher)
 bindsym $mod+d exec rofi -show drun
 # list open windows to switch to
 bindsym $mod+Tab exec rofi -show window
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+Shift+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -350,9 +350,6 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle # mute sound
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight + 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight - 5 # decrease screen brightness
 
-# Touchpad controls
-# bindsym XF86TouchpadToggle exec $HOME/.config/i3/script/toggletouchpad.sh # toggle touchpad
-
 # Screenshot
 bindsym Print exec --no-startup-id flameshot gui
 bindsym Shift+Print exec --no-startup-id flameshot full
@@ -371,8 +368,17 @@ bindsym $mod+o exec --no-startup-id i3-msg open
 bindsym XF86Display exec --no-startup-id arandr
 
 # TouchPad 
-# bindsym XF86TouchpadOn exec --no-startup-id xinput --enable "SynPS/2 Synaptics TouchPad"
-# bindsym XF86TouchpadOff exec --no-startup-id xinput --disable "SynPS/2 Synaptics TouchPad"
+bindsym $mod+F9 exec --no-startup-id xinput --disable "SynPS/2 Synaptics TouchPad"
+bindsym $mod+Shift+F9 exec --no-startup-id xinput --enable "SynPS/2 Synaptics TouchPad"
+
+# Lockscreen
+bindsym XF86ScreenSaver exec --no-startup-id mantablockscreen
+
+# Sleep
+bindsym XF86Sleep exec --no-startup-id systemctl suspend
+
+# Hibernate
+bindsym XF86Suspend exec --no-startup-id systemctl hibernate
 
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
@@ -425,9 +431,9 @@ exec xfce4-power-manager
 # exec nm-applet
 # exec blueman-applet
 exec_always killall compton; compton --dbus -b
-exec feh --bg-scale "$HOME/Pictures/wal HD/DIY/hex_282828.png"
+exec feh --bg-scale "$HOME/Pictures/wal HD/Rgh4y.jpg"
 exec_always $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
+# exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
 exec xautolock -time 5 -locker mantablockscreen
 # exec xautolock -time 30 -locker "systemctl suspend"
 exec --no-startup-id xbacklight -set 40

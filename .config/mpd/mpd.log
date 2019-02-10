@@ -43131,3 +43131,901 @@ Feb 04 12:37 : exception: OutputThread could not get realtime scheduling, contin
 Feb 04 12:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Feb 04 12:39 : client: [2] opened from 127.0.0.1:40192
 Feb 04 12:39 : client: [2] closed
+Feb 04 15:06 : client: [3] opened from 127.0.0.1:43972
+Feb 04 15:06 : client: [3] closed
+Feb 04 15:07 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 04 15:08 : client: [4] opened from 127.0.0.1:44570
+Feb 04 15:08 : client: [4] closed
+Feb 04 15:45 : client: [0] closed
+Feb 04 15:45 : client: [5] opened from 127.0.0.1:44812
+Feb 04 15:45 : client: [6] opened from 127.0.0.1:44814
+Feb 04 15:45 : client: [6] closed
+Feb 04 15:48 : player: played "Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3"
+Feb 04 15:51 : player: played "Yellow Claw/New Blood/Valentina - Villain.mp3"
+Feb 04 15:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3"
+Feb 04 15:53 : client: [5] closed
+Feb 04 15:53 : client: [7] opened from 127.0.0.1:44936
+Feb 04 15:57 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 04 16:00 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 04 16:02 : client: [7] closed
+Feb 04 16:02 : client: [8] opened from 127.0.0.1:45020
+Feb 04 16:03 : client: [8] closed
+Feb 04 16:03 : client: [9] opened from 127.0.0.1:45024
+Feb 04 16:04 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 04 16:07 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 04 16:10 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 04 16:13 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 04 16:16 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 04 16:19 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 04 16:22 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 04 17:08 : client: [10] opened from 127.0.0.1:53588
+Feb 04 17:08 : client: [10] closed
+Feb 04 17:12 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 04 17:15 : client: [11] opened from 127.0.0.1:53800
+Feb 04 17:15 : client: [11] closed
+Feb 04 17:30 : player: played "Yellow Claw/New Blood/Yellow Claw - Summertime.mp3"
+Feb 04 17:30 : client: [12] opened from 127.0.0.1:54132
+Feb 04 17:30 : client: [12] closed
+Feb 04 17:33 : player: played "Electro Mix/NOTD - Been There Done That (feat Tove Styrke).mp3"
+Feb 04 17:36 : client: [13] opened from 127.0.0.1:54138
+Feb 04 17:36 : client: [13] closed
+Feb 04 18:19 : client: [14] opened from 127.0.0.1:54578
+Feb 04 18:19 : client: [14] closed
+Feb 04 18:19 : player: played "Electro Mix/Hardwell - Being Alive.mp3"
+Feb 04 18:21 : player: played "Electro Mix/Suyano - Brothers In Arms.mp3"
+Feb 04 19:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 19:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 19:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 19:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 04 19:56 : config: option 'device' on line 26 was not recognized
+Feb 04 19:56 : client: [0] opened from 127.0.0.1:46500
+Feb 04 19:57 : player: played "Electro Mix/Suyano - Brothers In Arms.mp3"
+Feb 04 20:00 : player: played "Electro Mix/KSHMR - Carry Me Home (feat Jake Reese).mp3"
+Feb 04 20:01 : client: [1] opened from 127.0.0.1:46690
+Feb 04 20:01 : client: [1] closed
+Feb 04 20:05 : player: played "Electro Mix/PuFFcorn - Dont Give Up (feat Sebastian Hansson) - Original mix.mp3"
+Feb 04 20:08 : player: played "Electro Mix/Black Coffee - Drive (feat Delilah Montagu) - Edit.mp3"
+Feb 04 20:11 : player: played "Electro Mix/Bayu Sasranagara - Easy.mp3"
+Feb 04 20:14 : player: played "Electro Mix/Carta - Faking.mp3"
+Feb 04 20:18 : player: played "Electro Mix/Petruk - Lonely Alien.mp3"
+Feb 04 20:21 : player: played "Electro Mix/R3HAB - Freak - Joe Stone 2K18 Edit.mp3"
+Feb 04 20:25 : player: played "Electro Mix/Mawar De Jongh - Heartbeat.mp3"
+Feb 04 20:28 : player: played "Electro Mix/Dzeko - Heaven (feat Veronica).mp3"
+Feb 04 20:32 : player: played "Electro Mix/Ma_No - Higher.mp3"
+Feb 04 20:35 : player: played "Electro Mix/Why Dont We - Hooked - Borgeous Remix.mp3"
+Feb 04 20:39 : player: played "Electro Mix/GSTVoMXS - I Just Go.mp3"
+Feb 04 20:42 : player: played "Electro Mix/Rave Republic - In My City.mp3"
+Feb 04 20:46 : player: played "Electro Mix/Alexander Popov - Always Connected.mp3"
+Feb 04 20:48 : player: played "Electro Mix/Starjack - Klavier - Radio Mix.mp3"
+Feb 04 20:51 : player: played "Electro Mix/MMXJ - Light.mp3"
+Feb 04 20:53 : client: [2] opened from 127.0.0.1:47692
+Feb 04 20:53 : client: [2] closed
+Feb 04 20:54 : player: played "Electro Mix/Bali Bandits - Lucky Chances (feat KSHMR).mp3"
+Feb 05 02:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 05 02:49 : config: option 'device' on line 26 was not recognized
+Feb 05 02:49 : client: [0] opened from 127.0.0.1:38530
+Feb 05 02:50 : player: played "Electro Mix/Bali Bandits - Lucky Chances (feat KSHMR).mp3"
+Feb 05 02:53 : player: played "Electro Mix/OMI - Masterpiece (with Felix Jaehn).mp3"
+Feb 05 02:56 : player: played "Electro Mix/RIRI - Maybe One Day (English version).mp3"
+Feb 05 03:00 : player: played "Electro Mix/Dr Joos - Meet Somebody Else.mp3"
+Feb 05 03:03 : player: played "Electro Mix/BATE - One I Love.mp3"
+Feb 05 03:07 : player: played "Electro Mix/STARLYTE - One Single Day.mp3"
+Feb 05 03:09 : player: played "Electro Mix/Party in Backyard - Rewind Time.mp3"
+Feb 05 03:12 : player: played "Electro Mix/Young Minahasa - Right Back to You.mp3"
+Feb 05 03:17 : player: played "Electro Mix/Lindo Habie - Running to My Baby - Langit Biru Remix.mp3"
+Feb 05 03:20 : player: played "Electro Mix/David Guetta - Say My Name (feat Bebe Rexha  J Balvin) - Lucas  Steve Remix.mp3"
+Feb 05 03:21 : client: [1] opened from 127.0.0.1:40244
+Feb 05 03:21 : client: [1] closed
+Feb 05 04:05 : client: [2] opened from 127.0.0.1:44234
+Feb 05 04:05 : client: [2] closed
+Feb 05 04:07 : player: played "Electro Mix/Ummet Ozcan - Starchild.mp3"
+Feb 05 04:10 : player: played "Electro Mix/Borgeous - Sweeter Without You - Zack Martino Remix.mp3"
+Feb 05 04:13 : player: played "Electro Mix/Trouze - These Streets (feat Brandyn Burnette).mp3"
+Feb 05 04:18 : player: played "Electro Mix/Cristroxx - Those Days (feat Nathan Brumley) [Nobushi Remix].mp3"
+Feb 05 04:21 : player: played "Electro Mix/THEDETSTRIKE - Touch from Within.mp3"
+Feb 05 04:24 : player: played "Electro Mix/Vicetone - Walk Thru Fire.mp3"
+Feb 05 04:25 : client: [3] opened from 127.0.0.1:45070
+Feb 05 04:25 : client: [3] closed
+Feb 05 04:25 : client: [4] opened from 127.0.0.1:45072
+Feb 05 04:25 : client: [4] closed
+Feb 05 04:34 : client: [0] closed
+Feb 05 04:34 : client: [5] opened from 127.0.0.1:45282
+Feb 05 07:11 : client: [6] opened from 127.0.0.1:50044
+Feb 05 07:11 : client: [6] closed
+Feb 05 07:14 : player: played "Electro Mix/Vicetone - Walk Thru Fire.mp3"
+Feb 05 07:17 : player: played "Electro Mix/Steve Aoki - Waste It On Me (feat BTS).mp3"
+Feb 05 07:20 : player: played "Electro Mix/SHAUN - Way Back Home (feat Conor Maynard) - Sam Feldt Edit.mp3"
+Feb 05 07:23 : player: played "Electro Mix/Kris Kross Amsterdam - Whenever (feat Conor Maynard).mp3"
+Feb 05 07:23 : client: [7] opened from 127.0.0.1:50810
+Feb 05 07:23 : client: [7] closed
+Feb 05 07:34 : client: [8] opened from 127.0.0.1:50982
+Feb 05 07:34 : client: [8] closed
+Feb 05 07:37 : player: played "Electro Mix/bvd kult - Wild Eyes.mp3"
+Feb 05 07:40 : player: played "Electro Mix/DubVision - Yesterday.mp3"
+Feb 05 07:45 : player: played "Electro Mix/1st Impression - Your Story (Capture The Light).mp3"
+Feb 05 07:48 : player: played "Electro Mix/Eric Chou - Old Days.mp3"
+Feb 05 08:36 : client: [9] opened from 127.0.0.1:54832
+Feb 05 08:36 : client: [9] closed
+Feb 05 08:38 : player: played "Electro Mix/jfarr - Bandaid.mp3"
+Feb 05 08:42 : player: played "Electro Mix/NOTD - Been There Done That (feat Tove Styrke).mp3"
+Feb 05 08:45 : player: played "Electro Mix/Hardwell - Being Alive.mp3"
+Feb 05 08:49 : player: played "Electro Mix/Suyano - Brothers In Arms.mp3"
+Feb 05 08:52 : player: played "Electro Mix/KSHMR - Carry Me Home (feat Jake Reese).mp3"
+Feb 05 08:52 : client: [10] opened from 127.0.0.1:55404
+Feb 05 08:52 : client: [10] closed
+Feb 05 09:00 : client: [11] opened from 127.0.0.1:55812
+Feb 05 09:00 : client: [11] closed
+Feb 05 09:00 : client: [12] opened from 127.0.0.1:55814
+Feb 05 09:00 : client: [12] closed
+Feb 05 09:00 : client: [13] opened from 127.0.0.1:55816
+Feb 05 09:00 : client: [13] closed
+Feb 05 09:00 : client: [14] opened from 127.0.0.1:55818
+Feb 05 09:00 : client: [14] closed
+Feb 05 09:20 : client: [15] opened from 127.0.0.1:55992
+Feb 05 09:20 : client: [15] closed
+Feb 05 09:23 : player: played "Electro Mix/Black Coffee - Drive (feat Delilah Montagu) - Edit.mp3"
+Feb 05 09:26 : player: played "Electro Mix/Bayu Sasranagara - Easy.mp3"
+Feb 05 09:29 : player: played "Electro Mix/Carta - Faking.mp3"
+Feb 05 09:33 : player: played "Electro Mix/Petruk - Lonely Alien.mp3"
+Feb 05 09:36 : player: played "Electro Mix/R3HAB - Freak - Joe Stone 2K18 Edit.mp3"
+Feb 05 09:40 : player: played "Electro Mix/Mawar De Jongh - Heartbeat.mp3"
+Feb 05 09:43 : player: played "Electro Mix/Dzeko - Heaven (feat Veronica).mp3"
+Feb 05 09:47 : player: played "Electro Mix/Ma_No - Higher.mp3"
+Feb 05 12:28 : player: played "Electro Mix/Why Dont We - Hooked - Borgeous Remix.mp3"
+Feb 05 12:32 : player: played "Electro Mix/GSTVoMXS - I Just Go.mp3"
+Feb 05 12:35 : player: played "Electro Mix/Rave Republic - In My City.mp3"
+Feb 05 12:39 : player: played "Electro Mix/Alexander Popov - Always Connected.mp3"
+Feb 05 12:41 : player: played "Electro Mix/Starjack - Klavier - Radio Mix.mp3"
+Feb 05 12:44 : player: played "Electro Mix/MMXJ - Light.mp3"
+Feb 05 12:48 : client: [16] opened from 127.0.0.1:32946
+Feb 05 12:48 : client: [16] closed
+Feb 05 12:48 : client: [17] opened from 127.0.0.1:32948
+Feb 05 12:48 : client: [17] closed
+Feb 05 12:48 : client: [18] opened from 127.0.0.1:32950
+Feb 05 12:48 : client: [18] closed
+Feb 05 12:48 : client: [19] opened from 127.0.0.1:32952
+Feb 05 12:48 : client: [19] closed
+Feb 05 12:48 : client: [20] opened from 127.0.0.1:32954
+Feb 05 12:48 : client: [20] closed
+Feb 05 12:48 : client: [21] opened from 127.0.0.1:32956
+Feb 05 12:48 : client: [21] closed
+Feb 05 12:48 : client: [22] opened from 127.0.0.1:32958
+Feb 05 12:48 : client: [22] closed
+Feb 05 12:48 : client: [23] opened from 127.0.0.1:32960
+Feb 05 12:48 : client: [23] closed
+Feb 05 12:48 : client: [24] opened from 127.0.0.1:32962
+Feb 05 12:48 : client: [24] closed
+Feb 05 12:50 : client: [5] closed
+Feb 05 12:50 : client: [25] opened from 127.0.0.1:33000
+Feb 05 12:51 : client: [25] closed
+Feb 05 12:51 : client: [26] opened from 127.0.0.1:33002
+Feb 05 12:52 : player: played "Electro Mix/Lindo Habie - Running to My Baby - Langit Biru Remix.mp3"
+Feb 05 12:56 : player: played "Electro Mix/David Guetta - Say My Name (feat Bebe Rexha  J Balvin) - Lucas  Steve Remix.mp3"
+Feb 05 12:58 : player: played "Electro Mix/Ummet Ozcan - Starchild.mp3"
+Feb 05 13:02 : player: played "Electro Mix/Borgeous - Sweeter Without You - Zack Martino Remix.mp3"
+Feb 05 13:05 : player: played "Electro Mix/Trouze - These Streets (feat Brandyn Burnette).mp3"
+Feb 05 13:09 : player: played "Electro Mix/Cristroxx - Those Days (feat Nathan Brumley) [Nobushi Remix].mp3"
+Feb 05 13:12 : player: played "Electro Mix/THEDETSTRIKE - Touch from Within.mp3"
+Feb 05 13:16 : player: played "Electro Mix/Vicetone - Walk Thru Fire.mp3"
+Feb 05 13:19 : player: played "Electro Mix/Steve Aoki - Waste It On Me (feat BTS).mp3"
+Feb 05 13:22 : player: played "Electro Mix/SHAUN - Way Back Home (feat Conor Maynard) - Sam Feldt Edit.mp3"
+Feb 05 13:25 : player: played "Electro Mix/Kris Kross Amsterdam - Whenever (feat Conor Maynard).mp3"
+Feb 05 13:28 : player: played "Electro Mix/bvd kult - Wild Eyes.mp3"
+Feb 05 13:30 : client: [27] opened from 127.0.0.1:33868
+Feb 05 13:30 : client: [27] closed
+Feb 05 14:34 : client: [28] opened from 127.0.0.1:34618
+Feb 05 14:34 : client: [28] closed
+Feb 05 14:36 : player: played "Electro Mix/DubVision - Yesterday.mp3"
+Feb 05 14:40 : player: played "Electro Mix/1st Impression - Your Story (Capture The Light).mp3"
+Feb 05 14:43 : client: [29] opened from 127.0.0.1:34734
+Feb 05 14:43 : client: [29] closed
+Feb 05 17:03 : client: [30] opened from 127.0.0.1:35688
+Feb 05 17:03 : client: [30] closed
+Feb 05 17:04 : player: played "Electro Mix/Eric Chou - Old Days.mp3"
+Feb 05 17:04 : client: [31] opened from 127.0.0.1:35754
+Feb 05 17:04 : client: [31] closed
+Feb 05 17:04 : client: [32] opened from 127.0.0.1:35756
+Feb 05 17:04 : client: [32] closed
+Feb 05 17:04 : client: [33] opened from 127.0.0.1:35758
+Feb 05 17:04 : client: [33] closed
+Feb 05 17:04 : client: [34] opened from 127.0.0.1:35760
+Feb 05 17:04 : client: [34] closed
+Feb 05 17:04 : client: [35] opened from 127.0.0.1:35762
+Feb 05 17:04 : client: [35] closed
+Feb 05 17:04 : client: [36] opened from 127.0.0.1:35764
+Feb 05 17:04 : client: [36] closed
+Feb 05 17:04 : client: [37] opened from [::1]:39100
+Feb 05 17:05 : player: played "Electro Mix/jfarr - Bandaid.mp3"
+Feb 05 17:07 : client: [38] opened from 127.0.0.1:35822
+Feb 05 17:07 : client: [38] closed
+Feb 05 20:57 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 03:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 03:01 : config: option 'device' on line 26 was not recognized
+Feb 06 03:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 03:01 : client: [0] opened from 127.0.0.1:33514
+Feb 06 03:05 : client: [1] opened from 127.0.0.1:33688
+Feb 06 03:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 03:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 03:05 : client: [1] closed
+Feb 06 03:07 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 03:11 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 03:14 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 03:19 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 03:22 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 03:26 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 03:30 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 03:34 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 03:38 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 03:42 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 03:46 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 03:48 : client: [2] opened from 127.0.0.1:34464
+Feb 06 03:48 : client: [2] closed
+Feb 06 04:32 : client: [3] opened from 127.0.0.1:34968
+Feb 06 04:32 : client: [3] closed
+Feb 06 04:34 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 04:38 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 04:42 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 04:46 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 04:50 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 04:53 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 04:57 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 05:01 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 05:05 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 05:09 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 05:13 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 05:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 05:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 05:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 05:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 05:32 : config: option 'device' on line 26 was not recognized
+Feb 06 05:32 : client: [0] opened from 127.0.0.1:46192
+Feb 06 05:36 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 05:40 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 05:44 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 05:48 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 05:51 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 05:55 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 05:59 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 06:03 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 06:07 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 06:11 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 06:11 : client: [1] opened from 127.0.0.1:47604
+Feb 06 06:11 : client: [1] closed
+Feb 06 06:37 : client: [2] opened from 127.0.0.1:47678
+Feb 06 06:37 : client: [2] closed
+Feb 06 06:41 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 06:45 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 06:48 : client: [3] opened from 127.0.0.1:47790
+Feb 06 06:48 : client: [3] closed
+Feb 06 07:02 : client: [4] opened from 127.0.0.1:48136
+Feb 06 07:02 : client: [4] closed
+Feb 06 07:02 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 07:02 : client: [5] opened from 127.0.0.1:48146
+Feb 06 07:02 : client: [5] closed
+Feb 06 07:02 : client: [6] opened from 127.0.0.1:48148
+Feb 06 07:02 : client: [6] closed
+Feb 06 07:06 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 07:10 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 07:14 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 07:15 : client: [7] opened from 127.0.0.1:48376
+Feb 06 07:15 : client: [7] closed
+Feb 06 10:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 10:18 : config: option 'device' on line 26 was not recognized
+Feb 06 10:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 10:18 : client: [0] opened from 127.0.0.1:45478
+Feb 06 10:19 : client: [1] opened from 127.0.0.1:45486
+Feb 06 10:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 10:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 10:19 : client: [1] closed
+Feb 06 10:21 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 10:25 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 10:29 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 10:33 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 10:37 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 10:37 : client: [2] opened from 127.0.0.1:46102
+Feb 06 10:37 : client: [2] closed
+Feb 06 11:00 : client: [3] opened from 127.0.0.1:47512
+Feb 06 11:00 : client: [3] closed
+Feb 06 11:03 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 11:07 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 11:11 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 11:15 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 11:18 : client: [4] opened from 127.0.0.1:48620
+Feb 06 11:18 : client: [4] closed
+Feb 06 11:32 : client: [5] opened from 127.0.0.1:48872
+Feb 06 11:32 : client: [5] closed
+Feb 06 11:33 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 11:37 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 11:41 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 11:44 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 11:48 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 11:51 : client: [6] opened from 127.0.0.1:49292
+Feb 06 11:51 : client: [6] closed
+Feb 06 12:03 : client: [7] opened from 127.0.0.1:49680
+Feb 06 12:03 : client: [7] closed
+Feb 06 12:04 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 12:08 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 12:10 : client: [8] opened from 127.0.0.1:49822
+Feb 06 12:10 : client: [8] closed
+Feb 06 12:46 : client: [9] opened from 127.0.0.1:51180
+Feb 06 12:46 : client: [9] closed
+Feb 06 12:48 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 12:52 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 12:56 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 12:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 12:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 12:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 12:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 12:59 : config: option 'device' on line 26 was not recognized
+Feb 06 12:59 : client: [0] opened from 127.0.0.1:50706
+Feb 06 13:03 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 13:07 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 13:11 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 13:14 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 06 13:18 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 14:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 14:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 14:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 14:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 06 14:10 : config: option 'device' on line 26 was not recognized
+Feb 06 14:10 : client: [0] opened from 127.0.0.1:42318
+Feb 06 14:10 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 06 14:14 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 06 14:18 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 06 14:19 : client: [1] opened from 127.0.0.1:42644
+Feb 06 14:19 : client: [1] closed
+Feb 06 15:47 : client: [2] opened from 127.0.0.1:44118
+Feb 06 15:47 : client: [2] closed
+Feb 06 15:47 : client: [3] opened from 127.0.0.1:44120
+Feb 06 15:47 : client: [3] closed
+Feb 06 18:17 : client: [4] opened from 127.0.0.1:45990
+Feb 06 18:17 : client: [4] closed
+Feb 06 18:17 : client: [5] opened from [::1]:43326
+Feb 06 18:17 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 06 18:19 : player: played "Peacefull Piano/Max Richter - A Catalogue Of Afternoons.mp3"
+Feb 06 18:21 : player: played "Peacefull Piano/Max Richter - A Lamenting Song.mp3"
+Feb 06 18:25 : player: played "Peacefull Piano/James Spiteri - Travelling.mp3"
+Feb 06 18:27 : player: played "Peacefull Piano/Piotr Miteska - A Prominent Response.mp3"
+Feb 06 18:32 : player: played "Peacefull Piano/Joep Beving - Ab Ovo.mp3"
+Feb 06 18:35 : player: played "Peacefull Piano/Max Swan - After The Rain.mp3"
+Feb 06 18:38 : player: played "Peacefull Piano/Rhiannon Bannenberg - Indias Lament.mp3"
+Feb 06 18:39 : player: played "Peacefull Piano/Rhiannon Bannenberg - For Stormboy.mp3"
+Feb 06 18:42 : player: played "Peacefull Piano/Yann Tiersen - Comptine dun autre été laprès-midi.mp3"
+Feb 06 18:44 : player: played "Peacefull Piano/Johannes Bornlöf - Streams.mp3"
+Feb 06 18:47 : player: played "Peacefull Piano/Johannes Bornlöf - Reminiscence.mp3"
+Feb 06 18:49 : player: played "Peacefull Piano/Johannes Bornlöf - Liberations (Scaled Down Version).mp3"
+Feb 06 18:51 : player: played "Peacefull Piano/Shaun Taylor McManus - Manga.mp3"
+Feb 06 18:53 : player: played "Peacefull Piano/Kyle McEvoy - Ashokan.mp3"
+Feb 06 18:56 : player: played "Peacefull Piano/Kasper Schill - Ava.mp3"
+Feb 06 18:59 : player: played "Peacefull Piano/Agnes Obel - Chord Left.mp3"
+Feb 06 19:00 : player: played "Peacefull Piano/Agnes Obel - Tokka.mp3"
+Feb 06 19:03 : player: played "Peacefull Piano/Otto Wahl - Awakening.mp3"
+Feb 06 19:06 : player: played "Peacefull Piano/Tonie Green - Away.mp3"
+Feb 06 19:08 : player: played "Peacefull Piano/Peter Sandberg - Synesthesia (Scaled Down Version).mp3"
+Feb 06 19:10 : player: played "Peacefull Piano/Peter Sandberg - Balm (Scaled Down Version).mp3"
+Feb 06 19:12 : player: played "Peacefull Piano/Lo Mimieux - Nightingale (Scaled Down Version).mp3"
+Feb 06 19:14 : player: played "Peacefull Piano/Peter Bradley Adams - Interlude For Piano.mp3"
+Feb 06 19:16 : client: [6] opened from 127.0.0.1:47040
+Feb 06 19:16 : client: [6] closed
+Feb 06 19:21 : client: [7] opened from 127.0.0.1:47080
+Feb 06 19:21 : client: [7] closed
+Feb 06 19:21 : client: [8] opened from 127.0.0.1:47082
+Feb 06 19:21 : client: [8] closed
+Feb 06 19:23 : player: played "Peacefull Piano/Dustin OHalloran - Summer Waltz  The Drive.mp3"
+Feb 06 19:26 : player: played "Peacefull Piano/Alexandra Streliski - Changing Winds.mp3"
+Feb 06 19:28 : client: [9] opened from 127.0.0.1:47144
+Feb 06 19:28 : client: [9] closed
+Feb 06 19:47 : client: [10] opened from 127.0.0.1:47430
+Feb 06 19:47 : client: [10] closed
+Feb 06 19:48 : player: played "Peacefull Piano/Charles Bolt - Far and Beyond.mp3"
+Feb 06 19:49 : player: played "Peacefull Piano/Charles Bolt - Deco.mp3"
+Feb 06 19:52 : player: played "Peacefull Piano/Once Proven - Purple Distant.mp3"
+Feb 06 19:54 : player: played "Peacefull Piano/Dmitry Evgrafov - Sway.mp3"
+Feb 06 19:56 : player: played "Peacefull Piano/Robert Haigh - Portrait with Shadow.mp3"
+Feb 06 19:59 : client: [11] opened from 127.0.0.1:47534
+Feb 06 19:59 : client: [11] closed
+Feb 06 20:29 : player: played "Peacefull Piano/Philip Wesley - The Approaching Night.mp3"
+Feb 07 02:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 02:58 : config: option 'device' on line 26 was not recognized
+Feb 07 02:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 02:58 : client: [0] opened from 127.0.0.1:57646
+Feb 07 02:59 : client: [1] opened from 127.0.0.1:57678
+Feb 07 02:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 02:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 02:59 : client: [1] closed
+Feb 07 03:03 : player: played "Peacefull Piano/Philip Wesley - The Approaching Night.mp3"
+Feb 07 03:05 : client: [2] opened from 127.0.0.1:57980
+Feb 07 03:05 : client: [2] closed
+Feb 07 03:14 : client: [3] opened from 127.0.0.1:58532
+Feb 07 03:14 : client: [3] closed
+Feb 07 03:14 : player: played "Peacefull Piano/Arden Forest - Coral Red.mp3"
+Feb 07 03:15 : client: [4] opened from 127.0.0.1:58562
+Feb 07 03:15 : client: [4] closed
+Feb 07 03:42 : client: [5] opened from 127.0.0.1:58868
+Feb 07 03:42 : client: [5] closed
+Feb 07 03:44 : player: played "Peacefull Piano/Arden Forest - African Violet.mp3"
+Feb 07 03:46 : player: played "Peacefull Piano/Peter Sandberg - Remove The Complexities.mp3"
+Feb 07 03:49 : player: played "Peacefull Piano/Max Swan - Downstreams.mp3"
+Feb 07 03:51 : player: played "Peacefull Piano/Gavin Luke - Delicate Transitions.mp3"
+Feb 07 03:53 : client: [6] opened from 127.0.0.1:59012
+Feb 07 03:53 : client: [6] closed
+Feb 07 04:27 : client: [7] opened from 127.0.0.1:59408
+Feb 07 04:27 : client: [7] closed
+Feb 07 04:29 : player: played "Peacefull Piano/Ludovico Einaudi - Elegy For The Arctic.mp3"
+Feb 07 04:31 : player: played "Peacefull Piano/Mélanie Laurent - Début.mp3"
+Feb 07 04:33 : player: played "Peacefull Piano/Mélanie Laurent - Fin.mp3"
+Feb 07 04:37 : player: played "Peacefull Piano/Enno Aare - Water Ripples.mp3"
+Feb 07 04:40 : player: played "Peacefull Piano/Nils Frahm - Ambre.mp3"
+Feb 07 04:43 : player: played "Peacefull Piano/Jean-Michel Blais - igloo - acoustique.mp3"
+Feb 07 04:46 : player: played "Peacefull Piano/Józef Gatysik - Evolutionistically Yours.mp3"
+Feb 07 04:50 : player: played "Peacefull Piano/Peter Broderick - Eyes Closed And Traveling.mp3"
+Feb 07 04:52 : player: played "Peacefull Piano/Aaron Lansing - Faded Dreams.mp3"
+Feb 07 04:54 : player: played "Peacefull Piano/Kylian Rebour - Fields.mp3"
+Feb 07 04:56 : player: played "Peacefull Piano/Adam Fincher - Forrester.mp3"
+Feb 07 04:59 : player: played "Peacefull Piano/Gabriel Parker - Fractions.mp3"
+Feb 07 05:01 : player: played "Peacefull Piano/Gabriel Parker - Intervention.mp3"
+Feb 07 05:04 : player: played "Peacefull Piano/Fabrizio Paterlini - Fragments found.mp3"
+Feb 07 05:06 : client: [8] opened from 127.0.0.1:59732
+Feb 07 05:06 : client: [8] closed
+Feb 07 05:08 : player: played "Peacefull Piano/Moux - Gaze.mp3"
+Feb 07 05:11 : player: played "Peacefull Piano/Moux - Chasing Stars.mp3"
+Feb 07 05:13 : player: played "Peacefull Piano/Sophie Hutchings - Grace.mp3"
+Feb 07 05:19 : player: played "Peacefull Piano/Philip Glass - Opening.mp3"
+Feb 07 05:20 : player: played "Peacefull Piano/Hugar - Inngangur.mp3"
+Feb 07 05:23 : player: played "Peacefull Piano/Daigo Hanada - Butterfly.mp3"
+Feb 07 05:25 : player: played "Peacefull Piano/Hior Chronik - In The Morning Ill Be With You.mp3"
+Feb 07 05:29 : player: played "Peacefull Piano/Ólafur Arnalds - Dalur.mp3"
+Feb 07 05:30 : player: played "Peacefull Piano/Dario Marianelli - A Game of Badminton.mp3"
+Feb 07 05:32 : player: played "Peacefull Piano/Karin Borg - Kebnekajse.mp3"
+Feb 07 05:35 : player: played "Peacefull Piano/Nils Frahm - Because This Must Be.mp3"
+Feb 07 05:38 : player: played "Peacefull Piano/Piano Novel - Enchantement.mp3"
+Feb 07 05:45 : player: played "Peacefull Piano/Wouter Dewit - La durée.mp3"
+Feb 07 05:47 : player: played "Peacefull Piano/Samuel Lindon - La Tour.mp3"
+Feb 07 05:51 : player: played "Peacefull Piano/James Heather - Last Minute Change Of Heart.mp3"
+Feb 07 05:55 : player: played "Peacefull Piano/Tomasz Kraal - Lava.mp3"
+Feb 07 05:58 : player: played "Peacefull Piano/Layla Frost - Solitude.mp3"
+Feb 07 06:00 : client: [9] opened from 127.0.0.1:32844
+Feb 07 06:00 : client: [9] closed
+Feb 07 09:09 : client: [10] opened from 127.0.0.1:34178
+Feb 07 09:09 : client: [10] closed
+Feb 07 09:10 : player: played "Peacefull Piano/Dimitri Stöckl - Leave Me.mp3"
+Feb 07 09:12 : client: [11] opened from 127.0.0.1:34212
+Feb 07 09:12 : client: [11] closed
+Feb 07 09:16 : player: played "Peacefull Piano/Slow Fade Sailors - Be Leave.mp3"
+Feb 07 09:21 : player: played "Peacefull Piano/Ludovico Einaudi - Le onde.mp3"
+Feb 07 09:25 : player: played "Peacefull Piano/Tomasz Kraal - Luna From Soyuz.mp3"
+Feb 07 09:27 : player: played "Peacefull Piano/Gavin Luke - Luster.mp3"
+Feb 07 09:30 : player: played "Peacefull Piano/Gavin Luke - Haze.mp3"
+Feb 07 09:33 : player: played "Peacefull Piano/Oskar Schuster - Maribel.mp3"
+Feb 07 10:58 : player: played "Peacefull Piano/Samuel Lindon - Meadow Mornings.mp3"
+Feb 07 11:01 : player: played "Peacefull Piano/Mia Strass - In Between.mp3"
+Feb 07 11:04 : player: played "Peacefull Piano/Aaron Lansing - Naive Spin.mp3"
+Feb 07 11:06 : player: played "Peacefull Piano/Johannes Bornlöf - Nocturnal Waltz.mp3"
+Feb 07 11:07 : player: played "Peacefull Piano/Karin Borg - Norrsken.mp3"
+Feb 07 11:09 : player: played "Peacefull Piano/Ozymandias - I Miss You.mp3"
+Feb 07 11:14 : player: played "Peacefull Piano/Jean-Michel Blais - Nostos.mp3"
+Feb 07 11:16 : player: played "Peacefull Piano/Adam Fincher - Pearly White.mp3"
+Feb 07 11:19 : player: played "Peacefull Piano/Dmitry Evgrafov - Anthem.mp3"
+Feb 07 11:21 : player: played "Peacefull Piano/Rebour - Mrs Smith.mp3"
+Feb 07 11:23 : player: played "Peacefull Piano/Sigimund - Emptiness.mp3"
+Feb 07 11:26 : player: played "Peacefull Piano/The Daydream Club - Improv 10 - One Last Thought.mp3"
+Feb 07 11:31 : player: played "Peacefull Piano/The Daydream Club - For the Lost Ones.mp3"
+Feb 07 11:34 : player: played "Peacefull Piano/Alexandra Streliski - Berceuse.mp3"
+Feb 07 14:40 : player: played "Peacefull Piano/Alexandra Streliski - Plus tôt.mp3"
+Feb 07 14:44 : player: played "Peacefull Piano/Joep Beving - The Gift.mp3"
+Feb 07 14:49 : player: played "Peacefull Piano/Joep Beving - Every Ending Is A New Beginning.mp3"
+Feb 07 14:54 : player: played "Peacefull Piano/Phildel - Qi.mp3"
+Feb 07 14:58 : player: played "Peacefull Piano/Evelyn Stein - Quiet Resource.mp3"
+Feb 07 15:00 : player: played "Peacefull Piano/Oneke - Rays of Hope.mp3"
+Feb 07 15:03 : player: played "Peacefull Piano/Chad Lawson - Tell Me a Story.mp3"
+Feb 07 15:06 : player: played "Peacefull Piano/Chad Lawson - I Should Be Sleeping.mp3"
+Feb 07 15:09 : player: played "Peacefull Piano/Mbo Mentho - Sea Mist.mp3"
+Feb 07 15:12 : player: played "Peacefull Piano/Bruno Bavota - La luce nel cuore.mp3"
+Feb 07 15:15 : player: played "Peacefull Piano/Una Luna - Send A Raven North.mp3"
+Feb 07 15:17 : player: played "Peacefull Piano/Leo Finka - Sentimental.mp3"
+Feb 07 15:24 : player: played "Peacefull Piano/Poppy Ackroyd - Time.mp3"
+Feb 07 15:25 : client: [12] opened from 127.0.0.1:37482
+Feb 07 15:25 : client: [12] closed
+Feb 07 16:13 : player: played "Peacefull Piano/Poppy Ackroyd - Strata.mp3"
+Feb 07 16:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 16:19 : config: option 'device' on line 26 was not recognized
+Feb 07 16:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 16:19 : client: [0] opened from 127.0.0.1:46150
+Feb 07 16:45 : client: [1] opened from [::1]:54596
+Feb 07 16:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 16:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 07 16:46 : player: played "Peacefull Piano/Poppy Ackroyd - Strata.mp3"
+Feb 07 16:48 : player: played "Peacefull Piano/Goldmund - Motion.mp3"
+Feb 07 16:57 : player: played "Peacefull Piano/Joep Beving - For Steven.mp3"
+Feb 07 16:58 : player: played "Peacefull Piano/Andy Gbormittah - Solo.mp3"
+Feb 07 17:03 : player: played "Peacefull Piano/Joep Beving - Sonderling.mp3"
+Feb 07 17:05 : player: played "Peacefull Piano/Charlie Key - Song for A.mp3"
+Feb 07 17:07 : client: [2] opened from 127.0.0.1:47150
+Feb 07 17:07 : client: [2] closed
+Feb 07 18:29 : client: [3] opened from 127.0.0.1:47798
+Feb 07 18:29 : client: [3] closed
+Feb 07 18:30 : player: played "Peacefull Piano/Charlie Key - Stairs and Steps.mp3"
+Feb 07 18:32 : client: [4] opened from 127.0.0.1:47876
+Feb 07 18:32 : client: [4] closed
+Feb 07 18:41 : client: [5] opened from 127.0.0.1:48032
+Feb 07 18:41 : client: [5] closed
+Feb 07 18:43 : player: played "Peacefull Piano/Novel - Songe (Debut).mp3"
+Feb 07 18:46 : player: played "Peacefull Piano/The Tides - Soul Searching.mp3"
+Feb 07 18:48 : player: played "Peacefull Piano/Black Elk - Intro.mp3"
+Feb 07 18:50 : client: [6] opened from 127.0.0.1:48126
+Feb 07 18:50 : client: [6] closed
+Feb 07 18:56 : client: [7] opened from 127.0.0.1:48184
+Feb 07 18:56 : client: [7] closed
+Feb 07 18:56 : player: played "Peacefull Piano/Piotr Miteska - Squares of life.mp3"
+Feb 07 19:01 : player: played "Peacefull Piano/Lambert - As Ballad.mp3"
+Feb 07 19:06 : player: played "Peacefull Piano/James Heather - MHope.mp3"
+Feb 07 19:08 : player: played "Peacefull Piano/Ana Olgica - Sugarcane.mp3"
+Feb 07 19:09 : player: played "Peacefull Piano/Half Moon Run - Throes.mp3"
+Feb 07 19:13 : player: played "Peacefull Piano/Benny Treskow - Sunday Stroll.mp3"
+Feb 07 19:18 : player: played "Peacefull Piano/Oscar Sundberg - Suvi.mp3"
+Feb 07 19:20 : player: played "Peacefull Piano/Max Richter - Lamentation For A Lost Life.mp3"
+Feb 07 19:24 : player: played "Peacefull Piano/Sophie Hutchings - Tail Lights.mp3"
+Feb 07 19:26 : player: played "Peacefull Piano/Bela Nemeth - Talisman Stallion.mp3"
+Feb 07 19:28 : player: played "Peacefull Piano/Samuel Lindon - Tallis One.mp3"
+Feb 07 19:30 : player: played "Peacefull Piano/Heinz Goldblatt - Tampa.mp3"
+Feb 07 19:35 : player: played "Peacefull Piano/Dirk Maassen - Saltare (Somewhere at the Baltic Sea).mp3"
+Feb 07 19:38 : player: played "Peacefull Piano/Dustin OHalloran - Home.mp3"
+Feb 07 19:39 : player: played "Peacefull Piano/Max Richter - Vladimirs Blues.mp3"
+Feb 07 19:42 : player: played "Peacefull Piano/Tedosio - The Book of Jen.mp3"
+Feb 07 19:43 : client: [8] opened from 127.0.0.1:48936
+Feb 07 19:43 : client: [8] closed
+Feb 07 19:49 : player: played "Peacefull Piano/Chad Lawson - The Broad Sun.mp3"
+Feb 07 19:52 : player: played "Peacefull Piano/Relajar - The Diary.mp3"
+Feb 07 19:53 : player: played "Peacefull Piano/Max Richter - Only Questions.mp3"
+Feb 07 19:55 : player: played "Peacefull Piano/Max Richter - Departure (Home).mp3"
+Feb 07 19:59 : player: played "Peacefull Piano/Max Richter - the end of all our exploring.mp3"
+Feb 07 20:03 : player: played "Peacefull Piano/Goldmund - Threnody.mp3"
+Feb 07 20:06 : player: played "Peacefull Piano/Koral Banko - The Nomad.mp3"
+Feb 07 20:12 : player: played "Peacefull Piano/Chad Lawson - Nocturne in a Minor.mp3"
+Feb 07 20:15 : player: played "Peacefull Piano/Alexis Ffrench - A Time of Wonder.mp3"
+Feb 07 20:18 : player: played "Peacefull Piano/Tomasz Kraal - The Swan.mp3"
+Feb 07 20:21 : player: played "Peacefull Piano/Sigimund - The Watchtower.mp3"
+Feb 07 20:24 : player: played "Peacefull Piano/Bela Nemeth - This Moment.mp3"
+Feb 07 20:26 : client: [9] opened from 127.0.0.1:49538
+Feb 07 20:26 : client: [9] closed
+Feb 07 20:58 : player: played "Peacefull Piano/Heinz Goldblatt - Traveling.mp3"
+Feb 08 00:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 00:36 : config: option 'device' on line 26 was not recognized
+Feb 08 00:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 00:36 : client: [0] opened from 127.0.0.1:33910
+Feb 08 01:09 : client: [1] opened from 127.0.0.1:34026
+Feb 08 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 01:09 : client: [1] closed
+Feb 08 01:10 : player: played "Peacefull Piano/Heinz Goldblatt - Traveling.mp3"
+Feb 08 01:13 : player: played "Peacefull Piano/Julius Aston - Trieste.mp3"
+Feb 08 01:19 : player: played "Peacefull Piano/Ludovico Einaudi - Nuvole bianche.mp3"
+Feb 08 01:22 : player: played "Peacefull Piano/Sam Eber - When All Else Fades.mp3"
+Feb 08 01:27 : player: played "Peacefull Piano/SYML - Wheres My Love - Piano Solo.mp3"
+Feb 08 03:37 : client: [2] opened from 127.0.0.1:40980
+Feb 08 03:37 : client: [2] closed
+Feb 08 03:37 : client: [3] opened from [::1]:40550
+Feb 08 03:38 : player: played "Peacefull Piano/Max Richter - A Catalogue Of Afternoons.mp3"
+Feb 08 03:40 : player: played "Electro Mix/jfarr - Bandaid.mp3"
+Feb 08 03:42 : client: [4] opened from 127.0.0.1:41066
+Feb 08 03:42 : client: [4] closed
+Feb 08 04:49 : client: [5] opened from 127.0.0.1:42420
+Feb 08 04:49 : client: [5] closed
+Feb 08 04:49 : client: [6] opened from 127.0.0.1:42422
+Feb 08 04:49 : client: [6] closed
+Feb 08 04:53 : player: played "Electro Mix/Hardwell - Being Alive.mp3"
+Feb 08 04:53 : client: [7] opened from 127.0.0.1:42466
+Feb 08 04:53 : client: [7] closed
+Feb 08 04:55 : client: [8] opened from 127.0.0.1:42512
+Feb 08 04:55 : client: [8] closed
+Feb 08 06:01 : client: [9] opened from 127.0.0.1:46716
+Feb 08 06:01 : client: [9] closed
+Feb 08 06:01 : client: [10] opened from 127.0.0.1:46726
+Feb 08 06:01 : client: [10] closed
+Feb 08 06:13 : client: [11] opened from 127.0.0.1:49280
+Feb 08 06:13 : client: [11] closed
+Feb 08 06:13 : client: [12] opened from 127.0.0.1:49318
+Feb 08 06:13 : client: [12] closed
+Feb 08 06:58 : client: [3] closed
+Feb 08 07:05 : client: [13] opened from 127.0.0.1:55200
+Feb 08 07:05 : client: [13] closed
+Feb 08 07:06 : player: played "Electro Mix/KSHMR - Carry Me Home (feat Jake Reese).mp3"
+Feb 08 07:06 : client: [14] opened from 127.0.0.1:55218
+Feb 08 07:06 : client: [14] closed
+Feb 08 07:06 : client: [15] opened from 127.0.0.1:55220
+Feb 08 07:06 : client: [15] closed
+Feb 08 07:06 : client: [16] opened from 127.0.0.1:55222
+Feb 08 07:06 : client: [16] closed
+Feb 08 07:06 : client: [17] opened from 127.0.0.1:55224
+Feb 08 07:06 : client: [17] closed
+Feb 08 07:09 : player: played "Electro Mix/Black Coffee - Drive (feat Delilah Montagu) - Edit.mp3"
+Feb 08 07:13 : player: played "Electro Mix/Bayu Sasranagara - Easy.mp3"
+Feb 08 07:15 : player: played "Electro Mix/Carta - Faking.mp3"
+Feb 08 07:19 : player: played "Electro Mix/Petruk - Lonely Alien.mp3"
+Feb 08 07:22 : player: played "Electro Mix/R3HAB - Freak - Joe Stone 2K18 Edit.mp3"
+Feb 08 07:26 : player: played "Electro Mix/Mawar De Jongh - Heartbeat.mp3"
+Feb 08 07:29 : player: played "Electro Mix/Dzeko - Heaven (feat Veronica).mp3"
+Feb 08 07:33 : player: played "Electro Mix/Ma_No - Higher.mp3"
+Feb 08 07:36 : player: played "Electro Mix/Why Dont We - Hooked - Borgeous Remix.mp3"
+Feb 08 07:40 : player: played "Electro Mix/GSTVoMXS - I Just Go.mp3"
+Feb 08 07:41 : client: [18] opened from 127.0.0.1:56492
+Feb 08 07:41 : client: [18] closed
+Feb 08 09:39 : client: [19] opened from 127.0.0.1:57668
+Feb 08 09:39 : client: [19] closed
+Feb 08 09:42 : player: played "Electro Mix/Rave Republic - In My City.mp3"
+Feb 08 09:44 : client: [20] opened from 127.0.0.1:57752
+Feb 08 09:44 : client: [20] closed
+Feb 08 09:59 : client: [21] opened from 127.0.0.1:57844
+Feb 08 09:59 : client: [21] closed
+Feb 08 10:01 : player: played "Electro Mix/Alexander Popov - Always Connected.mp3"
+Feb 08 10:01 : client: [22] opened from [::1]:57414
+Feb 08 10:03 : player: played "Electro Mix/Starjack - Klavier - Radio Mix.mp3"
+Feb 08 10:06 : player: played "Electro Mix/MMXJ - Light.mp3"
+Feb 08 10:08 : client: [23] opened from 127.0.0.1:57888
+Feb 08 10:08 : client: [23] closed
+Feb 08 10:10 : client: [24] opened from 127.0.0.1:57910
+Feb 08 10:10 : client: [24] closed
+Feb 08 10:12 : player: played "Electro Mix/GusKauil - Live (feat Soffia Suit).mp3"
+Feb 08 10:15 : player: played "Electro Mix/Bali Bandits - Lucky Chances (feat KSHMR).mp3"
+Feb 08 10:18 : player: played "Electro Mix/OMI - Masterpiece (with Felix Jaehn).mp3"
+Feb 08 10:21 : player: played "Electro Mix/RIRI - Maybe One Day (English version).mp3"
+Feb 08 10:24 : player: played "Electro Mix/Dr Joos - Meet Somebody Else.mp3"
+Feb 08 10:28 : player: played "Electro Mix/BATE - One I Love.mp3"
+Feb 08 10:31 : client: [25] opened from 127.0.0.1:58172
+Feb 08 10:31 : client: [25] closed
+Feb 08 13:02 : client: [26] opened from 127.0.0.1:58266
+Feb 08 13:02 : client: [26] closed
+Feb 08 13:03 : player: played "Electro Mix/STARLYTE - One Single Day.mp3"
+Feb 08 13:05 : player: played "Electro Mix/Party in Backyard - Rewind Time.mp3"
+Feb 08 13:08 : player: played "Electro Mix/Young Minahasa - Right Back to You.mp3"
+Feb 08 13:12 : client: [27] opened from 127.0.0.1:58410
+Feb 08 13:12 : client: [27] closed
+Feb 08 14:25 : client: [22] closed
+Feb 08 14:57 : client: [0] closed
+Feb 08 14:57 : client: [28] opened from 127.0.0.1:60454
+Feb 08 14:58 : client: [28] closed
+Feb 08 14:58 : client: [29] opened from 127.0.0.1:60456
+Feb 08 15:34 : client: [29] closed
+Feb 08 15:34 : client: [30] opened from 127.0.0.1:33018
+Feb 08 15:34 : client: [30] closed
+Feb 08 15:34 : client: [31] opened from 127.0.0.1:33022
+Feb 08 15:35 : client: [31] closed
+Feb 08 15:35 : client: [32] opened from 127.0.0.1:33024
+Feb 08 15:35 : client: [32] closed
+Feb 08 15:35 : client: [33] opened from 127.0.0.1:33052
+Feb 08 15:35 : client: [33] closed
+Feb 08 15:35 : client: [34] opened from 127.0.0.1:33054
+Feb 08 15:35 : client: [34] closed
+Feb 08 15:35 : client: [35] opened from 127.0.0.1:33056
+Feb 08 15:36 : client: [35] closed
+Feb 08 15:36 : client: [36] opened from 127.0.0.1:33058
+Feb 08 15:40 : client: [36] closed
+Feb 08 15:40 : client: [37] opened from 127.0.0.1:33070
+Feb 08 16:07 : player: played "Electro Mix/Lindo Habie - Running to My Baby - Langit Biru Remix.mp3"
+Feb 08 16:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 16:13 : config: option 'device' on line 26 was not recognized
+Feb 08 16:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 16:13 : client: [0] opened from 127.0.0.1:45538
+Feb 08 16:13 : client: [0] closed
+Feb 08 16:13 : client: [1] opened from 127.0.0.1:45632
+Feb 08 18:19 : client: [2] opened from 127.0.0.1:46962
+Feb 08 18:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 18:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 18:19 : client: [2] closed
+Feb 08 18:20 : player: played "Electro Mix/Lindo Habie - Running to My Baby - Langit Biru Remix.mp3"
+Feb 08 18:21 : client: [3] opened from 127.0.0.1:47044
+Feb 08 18:21 : client: [3] closed
+Feb 08 18:37 : client: [4] opened from 127.0.0.1:47164
+Feb 08 18:37 : client: [4] closed
+Feb 08 18:37 : client: [5] opened from 127.0.0.1:47166
+Feb 08 18:37 : client: [5] closed
+Feb 08 18:37 : client: [6] opened from 127.0.0.1:47168
+Feb 08 18:37 : client: [6] closed
+Feb 08 18:37 : client: [7] opened from 127.0.0.1:47170
+Feb 08 18:37 : client: [7] closed
+Feb 08 18:40 : client: [8] opened from 127.0.0.1:47322
+Feb 08 18:40 : client: [8] closed
+Feb 08 19:50 : client: [9] opened from 127.0.0.1:48294
+Feb 08 19:50 : client: [9] closed
+Feb 08 19:50 : player: played "Electro Mix/Trouze - These Streets (feat Brandyn Burnette).mp3"
+Feb 08 19:55 : player: played "Electro Mix/Cristroxx - Those Days (feat Nathan Brumley) [Nobushi Remix].mp3"
+Feb 08 19:58 : player: played "Electro Mix/THEDETSTRIKE - Touch from Within.mp3"
+Feb 08 20:01 : player: played "Electro Mix/Vicetone - Walk Thru Fire.mp3"
+Feb 08 20:04 : player: played "Electro Mix/Steve Aoki - Waste It On Me (feat BTS).mp3"
+Feb 08 20:08 : player: played "Electro Mix/SHAUN - Way Back Home (feat Conor Maynard) - Sam Feldt Edit.mp3"
+Feb 08 20:10 : player: played "Electro Mix/Kris Kross Amsterdam - Whenever (feat Conor Maynard).mp3"
+Feb 08 20:14 : player: played "Electro Mix/bvd kult - Wild Eyes.mp3"
+Feb 08 20:17 : player: played "Electro Mix/DubVision - Yesterday.mp3"
+Feb 08 20:18 : client: [10] opened from 127.0.0.1:48602
+Feb 08 20:18 : client: [10] closed
+Feb 08 21:06 : client: [11] opened from 127.0.0.1:49006
+Feb 08 21:06 : client: [11] closed
+Feb 08 21:09 : player: played "Electro Mix/1st Impression - Your Story (Capture The Light).mp3"
+Feb 08 21:11 : client: [12] opened from 127.0.0.1:49076
+Feb 08 21:11 : client: [12] closed
+Feb 08 21:11 : player: played "Electro Mix/Eric Chou - Old Days.mp3"
+Feb 09 02:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 02:47 : config: option 'device' on line 26 was not recognized
+Feb 09 02:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 02:47 : client: [0] opened from 127.0.0.1:51384
+Feb 09 02:49 : client: [1] opened from 127.0.0.1:51512
+Feb 09 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 02:49 : client: [1] closed
+Feb 09 02:50 : player: played "Electro Mix/Eric Chou - Old Days.mp3"
+Feb 09 02:52 : client: [2] opened from 127.0.0.1:51548
+Feb 09 02:52 : client: [2] closed
+Feb 09 02:55 : player: played "Electro Mix/jfarr - Bandaid.mp3"
+Feb 09 02:58 : player: played "Electro Mix/NOTD - Been There Done That (feat Tove Styrke).mp3"
+Feb 09 03:02 : player: played "Electro Mix/Hardwell - Being Alive.mp3"
+Feb 09 03:05 : player: played "Electro Mix/Suyano - Brothers In Arms.mp3"
+Feb 09 03:08 : player: played "Electro Mix/KSHMR - Carry Me Home (feat Jake Reese).mp3"
+Feb 09 03:08 : client: [3] opened from 127.0.0.1:55906
+Feb 09 03:08 : client: [3] closed
+Feb 09 03:12 : player: played "Electro Mix/PuFFcorn - Dont Give Up (feat Sebastian Hansson) - Original mix.mp3"
+Feb 09 03:15 : player: played "Electro Mix/Black Coffee - Drive (feat Delilah Montagu) - Edit.mp3"
+Feb 09 03:19 : player: played "Electro Mix/Bayu Sasranagara - Easy.mp3"
+Feb 09 03:21 : player: played "Electro Mix/Carta - Faking.mp3"
+Feb 09 03:25 : player: played "Electro Mix/Petruk - Lonely Alien.mp3"
+Feb 09 03:28 : player: played "Electro Mix/R3HAB - Freak - Joe Stone 2K18 Edit.mp3"
+Feb 09 03:32 : player: played "Electro Mix/Mawar De Jongh - Heartbeat.mp3"
+Feb 09 03:35 : player: played "Electro Mix/Dzeko - Heaven (feat Veronica).mp3"
+Feb 09 03:39 : player: played "Electro Mix/Ma_No - Higher.mp3"
+Feb 09 03:42 : player: played "Electro Mix/Why Dont We - Hooked - Borgeous Remix.mp3"
+Feb 09 03:47 : player: played "Electro Mix/GSTVoMXS - I Just Go.mp3"
+Feb 09 03:50 : player: played "Electro Mix/Rave Republic - In My City.mp3"
+Feb 09 03:53 : player: played "Electro Mix/Alexander Popov - Always Connected.mp3"
+Feb 09 03:56 : player: played "Electro Mix/Starjack - Klavier - Radio Mix.mp3"
+Feb 09 03:59 : player: played "Electro Mix/MMXJ - Light.mp3"
+Feb 09 04:02 : player: played "Electro Mix/GusKauil - Live (feat Soffia Suit).mp3"
+Feb 09 04:05 : player: played "Electro Mix/Bali Bandits - Lucky Chances (feat KSHMR).mp3"
+Feb 09 04:08 : player: played "Electro Mix/OMI - Masterpiece (with Felix Jaehn).mp3"
+Feb 09 04:11 : player: played "Electro Mix/RIRI - Maybe One Day (English version).mp3"
+Feb 09 04:15 : player: played "Electro Mix/Dr Joos - Meet Somebody Else.mp3"
+Feb 09 04:18 : player: played "Electro Mix/BATE - One I Love.mp3"
+Feb 09 04:22 : player: played "Electro Mix/STARLYTE - One Single Day.mp3"
+Feb 09 04:24 : player: played "Electro Mix/Party in Backyard - Rewind Time.mp3"
+Feb 09 04:28 : player: played "Electro Mix/Young Minahasa - Right Back to You.mp3"
+Feb 09 04:32 : player: played "Electro Mix/Lindo Habie - Running to My Baby - Langit Biru Remix.mp3"
+Feb 09 04:35 : player: played "Electro Mix/David Guetta - Say My Name (feat Bebe Rexha  J Balvin) - Lucas  Steve Remix.mp3"
+Feb 09 04:38 : player: played "Electro Mix/Ummet Ozcan - Starchild.mp3"
+Feb 09 04:41 : player: played "Electro Mix/Borgeous - Sweeter Without You - Zack Martino Remix.mp3"
+Feb 09 04:44 : player: played "Electro Mix/Trouze - These Streets (feat Brandyn Burnette).mp3"
+Feb 09 04:49 : player: played "Electro Mix/Cristroxx - Those Days (feat Nathan Brumley) [Nobushi Remix].mp3"
+Feb 09 04:52 : player: played "Electro Mix/THEDETSTRIKE - Touch from Within.mp3"
+Feb 09 04:55 : player: played "Electro Mix/Vicetone - Walk Thru Fire.mp3"
+Feb 09 04:58 : player: played "Electro Mix/Steve Aoki - Waste It On Me (feat BTS).mp3"
+Feb 09 05:01 : player: played "Electro Mix/SHAUN - Way Back Home (feat Conor Maynard) - Sam Feldt Edit.mp3"
+Feb 09 05:03 : client: [4] opened from 127.0.0.1:35336
+Feb 09 05:03 : client: [4] closed
+Feb 09 05:52 : client: [5] opened from 127.0.0.1:36002
+Feb 09 05:52 : client: [5] closed
+Feb 09 05:53 : player: played "Electro Mix/Kris Kross Amsterdam - Whenever (feat Conor Maynard).mp3"
+Feb 09 05:56 : player: played "Electro Mix/bvd kult - Wild Eyes.mp3"
+Feb 09 06:00 : player: played "Electro Mix/DubVision - Yesterday.mp3"
+Feb 09 06:04 : player: played "Electro Mix/1st Impression - Your Story (Capture The Light).mp3"
+Feb 09 06:07 : player: played "Electro Mix/Eric Chou - Old Days.mp3"
+Feb 09 08:18 : client: [6] opened from 127.0.0.1:38868
+Feb 09 08:18 : client: [6] closed
+Feb 09 08:18 : client: [7] opened from [::1]:46876
+Feb 09 08:18 : player: played "Electro Mix/Steve Aoki - Waste It On Me (feat BTS).mp3"
+Feb 09 08:19 : player: played "brainfoot/N KRAMER - A New Color.mp3"
+Feb 09 08:19 : client: [7] closed
+Feb 09 08:19 : client: [8] opened from [::1]:46878
+Feb 09 08:19 : player: played "Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3"
+Feb 09 08:22 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 09 08:26 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 09 08:30 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 09 08:32 : client: [9] opened from 127.0.0.1:38918
+Feb 09 08:32 : client: [9] closed
+Feb 09 08:58 : client: [10] opened from 127.0.0.1:39084
+Feb 09 08:58 : client: [10] closed
+Feb 09 09:00 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 09 12:40 : client: [11] opened from 127.0.0.1:41626
+Feb 09 12:40 : client: [11] closed
+Feb 09 12:44 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 09 12:48 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 09 12:51 : client: [12] opened from 127.0.0.1:41722
+Feb 09 12:51 : client: [12] closed
+Feb 09 13:24 : client: [13] opened from 127.0.0.1:42018
+Feb 09 13:24 : client: [13] closed
+Feb 09 13:24 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 09 13:28 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 09 13:32 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 09 13:35 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 09 13:39 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 09 13:43 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 09 13:46 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 09 13:50 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 09 13:51 : client: [14] opened from 127.0.0.1:42252
+Feb 09 13:51 : client: [14] closed
+Feb 09 14:25 : client: [15] opened from 127.0.0.1:42788
+Feb 09 14:25 : client: [15] closed
+Feb 09 14:27 : player: played "Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3"
+Feb 09 14:29 : client: [16] opened from 127.0.0.1:42798
+Feb 09 14:29 : client: [16] closed
+Feb 09 14:37 : client: [17] opened from 127.0.0.1:42888
+Feb 09 14:37 : client: [17] closed
+Feb 09 14:37 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 09 14:40 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 09 14:44 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 09 14:45 : client: [18] opened from 127.0.0.1:42954
+Feb 09 14:45 : client: [18] closed
+Feb 09 15:15 : client: [19] opened from 127.0.0.1:43248
+Feb 09 15:15 : client: [19] closed
+Feb 09 15:17 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 09 15:17 : client: [8] closed
+Feb 09 15:19 : client: [20] opened from 127.0.0.1:43280
+Feb 09 15:19 : client: [20] closed
+Feb 09 15:52 : client: [21] opened from 127.0.0.1:43738
+Feb 09 15:52 : client: [21] closed
+Feb 09 15:55 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 09 16:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 16:08 : config: option 'device' on line 26 was not recognized
+Feb 09 16:08 : client: [0] opened from 127.0.0.1:42606
+Feb 09 16:57 : client: [1] opened from [::1]:46442
+Feb 09 16:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 16:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 16:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 17:02 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 09 17:05 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 09 17:09 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 09 17:13 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 09 17:16 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 09 17:20 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 09 17:24 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 09 17:27 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 09 17:30 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 09 17:34 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 09 17:38 : player: played "Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3"
+Feb 09 17:41 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 09 17:44 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 09 17:48 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 09 17:51 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 09 18:14 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 09 18:21 : client: [2] opened from 127.0.0.1:45096
+Feb 09 18:21 : client: [2] closed
+Feb 09 18:25 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 09 18:28 : client: [3] opened from 127.0.0.1:45202
+Feb 09 18:28 : client: [3] closed
+Feb 09 18:49 : client: [4] opened from 127.0.0.1:45626
+Feb 09 18:49 : client: [4] closed
+Feb 09 18:50 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 09 18:54 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 09 18:58 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 09 18:59 : client: [5] opened from 127.0.0.1:47906
+Feb 09 18:59 : client: [5] closed
+Feb 09 19:17 : client: [6] opened from 127.0.0.1:51910
+Feb 09 19:17 : client: [6] closed
+Feb 09 19:17 : client: [7] opened from 127.0.0.1:51944
+Feb 09 19:17 : client: [7] closed
+Feb 09 19:28 : client: [8] opened from 127.0.0.1:54470
+Feb 09 19:28 : client: [8] closed
+Feb 09 19:28 : client: [9] opened from 127.0.0.1:54500
+Feb 09 19:28 : client: [9] closed
+Feb 09 20:31 : client: [10] opened from 127.0.0.1:56818
+Feb 09 20:31 : client: [10] closed
+Feb 09 20:35 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 09 20:38 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 09 20:42 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 09 20:46 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 09 20:49 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 09 20:52 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 09 20:56 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 10 02:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:47 : config: option 'device' on line 26 was not recognized
+Feb 10 02:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:47 : client: [0] opened from 127.0.0.1:47398
+Feb 10 02:48 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 10 02:49 : client: [1] opened from 127.0.0.1:47400
+Feb 10 02:49 : client: [1] closed
+Feb 10 02:53 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 10 02:56 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 10 02:59 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 10 03:03 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 10 03:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"

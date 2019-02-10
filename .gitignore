@@ -1,3 +1,5 @@
 copier.sh
 *.log
 *.pid
+__pycache__
+.config/rofi-tools

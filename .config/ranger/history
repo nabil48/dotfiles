@@ -1,6 +1,50 @@
-open_with 
+cd /mnt/Data/
+shell rsync %S %D
+cd /mnt/Data/Anime/
+shell cd ~/.config/ranger
+set show_hidden true
+shell aria2c https://raw.githubusercontent.com/alex8866/eranger/master/ranger/config/plugins/plugin_direcory_diff.py
+nvim %s
+shell nvim 
+shell nvim $S
+shell nvim %S
+set show_hidden flase
+set show_hidden false
+shell lsblk 
+set cd_tab_case
+feh %S
+save_copy_buffer 
+shell feh %S
+;+
+rename Learn Python the Hard Way.pdf
+c
+search data
+mkdir special
+rename 
 delete
-help
-shell nvim a.html
+rename favicon.ico
+shell aria2c --header 'Host: s02.solidfilesusercontent.com' --user-agent 'Mozilla/5.0 (X11; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0' --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' --header 'Accept-Language: en-US,en;q=0.5' --header 'DNT: 1' --header 'Upgrade-Insecure-Requests: 1' 'https://s02.solidfilesusercontent.com/OTgwNTEyZDRmMWMzNjhiY2I2OGUwNzFjZTQ2YTVkZTBkY2Y0MzI1ZToxZ3JHTm46MWJvbTlTeUR3XzFmcEFuMDUwd2dJUWhBcnM4/wZ4ANPZg3d3gv/%5BDondake%5D_Motto_To_Love_Ru_BD_-_09_720p_MegumiNime.mkv' --out '%5BDondake%5D_Motto_To_Love_Ru_BD_-_09_720p_MegumiNime.mkv' -x 16
+mkdir /tmp/mouunt
+shell fuseiso %S /tmp/mouunt
+cd /tmp/mouunt/
+rename [OVA] Nanatsu no Taizai Seisen no Shirushi 01.mkv
+mkdir /tmp/mount
+search mk
+search 
+shell fuseiso %S /tmp/mount
+shell h
+cd /tmp/mount/
+search black
+open_with 
+cd /run/media/nabil/
+search phone
+open_with gnome-disk-image-mounter
+cd  
+cd /run/media/
+shell xpdf %S
+shell gnome-disk-image-mounter %S
+cd /run/media/nabil
+shell 
+t
+cd 
 
-open_with 0

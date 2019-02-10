@@ -20,15 +20,6 @@ ff02::2 ip6-allrouters
 151.101.65.140      a.thumbs.redditmedia.com
 151.101.1.140       redditgifts.com
 151.101.1.140       i.redd.it
-151.101.1.140       old.reddit.com
-151.101.1.140       new.reddit.com
-151.101.129.140     reddit.com
-151.101.129.140     gateway.reddit.com
-151.101.129.140     oauth.reddit.com
-151.101.129.140     sendbird.reddit.com
-151.101.129.140     v.redd.it
-151.101.1.140       b.thumbs.redditmedia.com
-151.101.1.140       events.reddit.com
 54.210.123.98       stats.redditmedia.com
 151.101.65.140      www.redditstatic.com
 151.101.193.140     www.reddit.com
@@ -63,7 +54,6 @@ ff02::2 ip6-allrouters
 # ADB BLOCK
 # ---------------------------------------------------
 127.0.0.1   ads.indosatooredoo.com
-127.0.0.1   pagead2.googlesyndication.com
 127.0.0.1   a-ads.com
 127.0.0.1   ad.a-ads.com
 127.0.0.1   adv0.a-ads.com
@@ -79,3 +69,9 @@ ff02::2 ip6-allrouters
 127.0.0.1   servicer.mgid.com
 127.0.0.1   go.ecotrackings.com
 127.0.0.1   player.ivideosmart.com
+127.0.0.1   pagead2.googlesyndication.com
+127.0.0.1   pubads.g.doubleclick.net
+127.0.0.1   www.googleadservices.com
+127.0.0.1   ade.googlesyndication.com
+127.0.0.1   googleads.g.doubleclick.net
+127.0.0.1   tpc.googlesyndication.com

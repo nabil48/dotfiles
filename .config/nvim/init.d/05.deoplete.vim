@@ -54,7 +54,9 @@ let g:deoplete#sources#ternjs#filetypes = [
             \ ]
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" emoji
+" LanguageClient
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" call deoplete#custom#source('emoji', 'filetypes', ['markdown'])
+" call deoplete#custom#source('LanguageClient',
+"             \ 'min_pattern_length',
+"             \ 2)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

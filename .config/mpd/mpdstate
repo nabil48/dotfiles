@@ -2,9 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 audio_device_state:1:glava_fifo
-state: pause
-current: 1
-time: 134.959000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -13,18 +11,20 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Yellow Claw/New Blood/Yellow Claw - Lost on You.mp3
-1:Yellow Claw/New Blood/Yellow Claw - Summertime.mp3
-2:Yellow Claw/New Blood/Yellow Claw - Both of Us.mp3
-3:Yellow Claw/New Blood/Valentina - Villain.mp3
-4:Yellow Claw/New Blood/Yellow Claw - Crash This Party.mp3
-5:Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3
-6:Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3
-7:Yellow Claw/New Blood/Yellow Claw - Attention.mp3
-8:Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3
-9:Yellow Claw/New Blood/Yellow Claw - To the Max.mp3
-10:Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3
-11:Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3
-12:Yellow Claw/New Blood/Yellow Claw - Waiting.mp3
-13:Yellow Claw/New Blood/Yellow Claw - Another Life.mp3
+0:Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3
+1:Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3
+2:Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3
+3:Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3
+4:Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3
+5:Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3
+6:Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3
+7:Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3
+8:Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3
+9:Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3
+10:Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3
+11:Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3
+12:Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3
+13:Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3
+14:Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3
+15:Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3
 playlist_end

@@ -1,11 +1,14 @@
 " lsp configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" call LanguageClient#textDocument_definition({'gotoCmd': 'split'})
+
 " set completefunc=LanguageClient#complete
 " set formatexpr=LanguageClient#textDocument_rangeFormatting_sync()
 
 " let g:LanguageClient_autoStop = 1
 " let g:LanguageClient_diagnosticsEnable = 1
 " let g:LanguageClient_hoverPreview = 'Never'
+" let g:LanguageClient_useVirtualText = 0
 " " let g:LanguageClient_loggingFile = '/tmp/LanguageClient.log'
 " " let g:LanguageClient_loggingLevel = 'INFO'
 " let g:LanguageClient_serverStderr = '/tmp/LanguageServer.log'
