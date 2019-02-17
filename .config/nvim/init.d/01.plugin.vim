@@ -58,7 +58,6 @@ Plug 'cakebaker/scss-syntax.vim'  " Scss Support
 Plug 'mattn/emmet-vim'
 
 " JavaScript
-" Plug 'wokalski/autocomplete-flow'
 Plug 'carlitux/deoplete-ternjs'
 
 " Markdown
@@ -85,6 +84,9 @@ Plug 'morhetz/gruvbox'
 " Icon
 Plug 'ryanoasis/vim-devicons'
 
+" emoji
+" Plug 'fszymanski/deoplete-emoji'
+" Plug 'junegunn/vim-emoji'
 " Initialize plugin system
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

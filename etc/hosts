@@ -5,13 +5,6 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # ---------------------------------------------------
-# Sublime text 3
-# ---------------------------------------------------
-#127.0.0.1  www.sublimetext.com
-127.0.0.1   license.sublimehq.com
-# ---------------------------------------------------
-
-# ---------------------------------------------------
 # Reddit
 # ---------------------------------------------------
 151.101.129.140     i.redditmedia.com
@@ -53,25 +46,26 @@ ff02::2 ip6-allrouters
 # ---------------------------------------------------
 # ADB BLOCK
 # ---------------------------------------------------
-127.0.0.1   ads.indosatooredoo.com
 127.0.0.1   a-ads.com
 127.0.0.1   ad.a-ads.com
-127.0.0.1   adv0.a-ads.com
-127.0.0.1   coinzilla.io
-127.0.0.1   cdn.coinzilla.io
-127.0.0.1   mellowads.com
-127.0.0.1   coinad.com
 127.0.0.1   ad.bitmedia.io
-127.0.0.1   aoredi.com
-127.0.0.1   track.iafov.com
-127.0.0.1   cm.mgid.com
-127.0.0.1   wnp.com
-127.0.0.1   servicer.mgid.com
-127.0.0.1   go.ecotrackings.com
-127.0.0.1   player.ivideosmart.com
-127.0.0.1   pagead2.googlesyndication.com
-127.0.0.1   pubads.g.doubleclick.net
-127.0.0.1   www.googleadservices.com
 127.0.0.1   ade.googlesyndication.com
+127.0.0.1   ads.indosatooredoo.com
+127.0.0.1   adv0.a-ads.com
+127.0.0.1   aoredi.com
+127.0.0.1   cdn.coinzilla.io
+127.0.0.1   cm.mgid.com
+127.0.0.1   coinad.com
+127.0.0.1   coinzilla.io
+127.0.0.1   go.ecotrackings.com
 127.0.0.1   googleads.g.doubleclick.net
+127.0.0.1   mellowads.com
+127.0.0.1   p01.notifa.info
+127.0.0.1   pagead2.googlesyndication.com
+127.0.0.1   player.ivideosmart.com
+127.0.0.1   pubads.g.doubleclick.net
+127.0.0.1   servicer.mgid.com
 127.0.0.1   tpc.googlesyndication.com
+127.0.0.1   track.iafov.com
+127.0.0.1   wnp.com
+127.0.0.1   www.googleadservices.com

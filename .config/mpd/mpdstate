@@ -2,7 +2,9 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 audio_device_state:1:glava_fifo
-state: stop
+state: pause
+current: 1
+time: 132.056000
 random: 0
 repeat: 0
 single: 0
@@ -11,20 +13,10 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3
-1:Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3
-2:Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3
-3:Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3
-4:Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3
-5:Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3
-6:Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3
-7:Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3
-8:Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3
-9:Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3
-10:Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3
-11:Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3
-12:Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3
-13:Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3
-14:Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3
-15:Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3
+0:The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3
+1:The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3
+2:The Chainsmokers/The Chainsmokers - You Owe Me.mp3
+3:The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3
+4:The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3
+5:Tommee Profitt - In the End.mp3
 playlist_end

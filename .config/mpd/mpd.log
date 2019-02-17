@@ -44029,3 +44029,588 @@ Feb 10 02:56 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours
 Feb 10 02:59 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
 Feb 10 03:03 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
 Feb 10 03:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 10 05:52 : client: [2] opened from 127.0.0.1:52516
+Feb 10 05:52 : client: [2] closed
+Feb 10 05:56 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 10 05:59 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 10 06:03 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 10 06:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 10 06:09 : client: [3] opened from 127.0.0.1:53300
+Feb 10 06:09 : client: [3] closed
+Feb 10 06:30 : client: [4] opened from 127.0.0.1:53496
+Feb 10 06:30 : client: [4] closed
+Feb 10 06:31 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 10 06:35 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 10 06:38 : client: [5] opened from 127.0.0.1:53548
+Feb 10 06:38 : client: [5] closed
+Feb 10 11:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 10 11:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 11:10 : config: option 'device' on line 26 was not recognized
+Feb 10 11:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 11:10 : client: [0] opened from 127.0.0.1:33602
+Feb 10 11:23 : client: [1] opened from 127.0.0.1:34454
+Feb 10 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 11:23 : client: [1] closed
+Feb 10 11:24 : client: [2] opened from 127.0.0.1:34456
+Feb 10 11:24 : client: [2] closed
+Feb 10 11:27 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 10 13:36 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 10 13:39 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 10 13:43 : player: played "Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3"
+Feb 10 13:46 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 10 13:49 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 10 13:53 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 10 13:57 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 10 14:01 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 10 14:13 : client: [3] opened from 127.0.0.1:35706
+Feb 10 14:13 : client: [3] closed
+Feb 10 14:16 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 10 14:17 : client: [4] opened from 127.0.0.1:35836
+Feb 10 14:17 : client: [4] closed
+Feb 10 15:03 : client: [5] opened from 127.0.0.1:36806
+Feb 10 15:03 : client: [5] closed
+Feb 10 15:05 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 10 15:09 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 10 15:13 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 10 15:16 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 10 15:20 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 10 15:24 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 10 15:25 : client: [6] opened from 127.0.0.1:37250
+Feb 10 15:25 : client: [6] closed
+Feb 10 16:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 16:16 : config: option 'device' on line 26 was not recognized
+Feb 10 16:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 16:16 : client: [0] opened from 127.0.0.1:53844
+Feb 10 18:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 18:33 : config: option 'device' on line 26 was not recognized
+Feb 10 18:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 18:33 : client: [0] opened from 127.0.0.1:51090
+Feb 10 20:30 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 11 02:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 02:46 : config: option 'device' on line 26 was not recognized
+Feb 11 02:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 02:46 : client: [0] opened from 127.0.0.1:50828
+Feb 11 02:48 : client: [1] opened from [::1]:58282
+Feb 11 02:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 02:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 02:50 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 11 02:54 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 11 02:57 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 11 03:01 : player: played "Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3"
+Feb 11 03:04 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 11 03:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 11 03:11 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 11 03:15 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 11 03:19 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 11 04:11 : client: [2] opened from 127.0.0.1:52016
+Feb 11 04:11 : client: [2] closed
+Feb 11 04:14 : player: played "Clean Bandit/What Is Love/Clean Bandit - Symphony (feat Zara Larsson).mp3"
+Feb 11 04:18 : player: played "Clean Bandit/What Is Love/Clean Bandit - Baby (feat Marina and The Diamonds  Luis Fonsi).mp3"
+Feb 11 04:22 : player: played "Clean Bandit/What Is Love/Clean Bandit - Solo (feat Demi Lovato).mp3"
+Feb 11 04:26 : player: played "Clean Bandit/What Is Love/Clean Bandit - Rockabye (feat Sean Paul  Anne-Marie).mp3"
+Feb 11 04:27 : client: [3] opened from 127.0.0.1:52540
+Feb 11 04:27 : client: [3] closed
+Feb 11 05:07 : client: [4] opened from 127.0.0.1:52924
+Feb 11 05:07 : client: [4] closed
+Feb 11 05:09 : player: played "Clean Bandit/What Is Love/Clean Bandit - Mama (feat Ellie Goulding).mp3"
+Feb 11 05:12 : client: [5] opened from 127.0.0.1:52984
+Feb 11 05:12 : client: [5] closed
+Feb 11 05:59 : client: [0] closed
+Feb 11 05:59 : client: [6] opened from 127.0.0.1:57292
+Feb 11 06:07 : player: played "Clean Bandit/What Is Love/Clean Bandit - Shouldve Known Better (feat Anne-Marie).mp3"
+Feb 11 06:11 : player: played "Clean Bandit/What Is Love/Clean Bandit - Out at Night (feat KYLE  Big Boi).mp3"
+Feb 11 06:14 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 11 06:18 : player: played "Clean Bandit/What Is Love/Clean Bandit - We Were Just Kids (feat Craig David  Kirsten Joy).mp3"
+Feb 11 06:22 : player: played "Clean Bandit/What Is Love/Clean Bandit - Nowhere (feat Rita Ora  KYLE).mp3"
+Feb 11 06:25 : player: played "Clean Bandit/What Is Love/Clean Bandit - I Miss You (feat Julia Michaels).mp3"
+Feb 11 06:29 : player: played "Clean Bandit/What Is Love/Clean Bandit - In Us I Believe (feat ALMA).mp3"
+Feb 11 06:32 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 11 06:35 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 11 06:39 : player: played "Clean Bandit/What Is Love/Clean Bandit - Beautiful (feat DaVido  Love Ssega).mp3"
+Feb 11 06:43 : player: played "Clean Bandit/What Is Love/Clean Bandit - Tears (feat Louisa Johnson).mp3"
+Feb 11 08:49 : client: [7] opened from 127.0.0.1:59212
+Feb 11 08:49 : client: [7] closed
+Feb 11 08:49 : client: [8] opened from 127.0.0.1:59222
+Feb 11 08:49 : client: [8] closed
+Feb 11 08:49 : client: [9] opened from 127.0.0.1:59224
+Feb 11 08:49 : client: [9] closed
+Feb 11 08:49 : client: [10] opened from 127.0.0.1:59228
+Feb 11 08:49 : client: [10] closed
+Feb 11 08:49 : client: [11] opened from 127.0.0.1:59230
+Feb 11 08:49 : client: [11] closed
+Feb 11 08:49 : client: [12] opened from 127.0.0.1:59232
+Feb 11 08:49 : client: [12] closed
+Feb 11 08:49 : client: [13] opened from 127.0.0.1:59234
+Feb 11 08:49 : client: [13] closed
+Feb 11 08:49 : client: [14] opened from 127.0.0.1:59246
+Feb 11 08:49 : client: [14] closed
+Feb 11 08:49 : player: played "Clean Bandit/What Is Love/Clean Bandit - Last Goodbye (feat Tove Styrke  Stefflon Don).mp3"
+Feb 11 08:49 : player: played "Different Heaven/Different Heaven - Far Away (Phantom Sage Remix) [NCS Release].mp3"
+Feb 11 08:53 : client: [15] opened from 127.0.0.1:59292
+Feb 11 08:53 : client: [15] closed
+Feb 11 09:42 : player: played "JPOP/BLINDING SUNRISE - Black Rover (Vickeblanka_ビッケブランカ Cover).mp3"
+Feb 11 09:47 : player: played "JPOP/Inkya Impulse (インキャインパルス) Ikepy & KSKN.mp3"
+Feb 11 09:54 : player: played "JPOP/kalafina/Kalafina - Hikari No Senritsu.mp3"
+Feb 11 09:59 : player: played "JPOP/kalafina/Kalafina - Hikariful.mp3"
+Feb 11 10:03 : player: played "JPOP/kalafina/Kalafina - To the Beginning.mp3"
+Feb 11 10:07 : player: played "JPOP/luna haruna/Luna Haruna - Ai Wo Utae.mp3"
+Feb 11 10:12 : client: [16] opened from 127.0.0.1:60032
+Feb 11 10:12 : client: [16] closed
+Feb 11 10:46 : client: [17] opened from 127.0.0.1:33154
+Feb 11 10:46 : client: [17] closed
+Feb 11 10:47 : player: played "JPOP/luna haruna/Luna Haruna - Kimi ga Kureta Sekai.mp3"
+Feb 11 10:51 : player: played "JPOP/luna haruna/Luna Haruna - Kimiiro Signal.mp3"
+Feb 11 10:55 : client: [1] closed
+Feb 11 10:55 : client: [18] opened from [::1]:40782
+Feb 11 10:55 : player: played "JPOP/luna haruna/Luna Haruna - Kirameki Lifeline.mp3"
+Feb 11 11:00 : player: played "JPOP/luna haruna/Luna Haruna - Overfly.mp3"
+Feb 11 11:05 : player: played "JPOP/luna haruna/Luna Haruna - snowdrop.mp3"
+Feb 11 11:09 : player: played "JPOP/luna haruna/Luna Haruna - Sora wa takaku kaze wa utau.mp3"
+Feb 11 11:14 : player: played "JPOP/luna haruna/Luna Haruna - Sweet Fantasy.mp3"
+Feb 11 11:18 : client: [19] opened from 127.0.0.1:33778
+Feb 11 11:18 : client: [19] closed
+Feb 11 11:46 : player: played "JPOP/luna haruna/Luna Haruna - Windia.mp3"
+Feb 11 11:50 : player: played "Yellow Claw/New Blood/Yellow Claw - Public Enemy.mp3"
+Feb 11 11:53 : player: played "Yellow Claw/New Blood/Yellow Claw - Fake Chanel.mp3"
+Feb 11 11:57 : player: played "Yellow Claw/New Blood/Yellow Claw - Attention.mp3"
+Feb 11 12:00 : player: played "Yellow Claw/New Blood/Yellow Claw - Bittersweet.mp3"
+Feb 11 12:01 : client: [20] opened from 127.0.0.1:34684
+Feb 11 12:01 : client: [20] closed
+Feb 11 12:18 : client: [21] opened from 127.0.0.1:34846
+Feb 11 12:18 : client: [21] closed
+Feb 11 12:20 : client: [22] opened from 127.0.0.1:34862
+Feb 11 12:20 : client: [22] closed
+Feb 11 15:12 : player: played "Yellow Claw/New Blood/Yellow Claw - To the Max.mp3"
+Feb 11 15:16 : player: played "Yellow Claw/New Blood/Yellow Claw - Down on Love.mp3"
+Feb 11 15:18 : player: played "Yellow Claw/New Blood/Yellow Claw - Ill Be Fine.mp3"
+Feb 11 15:21 : player: played "Yellow Claw/New Blood/Yellow Claw - Waiting.mp3"
+Feb 11 15:24 : player: played "Yellow Claw/New Blood/Yellow Claw - Another Life.mp3"
+Feb 11 20:07 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 11 20:40 : client: [18] closed
+Feb 11 20:41 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 11 21:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 21:03 : config: option 'device' on line 26 was not recognized
+Feb 11 21:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 11 21:03 : client: [0] opened from 127.0.0.1:49054
+Feb 11 21:31 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 02:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 02:47 : config: option 'device' on line 26 was not recognized
+Feb 12 02:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 02:47 : client: [0] opened from 127.0.0.1:39112
+Feb 12 02:49 : client: [1] opened from [::1]:43174
+Feb 12 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 02:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 02:52 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 03:00 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 12 03:02 : client: [2] opened from 127.0.0.1:39662
+Feb 12 03:02 : client: [2] closed
+Feb 12 05:46 : client: [3] opened from 127.0.0.1:42310
+Feb 12 05:46 : client: [3] closed
+Feb 12 05:46 : client: [4] opened from 127.0.0.1:42312
+Feb 12 05:46 : client: [4] closed
+Feb 12 06:10 : client: [5] opened from 127.0.0.1:42626
+Feb 12 06:10 : client: [5] closed
+Feb 12 06:10 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 07:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 07:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 07:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 07:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 12 07:26 : config: option 'device' on line 26 was not recognized
+Feb 12 07:26 : client: [0] opened from 127.0.0.1:54848
+Feb 12 07:28 : client: [1] opened from 127.0.0.1:54850
+Feb 12 07:28 : client: [1] closed
+Feb 12 08:25 : client: [2] opened from 127.0.0.1:55172
+Feb 12 08:25 : client: [2] closed
+Feb 12 08:26 : client: [3] opened from 127.0.0.1:55174
+Feb 12 08:26 : client: [3] closed
+Feb 12 13:04 : client: [4] opened from [::1]:37182
+Feb 12 14:25 : client: [5] opened from 127.0.0.1:56196
+Feb 12 14:25 : client: [5] closed
+Feb 12 14:29 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 12 14:32 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 14:34 : client: [6] opened from 127.0.0.1:56254
+Feb 12 14:34 : client: [6] closed
+Feb 12 14:38 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 12 14:41 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 15:10 : client: [7] opened from 127.0.0.1:56582
+Feb 12 15:10 : client: [7] closed
+Feb 12 15:13 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 12 15:16 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 12 15:54 : client: [4] closed
+Feb 12 15:58 : player: played "Kygo/Kygo - Never Let You Go (Audio) ft. John Newman-k3bQnX_sIXk.mp3"
+Feb 12 15:59 : client: [8] opened from 127.0.0.1:57086
+Feb 12 15:59 : client: [8] closed
+Feb 12 17:39 : client: [9] opened from 127.0.0.1:57510
+Feb 12 17:39 : client: [9] closed
+Feb 12 17:42 : player: played "Kygo/Kygo - Stargazing ft. Justin Jesso-hEdvvTF5js4.mp3"
+Feb 12 17:44 : client: [10] opened from 127.0.0.1:57512
+Feb 12 17:44 : client: [10] closed
+Feb 13 02:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 02:48 : config: option 'device' on line 26 was not recognized
+Feb 13 02:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 02:48 : client: [0] opened from 127.0.0.1:52250
+Feb 13 02:54 : client: [1] opened from 127.0.0.1:52288
+Feb 13 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 13 02:54 : client: [1] closed
+Feb 13 02:55 : player: played "Kygo/Kygo - Stranger Things ft. OneRepublic-3ChgRbqGi-E.mp3"
+Feb 13 02:59 : player: played "Kygo/Kygo, Miguel - Remind Me to Forget-FRjOSmc01-M.mp3"
+Feb 13 03:03 : player: played "Kygo/Kygo, Selena Gomez - It Ain't Me (with Selena Gomez) (Audio).mp3"
+Feb 13 07:46 : client: [0] closed
+Feb 13 07:46 : client: [2] opened from 127.0.0.1:56602
+Feb 13 07:53 : client: [2] closed
+Feb 13 07:53 : client: [3] opened from 127.0.0.1:56640
+Feb 13 07:55 : client: [3] closed
+Feb 13 07:55 : client: [4] opened from 127.0.0.1:56660
+Feb 13 07:55 : client: [4] closed
+Feb 13 07:55 : client: [5] opened from 127.0.0.1:56662
+Feb 13 07:56 : client: [5] closed
+Feb 13 07:56 : client: [6] opened from 127.0.0.1:56664
+Feb 13 08:18 : client: [6] closed
+Feb 13 08:18 : client: [7] opened from 127.0.0.1:56784
+Feb 13 08:18 : client: [7] closed
+Feb 13 08:18 : client: [8] opened from 127.0.0.1:56786
+Feb 13 08:18 : client: [8] closed
+Feb 13 08:18 : client: [9] opened from 127.0.0.1:56788
+Feb 13 08:19 : client: [9] closed
+Feb 13 08:19 : client: [10] opened from 127.0.0.1:56792
+Feb 13 08:19 : client: [10] closed
+Feb 13 08:19 : client: [11] opened from 127.0.0.1:56794
+Feb 13 08:19 : client: [11] closed
+Feb 13 08:19 : client: [12] opened from 127.0.0.1:56796
+Feb 13 08:20 : client: [12] closed
+Feb 13 08:20 : client: [13] opened from 127.0.0.1:56798
+Feb 13 09:08 : client: [13] closed
+Feb 13 09:08 : client: [14] opened from 127.0.0.1:57178
+Feb 13 09:09 : client: [14] closed
+Feb 13 09:09 : client: [15] opened from 127.0.0.1:57180
+Feb 13 09:12 : client: [16] opened from 127.0.0.1:57206
+Feb 13 09:12 : client: [16] closed
+Feb 13 12:41 : player: played "Kygo/Kygo - Never Let You Go (Audio) ft. John Newman-k3bQnX_sIXk.mp3"
+Feb 13 12:45 : player: played "Kygo/Kygo - Stargazing ft. Justin Jesso-hEdvvTF5js4.mp3"
+Feb 13 12:49 : player: played "Kygo/Kygo - Stranger Things ft. OneRepublic-3ChgRbqGi-E.mp3"
+Feb 13 12:53 : player: played "Kygo/Kygo, Miguel - Remind Me to Forget-FRjOSmc01-M.mp3"
+Feb 13 12:57 : player: played "Kygo/Kygo, Selena Gomez - It Ain't Me (with Selena Gomez) (Audio).mp3"
+Feb 13 16:58 : client: [15] closed
+Feb 13 16:58 : client: [17] opened from 127.0.0.1:59796
+Feb 13 20:22 : client: [18] opened from 127.0.0.1:42702
+Feb 13 20:22 : client: [18] closed
+Feb 13 20:26 : player: played "Kygo/Kygo - Never Let You Go (Audio) ft. John Newman-k3bQnX_sIXk.mp3"
+Feb 13 20:29 : player: played "Kygo/Kygo - Stargazing ft. Justin Jesso-hEdvvTF5js4.mp3"
+Feb 14 01:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 01:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 01:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 01:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 14 01:33 : config: option 'device' on line 26 was not recognized
+Feb 14 01:33 : client: [0] opened from 127.0.0.1:34230
+Feb 14 01:33 : client: [1] opened from [::1]:32846
+Feb 14 01:34 : player: played "Kygo/Kygo - Stargazing ft. Justin Jesso-hEdvvTF5js4.mp3"
+Feb 14 01:38 : player: played "Kygo/Kygo - Stranger Things ft. OneRepublic-3ChgRbqGi-E.mp3"
+Feb 14 01:42 : player: played "Kygo/Kygo, Miguel - Remind Me to Forget-FRjOSmc01-M.mp3"
+Feb 14 01:45 : player: played "Kygo/Kygo, Selena Gomez - It Ain't Me (with Selena Gomez) (Audio).mp3"
+Feb 14 03:03 : client: [1] closed
+Feb 14 03:55 : client: [2] opened from 127.0.0.1:39354
+Feb 14 03:55 : client: [2] closed
+Feb 14 03:59 : player: played "Kygo/Kygo - Never Let You Go (Audio) ft. John Newman-k3bQnX_sIXk.mp3"
+Feb 14 04:03 : player: played "Kygo/Kygo - Stargazing ft. Justin Jesso-hEdvvTF5js4.mp3"
+Feb 14 04:07 : player: played "Kygo/Kygo - Stranger Things ft. OneRepublic-3ChgRbqGi-E.mp3"
+Feb 14 04:11 : player: played "Kygo/Kygo, Miguel - Remind Me to Forget-FRjOSmc01-M.mp3"
+Feb 14 04:15 : player: played "Kygo/Kygo, Selena Gomez - It Ain't Me (with Selena Gomez) (Audio).mp3"
+Feb 14 05:02 : client: [3] opened from [::1]:39544
+Feb 14 05:06 : player: played "One Ok Rock/ONE OK ROCK - Decision.mp3"
+Feb 14 05:08 : player: played "One Ok Rock/ONE OK ROCK - 3xxxv5.mp3"
+Feb 14 05:11 : player: played "One Ok Rock/ONE OK ROCK - Take Me To The Top.mp3"
+Feb 14 05:15 : player: played "One Ok Rock/ONE OK ROCK - Cry Out.mp3"
+Feb 14 05:18 : player: played "One Ok Rock/ONE OK ROCK - Suddenly.mp3"
+Feb 14 05:22 : player: played "One Ok Rock/ONE OK ROCK - Heartache.mp3"
+Feb 14 05:26 : player: played "One Ok Rock/ONE OK ROCK - Decision (feat Tyler Carter).mp3"
+Feb 14 05:30 : player: played "One Ok Rock/ONE OK ROCK - Good Goodbye.mp3"
+Feb 14 05:34 : player: played "One Ok Rock/ONE OK ROCK - Last Dance.mp3"
+Feb 14 05:37 : client: [4] opened from 127.0.0.1:41836
+Feb 14 05:37 : client: [4] closed
+Feb 14 05:52 : client: [5] opened from 127.0.0.1:43110
+Feb 14 05:52 : client: [5] closed
+Feb 14 05:53 : player: played "One Ok Rock/ONE OK ROCK - Bombs away.mp3"
+Feb 14 05:58 : player: played "One Ok Rock/ONE OK ROCK - We Are.mp3"
+Feb 14 06:02 : player: played "One Ok Rock/ONE OK ROCK - Jaded (feat Alex Gaskarth).mp3"
+Feb 14 06:04 : player: played "One Ok Rock/ONE OK ROCK - American Girls.mp3"
+Feb 14 06:08 : client: [3] closed
+Feb 14 06:08 : player: played "One Ok Rock/ONE OK ROCK - Listen (featuring Avril Lavigne).mp3"
+Feb 14 06:11 : client: [6] opened from 127.0.0.1:49010
+Feb 14 06:11 : client: [6] closed
+Feb 14 06:12 : client: [7] opened from 127.0.0.1:49018
+Feb 14 06:12 : client: [7] closed
+Feb 14 06:12 : client: [8] opened from 127.0.0.1:49030
+Feb 14 06:12 : client: [8] closed
+Feb 14 06:12 : client: [9] opened from 127.0.0.1:49050
+Feb 14 06:12 : client: [9] closed
+Feb 14 06:12 : client: [10] opened from 127.0.0.1:49066
+Feb 14 06:12 : client: [10] closed
+Feb 14 06:12 : client: [11] opened from 127.0.0.1:49070
+Feb 14 06:12 : client: [11] closed
+Feb 14 06:12 : client: [12] opened from 127.0.0.1:49094
+Feb 14 06:12 : client: [12] closed
+Feb 14 06:14 : client: [13] opened from 127.0.0.1:49714
+Feb 14 06:14 : client: [13] closed
+Feb 14 06:14 : client: [14] opened from 127.0.0.1:49728
+Feb 14 06:14 : client: [14] closed
+Feb 14 06:14 : client: [15] opened from 127.0.0.1:49738
+Feb 14 06:14 : client: [15] closed
+Feb 14 06:14 : client: [16] opened from 127.0.0.1:49760
+Feb 14 06:14 : client: [16] closed
+Feb 14 06:15 : client: [17] opened from 127.0.0.1:50032
+Feb 14 06:15 : client: [17] closed
+Feb 14 07:01 : client: [18] opened from [::1]:34680
+Feb 14 07:02 : player: played "One Ok Rock/ONE OK ROCK - Answer is near.mp3"
+Feb 14 07:03 : client: [19] opened from 127.0.0.1:36690
+Feb 14 07:03 : client: [19] closed
+Feb 14 07:16 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 14 07:20 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 14 08:34 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 14 08:36 : client: [20] opened from 127.0.0.1:33692
+Feb 14 08:36 : client: [20] closed
+Feb 14 08:55 : client: [0] closed
+Feb 14 08:55 : client: [21] opened from 127.0.0.1:34322
+Feb 14 15:37 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 14 16:01 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 14 16:45 : client: [18] closed
+Feb 14 16:46 : client: [22] opened from [::1]:33586
+Feb 14 16:49 : player: played "bassbosted/TriBoss - Aqua Drop (Deep Bass Test).mp3"
+Feb 14 16:52 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 14 16:53 : client: [23] opened from 127.0.0.1:35090
+Feb 14 16:53 : client: [23] closed
+Feb 14 16:53 : client: [24] opened from 127.0.0.1:35092
+Feb 14 16:53 : client: [24] closed
+Feb 14 16:56 : client: [25] opened from 127.0.0.1:35112
+Feb 14 16:56 : client: [25] closed
+Feb 14 17:03 : client: [22] closed
+Feb 14 17:29 : client: [26] opened from 127.0.0.1:35156
+Feb 14 17:29 : client: [26] closed
+Feb 14 17:29 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 14 17:31 : client: [27] opened from 127.0.0.1:35158
+Feb 14 17:31 : client: [27] closed
+Feb 14 17:31 : client: [28] opened from 127.0.0.1:35160
+Feb 14 17:31 : client: [28] closed
+Feb 14 17:34 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 14 17:37 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 14 18:15 : client: [21] closed
+Feb 14 18:15 : client: [29] opened from 127.0.0.1:35170
+Feb 15 03:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 03:06 : config: option 'device' on line 26 was not recognized
+Feb 15 03:06 : client: [0] opened from 127.0.0.1:41288
+Feb 15 03:19 : client: [1] opened from [::1]:52264
+Feb 15 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 03:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 15 03:22 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 15 03:26 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 15 04:14 : client: [1] closed
+Feb 15 06:44 : client: [2] opened from 127.0.0.1:43928
+Feb 15 06:44 : client: [2] closed
+Feb 15 06:47 : player: played "bassbosted/TriBoss - Aqua Drop (Deep Bass Test).mp3"
+Feb 15 06:50 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 15 06:54 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 15 08:10 : client: [3] opened from 127.0.0.1:45058
+Feb 15 08:10 : client: [3] closed
+Feb 15 08:14 : player: played "bassbosted/TriBoss - Aqua Drop (Deep Bass Test).mp3"
+Feb 15 08:15 : client: [4] opened from 127.0.0.1:45108
+Feb 15 08:15 : client: [4] closed
+Feb 15 10:56 : client: [5] opened from 127.0.0.1:47934
+Feb 15 10:56 : client: [5] closed
+Feb 15 10:57 : player: played "Clean Bandit/What Is Love/Clean Bandit - 24 Hours (feat Yasmin Green).mp3"
+Feb 15 11:01 : player: played "Clean Bandit/What Is Love/Clean Bandit - Playboy Style (feat Charli XCX  Bhad Bhabie).mp3"
+Feb 15 13:01 : client: [6] opened from [::1]:60326
+Feb 15 13:05 : player: played "marshmello/joytime/Marshmello - Know Me.mp3"
+Feb 15 13:09 : player: played "marshmello/joytime/Marshmello - Summer.mp3"
+Feb 15 13:12 : player: played "marshmello/joytime/Marshmello - Find Me.mp3"
+Feb 15 13:16 : player: played "marshmello/joytime/Marshmello - Take It Back.mp3"
+Feb 15 13:20 : player: played "marshmello/joytime/Marshmello - Bounce.mp3"
+Feb 15 13:22 : client: [0] closed
+Feb 15 13:22 : client: [7] opened from 127.0.0.1:50366
+Feb 15 13:22 : client: [7] closed
+Feb 15 13:22 : client: [8] opened from 127.0.0.1:50368
+Feb 15 13:23 : player: played "marshmello/joytime/Marshmello - Blocks.mp3"
+Feb 15 13:26 : player: played "marshmello/joytime/Marshmello - Show You.mp3"
+Feb 15 13:29 : player: played "marshmello/joytime/Marshmello - Want U 2.mp3"
+Feb 15 13:33 : player: played "marshmello/joytime/Marshmello - Home.mp3"
+Feb 15 13:37 : player: played "marshmello/joytime/Omar LinX - Keep It Mello (feat Omar LinX).mp3"
+Feb 15 13:41 : player: played "marshmello/joytime II/Marshmello - Stars.mp3"
+Feb 15 13:45 : player: played "marshmello/joytime II/Marshmello - Together.mp3"
+Feb 15 13:48 : player: played "marshmello/joytime II/Marshmello - Rooftops.mp3"
+Feb 15 13:52 : player: played "marshmello/joytime II/Marshmello - Check This Out.mp3"
+Feb 15 13:54 : client: [9] opened from 127.0.0.1:50904
+Feb 15 13:54 : client: [9] closed
+Feb 15 15:08 : client: [10] opened from 127.0.0.1:51478
+Feb 15 15:08 : client: [10] closed
+Feb 15 15:08 : player: played "marshmello/joytime II/Marshmello - Flashbacks.mp3"
+Feb 15 15:09 : client: [11] opened from 127.0.0.1:51480
+Feb 15 15:09 : client: [11] closed
+Feb 15 15:51 : player: played "marshmello/joytime II/Marshmello - Tell Me.mp3"
+Feb 15 15:54 : player: played "marshmello/joytime II/Marshmello - Paralyzed.mp3"
+Feb 15 15:55 : client: [12] opened from 127.0.0.1:51792
+Feb 15 15:55 : client: [12] closed
+Feb 15 18:19 : client: [13] opened from 127.0.0.1:52784
+Feb 15 18:19 : client: [13] closed
+Feb 15 18:22 : player: played "marshmello/joytime II/Marshmello - Power.mp3"
+Feb 15 18:25 : player: played "marshmello/joytime II/Marshmello - Imagine.mp3"
+Feb 16 05:42 : client: [14] opened from 127.0.0.1:55672
+Feb 16 05:42 : client: [14] closed
+Feb 16 05:45 : player: played "marshmello/joytime/Marshmello - Know Me.mp3"
+Feb 16 05:47 : client: [15] opened from 127.0.0.1:55976
+Feb 16 05:47 : client: [15] closed
+Feb 16 06:10 : client: [16] opened from 127.0.0.1:56398
+Feb 16 06:10 : client: [16] closed
+Feb 16 06:12 : player: played "marshmello/joytime/Marshmello - Summer.mp3"
+Feb 16 06:16 : player: played "marshmello/joytime/Marshmello - Find Me.mp3"
+Feb 16 06:19 : player: played "marshmello/joytime/Marshmello - Take It Back.mp3"
+Feb 16 06:23 : player: played "marshmello/joytime/Marshmello - Bounce.mp3"
+Feb 16 06:26 : player: played "marshmello/joytime/Marshmello - Blocks.mp3"
+Feb 16 06:29 : player: played "marshmello/joytime/Marshmello - Show You.mp3"
+Feb 16 06:32 : player: played "marshmello/joytime/Marshmello - Want U 2.mp3"
+Feb 16 06:36 : player: played "marshmello/joytime/Marshmello - Home.mp3"
+Feb 16 06:40 : player: played "marshmello/joytime/Omar LinX - Keep It Mello (feat Omar LinX).mp3"
+Feb 16 06:45 : player: played "marshmello/joytime II/Marshmello - Stars.mp3"
+Feb 16 06:49 : player: played "marshmello/joytime II/Marshmello - Together.mp3"
+Feb 16 06:50 : client: [17] opened from 127.0.0.1:56852
+Feb 16 06:50 : client: [17] closed
+Feb 16 07:37 : client: [18] opened from 127.0.0.1:57322
+Feb 16 07:37 : client: [18] closed
+Feb 16 07:38 : player: played "marshmello/joytime II/Marshmello - Rooftops.mp3"
+Feb 16 07:42 : player: played "marshmello/joytime II/Marshmello - Check This Out.mp3"
+Feb 16 07:47 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 07:48 : client: [19] opened from 127.0.0.1:57678
+Feb 16 07:48 : client: [19] closed
+Feb 16 11:19 : client: [20] opened from 127.0.0.1:59950
+Feb 16 11:19 : client: [20] closed
+Feb 16 11:22 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 13:58 : client: [21] opened from 127.0.0.1:34846
+Feb 16 13:58 : client: [21] closed
+Feb 16 14:02 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 14:17 : client: [22] opened from 127.0.0.1:35434
+Feb 16 14:17 : client: [22] closed
+Feb 16 14:17 : client: [23] opened from 127.0.0.1:35436
+Feb 16 14:17 : client: [23] closed
+Feb 16 14:17 : player: played "marshmello/joytime/Marshmello - Know Me.mp3"
+Feb 16 14:22 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 14:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 14:47 : config: option 'device' on line 26 was not recognized
+Feb 16 14:47 : client: [0] opened from 127.0.0.1:50922
+Feb 16 14:48 : client: [1] opened from [::1]:53538
+Feb 16 14:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 14:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 14:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 14:54 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 16 14:58 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 16 15:02 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 16 15:02 : client: [2] opened from 127.0.0.1:51542
+Feb 16 15:02 : client: [2] closed
+Feb 16 15:03 : client: [3] opened from 127.0.0.1:51560
+Feb 16 15:03 : client: [3] closed
+Feb 16 15:06 : client: [4] opened from 127.0.0.1:51632
+Feb 16 15:06 : client: [4] closed
+Feb 16 15:09 : client: [5] opened from 127.0.0.1:51636
+Feb 16 15:09 : client: [5] closed
+Feb 16 15:10 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 16 15:13 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 16 15:17 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 15:25 : client: [6] opened from 127.0.0.1:52354
+Feb 16 15:25 : client: [6] closed
+Feb 16 15:25 : client: [7] opened from 127.0.0.1:52356
+Feb 16 15:25 : client: [7] closed
+Feb 16 15:26 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 15:28 : client: [8] opened from 127.0.0.1:52436
+Feb 16 15:28 : client: [8] closed
+Feb 16 15:32 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 16 15:36 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 16 15:40 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 16 15:44 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 16 15:47 : client: [9] opened from 127.0.0.1:52980
+Feb 16 15:47 : client: [9] closed
+Feb 16 16:09 : client: [10] opened from 127.0.0.1:53182
+Feb 16 16:09 : client: [10] closed
+Feb 16 16:10 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 16 16:14 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 16:24 : client: [11] opened from 127.0.0.1:53722
+Feb 16 16:24 : client: [11] closed
+Feb 16 16:28 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 16 16:32 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 16 16:34 : client: [12] opened from 127.0.0.1:54110
+Feb 16 16:34 : client: [12] closed
+Feb 16 17:00 : client: [13] opened from 127.0.0.1:54370
+Feb 16 17:00 : client: [13] closed
+Feb 16 17:02 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 16 17:06 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 16 17:10 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 16 17:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 17:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 17:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 17:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 16 17:34 : config: option 'device' on line 26 was not recognized
+Feb 16 17:34 : client: [0] opened from 127.0.0.1:42444
+Feb 16 17:35 : client: [1] opened from 127.0.0.1:42446
+Feb 16 17:35 : client: [1] closed
+Feb 16 18:20 : client: [2] opened from [::1]:57216
+Feb 16 18:23 : player: played "Tommee Profitt - In the End.mp3"
+Feb 16 18:32 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 16 18:33 : client: [3] opened from 127.0.0.1:43108
+Feb 16 18:33 : client: [3] closed
+Feb 17 02:50 : client: [4] opened from 127.0.0.1:43258
+Feb 17 02:50 : client: [4] closed
+Feb 17 02:53 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 17 02:57 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 17 03:01 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 17 03:05 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 17 03:09 : player: played "Tommee Profitt - In the End.mp3"
+Feb 17 03:38 : client: [5] opened from 127.0.0.1:44376
+Feb 17 03:38 : client: [5] closed
+Feb 17 03:42 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 17 03:45 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me.mp3"
+Feb 17 03:49 : player: played "The Chainsmokers/The Chainsmokers - You Owe Me.mp3"
+Feb 17 03:53 : player: played "The Chainsmokers/The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+Feb 17 03:57 : player: played "The Chainsmokers/The Chainsmokers, Drew Love - Somebody (Official Video)-tlILlcCE8Sc.mp3"
+Feb 17 04:01 : player: played "Tommee Profitt - In the End.mp3"
+Feb 17 05:58 : player: played "Tommee Profitt - In the End.mp3"
+Feb 17 06:27 : client: [0] closed
+Feb 17 06:27 : client: [6] opened from 127.0.0.1:51120
+Feb 17 06:28 : client: [6] closed
+Feb 17 06:28 : client: [7] opened from 127.0.0.1:51122
+Feb 17 06:28 : client: [7] closed
+Feb 17 06:28 : client: [8] opened from 127.0.0.1:51126
+Feb 17 06:29 : client: [8] closed
+Feb 17 06:29 : client: [9] opened from 127.0.0.1:51152
+Feb 17 06:29 : client: [9] closed
+Feb 17 06:29 : client: [10] opened from 127.0.0.1:51154
+Feb 17 06:30 : client: [10] closed
+Feb 17 06:30 : client: [11] opened from 127.0.0.1:51158
+Feb 17 06:30 : client: [11] closed
+Feb 17 06:30 : client: [12] opened from 127.0.0.1:51160
+Feb 17 06:31 : client: [12] closed
+Feb 17 06:31 : client: [13] opened from 127.0.0.1:51164
+Feb 17 06:31 : client: [13] closed
+Feb 17 06:31 : client: [14] opened from 127.0.0.1:51170
+Feb 17 06:32 : client: [14] closed
+Feb 17 06:32 : client: [15] opened from 127.0.0.1:51172
+Feb 17 06:32 : client: [15] closed
+Feb 17 06:32 : client: [16] opened from 127.0.0.1:51174
+Feb 17 06:32 : client: [17] opened from 127.0.0.1:51176
+Feb 17 06:32 : client: [17] closed
+Feb 17 06:33 : client: [16] closed
+Feb 17 06:33 : client: [18] opened from 127.0.0.1:51178
+Feb 17 06:33 : client: [18] closed
+Feb 17 06:33 : client: [19] opened from 127.0.0.1:51182
+Feb 17 06:33 : client: [19] closed
+Feb 17 06:33 : client: [20] opened from 127.0.0.1:51192
+Feb 17 06:34 : client: [20] closed
+Feb 17 06:34 : client: [21] opened from 127.0.0.1:51194
+Feb 17 06:34 : client: [21] closed
+Feb 17 06:34 : client: [22] opened from 127.0.0.1:51196
+Feb 17 06:34 : client: [22] closed
+Feb 17 06:34 : client: [23] opened from 127.0.0.1:51198
+Feb 17 06:34 : client: [23] closed
+Feb 17 06:34 : client: [24] opened from 127.0.0.1:51200
+Feb 17 06:34 : client: [24] closed
+Feb 17 06:34 : client: [25] opened from 127.0.0.1:51202
+Feb 17 06:36 : player: played "The Chainsmokers/The Chainsmokers - Everybody Hates Me-DKPCBAlDw2A.mp3"
+Feb 17 06:38 : client: [26] opened from 127.0.0.1:51282
+Feb 17 06:38 : client: [26] closed

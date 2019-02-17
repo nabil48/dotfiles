@@ -69,8 +69,14 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# Focus parent container
-bindsym $mod+u focus parent
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+bindsym $mod+Shift+a focus child
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle 
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -95,15 +101,6 @@ bindsym $mod+Shift+space floating toggle move position center border pixel 2
 # resize floating window
 floating_minimum_size 75 x 50
 #floating_maximum_size 1350 x 730
-
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle 
-
-# focus the parent container
-bindsym $mod+a focus parent
-
-# focus the child container
-bindsym $mod+Shift+a focus child
 
 # window configuration
 title_align center
@@ -160,8 +157,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Onii-chan, Apakah kamu ingin keluar?' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -378,7 +374,7 @@ bindsym XF86ScreenSaver exec --no-startup-id mantablockscreen
 bindsym XF86Sleep exec --no-startup-id systemctl suspend
 
 # Hibernate
-bindsym XF86Suspend exec --no-startup-id systemctl hibernate
+# bindsym XF86Suspend exec --no-startup-id systemctl hibernate
 
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
@@ -416,7 +412,7 @@ set $ared                                       #c67d6f
 
 # Changing colors
 # class                 border           backgr.         text            indicator       child_border
-client.focused          $bcyan           $bcyan          $background     $background     $bcyan
+client.focused          $bcyan           $bcyan          $background     $bcyan     $bcyan
 client.focused_inactive $background      $background     $foreground     $foreground     $bblack
 client.unfocused        $background      $background     $foreground     $background     $bblack
 client.urgent           $background      $background     $foreground     $background     $background
@@ -431,7 +427,7 @@ exec xfce4-power-manager
 # exec nm-applet
 # exec blueman-applet
 exec_always killall compton; compton --dbus -b
-exec feh --bg-scale "$HOME/Pictures/wal HD/Rgh4y.jpg"
+exec feh --bg-scale "$HOME/Pictures/wal HD/wallhaven/wallhaven-740247.jpg"
 exec_always $HOME/.config/polybar/launch.sh
 # exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
 exec xautolock -time 5 -locker mantablockscreen

@@ -14,6 +14,7 @@ set ignorecase                           " ignore case
 set incsearch                            " incremental search aka search as you type
 set laststatus=2                         " always show the status line
 set lazyredraw                           " do not redraw while running macros
+set regexpengine=1
 set linebreak                            " Vim to only wrap at a character in the breakat option
 set linespace=0                          " don't insert any extra pixel lines between rows
 set list                                 " show traling listchars

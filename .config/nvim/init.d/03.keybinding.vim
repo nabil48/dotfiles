@@ -4,9 +4,10 @@
 let mapleader=','
 
 " move among buffers with CTRL
-nmap <A-l> :bn<cr>
-nmap <A-h> :bp<cr>
-nmap <leader>q :bd<cr>
+nnoremap <A-l> :bn<cr>
+nnoremap <A-h> :bp<cr>
+nnoremap <leader>q :bp<cr>:bd #<cr>
+nnoremap <leader>qa :bufdo! bd<cr>
 
 " moving
 no <left> <Nop>

@@ -48,8 +48,6 @@ font-1 = "Material Icons:size=13;4"
 
 [assets]
 bar-monitor = ${env:MONITOR:LVDS-1}
-bar-height = 20
-bar-width = 100%
 
 mpd-host = 127.0.0.1
 mpd-port = 6006
@@ -75,8 +73,8 @@ margin-bottom = 0
 
 [bar/main]
 monitor = ${assets.bar-monitor}
-width = ${assets.bar-width}
-height = ${assets.bar-height}
+width = 100%
+height = 18
 bottom = true
 fixed-center = true
 
@@ -84,6 +82,8 @@ background = ${colors.background}
 foreground = ${colors.brightwhite}
 
 border-color = ${colors.background}
+border-top-size = 2
+border-bottom-size = 2
 
 font-0 = ${fonts.font-0}
 font-1 = ${fonts.font-1}

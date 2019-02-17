@@ -4,6 +4,7 @@ allow_bold = true
 clickable_url = true
 dynamic_title = false
 font =  Iosevka Nerd Font 11
+# font =  FantasqueSansMono Nerd Font 11.5
 #fullscreen = true
 #geometry = 640x480
 icon_name = terminal
@@ -15,7 +16,7 @@ icon_name = terminal
 scrollback_lines = 10000
 #search_wrap = true
 #urgent_on_bell = true
-#hyperlinks = false
+# hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
 browser = xdg-open
@@ -49,7 +50,7 @@ foreground_bold = #fbf1c7
 background = #282828
 
 # 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+# background = rgba(40, 40, 40, 0.8)
 
 # If unset, will reverse foreground and background
 # highlight = #2f2f2f

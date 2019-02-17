@@ -16,7 +16,7 @@ let g:airline_skip_empty_sections          = 1
 
 
 " Set this. Airline will handle the rest.
-let g:airline#extensions#ale#enabled = 1
+let g:airline#extensions#ale#enabled = 0
 
 
 if !exists('g:airline_powerline_fonts')
