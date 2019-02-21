@@ -100,69 +100,26 @@ tray-maxsize = 16
 
 modules-left = i3 mpd
 modules-right = wlan network temperature hdd0 hdd1 memory cpu backlight volume date session
-
-;== Module base ===========================================
-
-[section/base]
-format-font = 1
-format-padding = 1
-format-background = ${colors.brightblack}
-format-foreground = ${colors.brightwhite}
-
-format-muted-padding = 1
-format-muted-background = ${colors.brightblack}
-format-muted-foreground = ${colors.brightwhite}
-
-format-volume-padding = 1
-format-volume-background = ${colors.brightblack}
-format-volume-foreground = ${colors.brightwhite}
-
-format-connected-padding = 1
-format-connected-background = ${colors.brightblack}
-format-connected-foreground = ${colors.brightwhite}
-
-format-disconnected-padding = 1
-format-disconnected-background = ${colors.brightblack}
-format-disconnected-foreground = ${colors.brightwhite}
-
-format-online-padding = 1
-format-online-background = ${colors.brightblack}
-format-online-foreground = ${colors.brightwhite}
-
-format-warn-background = ${colors.red}
-format-warn-padding = 1
-
-content-font = 1
-content-background = ${colors.brightblack}
-content-foreground = ${colors.brightwhite}
-content-padding = 1
-
-label-font = 1
-label-padding = 1
-
-label-active-foreground = ${colors.brightwhite}
-label-occupied-foreground = ${colors.black}
-label-urgent-foreground = ${colors.black}
-label-empty-foreground = ${colors.black}
-
-label-focused-foreground = ${colors.brightwhite}
-label-unfocused-foreground = ${colors.black}
-label-visible-foreground = ${colors.black}
+module-margin = 0
+module-padding = 0
 
 ;== Modules ===============================================
+
 ;== Modules Left ==========================================
 
 [module/jgmenu]
 type = custom/text
-inherit = section/base
 content = 
 click-left = "jgmenu_run >/dev/null 2>&1 &"
 
+content-font = 1
+content-padding = 1
+content-background = ${colors.brightblack}
+content-foreground = ${colors.brightwhite}
 ;----------------------------------------------------------
 
 [module/i3]
 type = internal/i3
-inherit = section/base
 pin-workspaces = false
 strip-wsnumbers = false
 index-sort = true
@@ -185,48 +142,36 @@ ws-icon-9 = 10; 
 ws-icon-default = 
 
 format = <label-state>
-label-mode = %icon%
-label-focused = %icon%
-label-unfocused = %icon%
-label-visible = %icon%
-label-urgent = %icon%
 
-;----------------------------------------------------------
+label-font = 1
 
-[module/workspaces]
-type = internal/xworkspaces
-inherit = section/base
-pin-workspaces = true
-enable-click = true
-enable-scroll = false
+label-focused = %name%
+label-focused-background = ${colors.brightwhite}
+label-focused-foreground = ${colors.brightblack}
+label-focused-padding = 1
 
-icon-0 = 1;
-icon-1 = 2; 
-icon-2 = 3; 
-icon-3 = 4; 
-icon-4 = 5; 
-icon-5 = 6; 
-icon-6 = 7; 
-icon-7 = 8; 
-icon-8 = 9; 
-icon-9 = 10; 
-icon-default = 
+label-mode = %name%
 
-format = <label-mode>
-label-active = %icon%
-label-occupied = %icon%
-label-urgent = %icon%
-label-empty = %icon%
+label-unfocused = %name%
+label-unfocused-background = ${colors.brightblack}
+label-unfocused-foreground = ${colors.brightwhite}
+label-unfocused-padding = 1
 
+label-urgent = %name%
+
+label-visible = %name%
+label-visible-foreground = ${colors.brightwhite}
 ;----------------------------------------------------------
 
 [module/mpd]
 type = internal/mpd
-inherit = section/base
 format-online = <icon-prev> <icon-pause> <icon-play> <icon-next> <label-song> 
 host = ${assets.mpd-host}
 port = ${assets.mpd-port}
 
+label-font = 1
+
+label-song =  %title%
 label-song-maxlen = 25
 label-song-ellipsis = true
 
@@ -243,33 +188,15 @@ icon-repeatone = 綾
 icon-single = 綾
 icon-consume = ✀
 
-;----------------------------------------------------------
-;
-[module/network]
-type = internal/network
-inherit = section/base
-interface = ${assets.wlan}
-interval = 1
-udspeed-minwidth = 2
-accumulate-stats = true
-unknown-as-up = true
+format-online-padding = 1
+format-online-background = ${colors.brightblack}
+format-online-foreground = ${colors.brightwhite}
 
-format-connected = <label-connected>
-format-connected-prefix =" "
-
-format-disconnected = <label-disconnected>
-format-disconnected-prefix =" "
-
-; label-connected = %essid%
-label-connected = "%downspeed:% %upspeed:%"
-
-label-disconnected = " -- KB/s  -- KB/s"
 
 ;==Module Right ==========================================
 
-[module/wlan]
+[module/network]
 type = internal/network
-inherit = section/base
 interface = ${assets.wlan}
 interval = 1
 udspeed-minwidth = 2
@@ -277,10 +204,45 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
+format-connected-background = ${colors.brightblack}
+format-connected-foreground = ${colors.brightwhite}
+format-connected-padding = 1
+format-connected-prefix =" "
+
+format-disconnected = <label-disconnected>
+format-disconnected-background = ${colors.brightblack}
+format-disconnected-foreground = ${colors.brightwhite}
+format-disconnected-padding = 1
+format-disconnected-prefix =" "
+
+label-font = 1
+
+label-connected = "%downspeed:% %upspeed:%"
+label-disconnected = " -- KB/s  -- KB/s"
+
+;----------------------------------------------------------
+
+[module/wlan]
+type = internal/network
+interface = ${assets.wlan}
+interval = 1
+udspeed-minwidth = 2
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <label-connected>
+format-connected-background = ${colors.brightblack}
+format-connected-foreground = ${colors.brightwhite}
+format-connected-padding = 1
 format-connected-prefix =" "
 
 format-disconnected = <label-disconnected>
+format-disconnected-background = ${colors.brightblack}
+format-disconnected-foreground = ${colors.brightwhite}
+format-disconnected-padding = 1
 format-disconnected-prefix =" "
+
+label-font = 1
 
 label-connected = %essid%
 label-connected-maxlen = 15
@@ -291,7 +253,6 @@ label-disconnected = offline
 
 [module/temperature]
 type = internal/temperature
-inherit = section/base
 interval = 1
 thermal-zone = 0
 hwmon-path = ${assets.hwmon-path}
@@ -299,99 +260,140 @@ warn-temperature = 60
 units = true
 
 format = <label>
+format-background = ${colors.brightblack}
+format-foreground = ${colors.brightwhite}
+format-padding = 1
 format-prefix = " "
 
 format-warn = <label-warn>
+format-warn-background = ${colors.red}
+format-warn-padding = 1
 format-warn-prefix = " "
+
+label-font = 1
 
 label = %temperature-c%
 label-warn = %temperature-c%
-
 ;----------------------------------------------------------
 
 [module/hdd0]
 type = custom/script
-inherit = section/base
 interval = 1
-format = <label>
-format-prefix = " "
 exec = hddtemp /dev/sda | cut -b 33-37
+
+format = <label>
+format-background = ${colors.brightblack}
+format-font = 1
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+format-prefix = " "
+
 
 ;----------------------------------------------------------
 
 [module/hdd1]
 type = custom/script
-inherit = section/base
 interval = 1
-format = <label>
-format-prefix = " "
 exec = hddtemp /dev/sdb | cut -b 33-37
+
+format = <label>
+format-background = ${colors.brightblack}
+format-font = 1
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+format-prefix = " "
 
 ;----------------------------------------------------------
 
 [module/cpu]
 type = internal/cpu
-inherit = section/base
 interval = 1
 
 format = <label>
+format-background = ${colors.brightblack}
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+
 format-prefix = ""
+
 format-suffix = "%"
 
+label-font = 1
+label-padding = 1
 label = %percentage:2:2%
 
 ;----------------------------------------------------------
 
 [module/memory]
 type = internal/memory
-inherit = section/base
 interval = 1
+
 format = <label>
+format-background = ${colors.brightblack}
+format-foreground = ${colors.brightwhite}
+format-padding = 1
 format-prefix = "﬙"
 format-suffix = "%"
+
 label = %gb_used%
+label-font = 1
+label-padding = 1
 
 ;----------------------------------------------------------
 
 [module/backlight]
 type = internal/xbacklight
-inherit = section/base
 output = ${assets.bar-monitor}
 enable-scroll = false
 
 format = <label>
+format-background = ${colors.brightblack}
+format-foreground = ${colors.brightwhite}
+format-padding = 1
 format-prefix = ""
 format-suffix = "%"
 
+label-font = 1
 label = %percentage:3:2%
 
 ;----------------------------------------------------------
 
 [module/volume]
 type = internal/pulseaudio
-inherit = section/base
 master-mixer = Master
 mapped = true
 interval = 5
 
-format-volume = <label-volume>
 format-muted = <label-muted>
+format-muted-background = ${colors.brightblack}
+format-muted-foreground = ${colors.brightwhite}
+format-muted-padding = 1
+format-muted-prefix = ""
 
+format-volume = <label-volume>
+format-volume-background = ${colors.brightblack}
+format-volume-foreground = ${colors.brightwhite}
+format-volume-padding = 1
 format-volume-prefix = ""
 format-volume-suffix = "%"
 
-format-muted-prefix = ""
-
-label-volume = %percentage:3:3%
+label-font = 1
 label-muted = " muted"
+label-padding = 1
+label-volume = %percentage:3:3%
 
 ;----------------------------------------------------------
 
 [module/date]
 type = internal/date
-inherit = section/base
 interval = 30
+
+format-background = ${colors.brightblack}
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+
 label =  %time%
+label-font = 1
 time =  %H:%M %p
 time-alt =  %A,%d-%m-%y
 
@@ -399,7 +401,11 @@ time-alt =  %A,%d-%m-%y
 
 [module/session]
 type = custom/text
-inherit = section/base
 content = 
 click-left = "~/.config/polybar/script/session.sh"
+
+content-padding = 1
+content-font = 1
+content-background = ${colors.brightblack}
+content-foreground = ${colors.brightwhite}
 ;==========================================================

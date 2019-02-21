@@ -15,22 +15,19 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Utility
+Plug '/usr/share/fzf'
 Plug 'Chiel92/vim-autoformat'       " Provide easy code formatting in Vim by integrating existing code formatters.
-Plug 'SirVer/ultisnips'             " ultimate snn for Vim
+Plug 'KabbAmine/vCoolor.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'            " Vim script for text filtering and alignment
-Plug 'honza/vim-snippets'           " snippets files for various programming languages
 Plug 'jiangmiao/auto-pairs'         " Insert or delete brackets, parens, quotes in pair.
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'      " A simple, easy-to-use Vim alignment plugin.
-Plug 'sheerun/vim-polyglot'         " A solid language pack for Vim.
 Plug 'terryma/vim-multiple-cursors' " True Sublime Text style multiple selections for Vim
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
-Plug '/usr/share/fzf'
-Plug 'junegunn/fzf.vim'
-Plug 'KabbAmine/vCoolor.vim'
 
 " Deoplete autocomplete
 if has('nvim')
@@ -44,13 +41,18 @@ endif
 " Plug 'Shougo/neosnippet-snippets'
 
 " vim lsp client
-" Plug 'autozimu/LanguageClient-neovim', {
-"             \ 'branch': 'next',
-"             \ 'do': 'bash install.sh',
-"             \ }
+Plug 'autozimu/LanguageClient-neovim', {
+            \ 'branch': 'next',
+            \ 'do': 'bash install.sh',
+            \ }
 
 " Programgin support
-" CSS, SCSS, SASS, LESS
+" Language pack
+Plug 'SirVer/ultisnips'             " ultimate snn for Vim
+Plug 'sheerun/vim-polyglot'         " A solid language pack for Vim.
+Plug 'honza/vim-snippets'           " snippets files for various programming languages
+
+ " CSS, SCSS, SASS, LESS
 Plug 'groenewege/vim-less'
 Plug 'cakebaker/scss-syntax.vim'  " Scss Support
 
@@ -75,7 +77,7 @@ Plug 'Shougo/neco-vim'
 
 " Git Support
 Plug 'tpope/vim-fugitive'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 
 " Theme
@@ -84,9 +86,6 @@ Plug 'morhetz/gruvbox'
 " Icon
 Plug 'ryanoasis/vim-devicons'
 
-" emoji
-" Plug 'fszymanski/deoplete-emoji'
-" Plug 'junegunn/vim-emoji'
 " Initialize plugin system
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

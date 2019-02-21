@@ -1,50 +1,50 @@
-cd /run/media/
-shell xpdf %S
-shell gnome-disk-image-mounter %S
-cd /run/media/nabil
-t
-shell chmod 755 %S
-'
-shell fuseiso %s /tmp/mount
-search mago
-shell fuseiso %S /tmp/mouunt
-search log
-search ou
-open_with 2
-open_with q
-search 
-rename foo
-shell ln -s %S ~/Anime/nbl1
-save_copy_buffer 
-reload_cwd 
-search lad
-search tiny
-rename Downloads
-rename DataTables
-open_with fusei
-search sao
-search sa
-open_with fuseiso %S /tmp/mount
-search swort
-shell 
-mkdir /tmp/mount
-search W
-open_with 1
-a
-
-shell chmod 755 special
-shell chmod 000 special
-open_with unzip
-rename sbadmin
-shell fusermount -u /tmp/mount
-open_with 
-search i
-delete
 shell pwd
 cd /mnt
 search gate
 shell ln -s /mnt/NBL
 shell ln -s %S ~/Anime/nbl2
-shell fuseiso %S /tmp/mount
-cd 
 cd /tmp/mount
+shell -w ls
+shell -w |
+shell -w
+shell -h
+shell mkdir
+search blue
+rename jquery-ui
+cd  /mnt
+p
+shell chmod 755 special
+search gruv
+shell feh --
+open_with unzip
+rename garbs
+hide_console_info 
+cd .mozilla/
+rename prefs.js.bak
+search prefe
+search pref
+delete
+rename prefs.js
+set hidden_filter
+set hidden_filter 0
+set nohidden_filter
+q
+
+open_with 
+open_with 0
+shell f
+mkdir /tmp/mount
+open_with 2
+open_with 1
+search mag
+shell fuseiso %S /tmp/mount
+shell fuseiso 
+shell fuseiso Shuffle.iso
+scout -ftsea tm
+scout -ftsea 
+shell 
+s
+shell q
+shell fusermount -u /tmp/mount
+search 
+cd 

@@ -7,7 +7,7 @@ let mapleader=','
 nnoremap <A-l> :bn<cr>
 nnoremap <A-h> :bp<cr>
 nnoremap <leader>q :bp<cr>:bd #<cr>
-nnoremap <leader>qa :bufdo! bd<cr>
+nnoremap <leader>qa :bufdo bwipeout<cr>
 
 " moving
 no <left> <Nop>
@@ -89,20 +89,24 @@ map <Leader>e <C-y>,
 nmap <silent> <Leader>ig :IndentGuidesToggle<CR>
 
 " lsp
-" nnoremap <leader>ld :call LanguageClient#textDocument_definition()<CR>
-" nnoremap <leader>lr :call LanguageClient#textDocument_rename()<CR>
-" nnoremap <leader>lf :call LanguageClient#textDocument_formatting()<CR>
-" nnoremap <leader>lt :call LanguageClient#textDocument_typeDefinition()<CR>
-" nnoremap <leader>lx :call LanguageClient#textDocument_references()<CR>
-" nnoremap <leader>la :call LanguageClient_workspace_applyEdit()<CR>
-" nnoremap <leader>lc :call LanguageClient#textDocument_completion()<CR>
-" nnoremap <leader>lh :call LanguageClient#textDocument_hover()<CR>
-" nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
-" nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
+nnoremap <leader>ld :call LanguageClient#textDocument_definition()<CR>
+nnoremap <leader>lr :call LanguageClient#textDocument_rename()<CR>
+nnoremap <leader>lf :call LanguageClient#textDocument_formatting()<CR>
+nnoremap <leader>lt :call LanguageClient#textDocument_typeDefinition()<CR>
+nnoremap <leader>lx :call LanguageClient#textDocument_references()<CR>
+nnoremap <leader>la :call LanguageClient_workspace_applyEdit()<CR>
+nnoremap <leader>lc :call LanguageClient#textDocument_completion()<CR>
+nnoremap <leader>lh :call LanguageClient#textDocument_hover()<CR>
+nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
+nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
 
 " color picker
 let g:vcoolor_map = '<Leader>c'
 let g:vcool_ins_rgb_map = '<Leader>cr'
 let g:vcool_ins_hsl_map = '<Leader>ch'
 let g:vcool_ins_rgba_map = '<Leader>cR'
+
+" Terminal mode keybinding
+tnoremap <Esc> <C-\><C-n>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+

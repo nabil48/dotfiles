@@ -31,7 +31,8 @@ font pango:Iosevka Nerd Font 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -107,6 +108,9 @@ title_align center
 default_border pixel 2
 default_floating_border pixel 2
 hide_edge_borders smart
+
+# window spesific configuration
+# for_window [class=".*"] title_format "<b>%title</b>"
 
 # workspace layout
 # Define names for default workspaces for which we configure key bindings later on.
@@ -412,11 +416,11 @@ set $ared                                       #c67d6f
 
 # Changing colors
 # class                 border           backgr.         text            indicator       child_border
-client.focused          $bcyan           $bcyan          $background     $bcyan     $bcyan
+client.focused          $bcyan           $bcyan          $background     $bcyan          $bcyan
 client.focused_inactive $background      $background     $foreground     $foreground     $bblack
 client.unfocused        $background      $background     $foreground     $background     $bblack
-client.urgent           $background      $background     $foreground     $background     $background
-client.placeholder      $background      $background     $foreground     $background     $background
+client.urgent           $background      $background     $foreground     $background     $bblack
+client.placeholder      $background      $background     $foreground     $background     $bblack
 client.background       $background
 
 

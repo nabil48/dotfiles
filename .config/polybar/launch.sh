@@ -12,5 +12,5 @@ if type "xrandr"; then
     MONITOR=$m polybar --reload -c $HOME/.config/polybar/config.gray main &
   done
 else
-  polybar --reload top &
+  polybar --reload main &
 fi

@@ -22,7 +22,7 @@ scrollback_lines = 10000
 browser = xdg-open
 
 # "system", "on" or "off"
-#cursor_blink = system
+cursor_blink = system
 
 # "block", "underline" or "ibeam"
 cursor_shape = block
@@ -96,7 +96,7 @@ color15 = #fbf1c7
 #background = #3f3f3f
 #active_foreground = #e68080
 #active_background = #3f3f3f
-# padding = 20
+padding = 20
 #border = #3f3f3f
 #border_width = 0
 #roundness = 2.0

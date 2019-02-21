@@ -36,6 +36,13 @@ set splitbelow
 set splitright
 set t_Co=256                             " set terminal 256 color
 set wrap                                 " Vim to word wrap visually
+set backspace=indent,eol,start           " Fix backspace indent
+
+" Change cursor shape in
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
 
 " augroup numbertoggle
 "   autocmd!
@@ -55,4 +62,15 @@ let g:gruvbox_contrast_dark    = 'dark'
 let g:gruvbox_italic           = 1
 let g:gruvbox_improved_strings = 1
 let g:gruvbox_bold             = 1
+
+" vim theme configuration
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:webdevicons_enable=1
+let g:webdevicons_enable_startify=1
+let g:webdevicons_enable_nerdtree=1
+let g:WebDevIconsNerdTreeAfterGlyphPadding = " "
+let g:WebDevIconsUnicodeDecorateFolderNodes=1
+let g:DevIconsAppendArtifactFix=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+

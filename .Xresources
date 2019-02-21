@@ -3,26 +3,8 @@
 !! ------------------------------------------------------------------------------
 !#include "/home/nabil/.Xresources.d/xautolock"
 #include "/home/nabil/.Xresources.d/color/gruvbox"
+#include "/home/nabil/.Xresources.d/cursor"
 #include "/home/nabil/.Xresources.d/urxvt"
 #include "/home/nabil/.Xresources.d/xterm"
 !! ------------------------------------------------------------------------------
 
-!! ------------------------------------------------------------------------------
-!! Font Configuration
-!! ------------------------------------------------------------------------------
-Xft.antialias                        : true
-Xft.autohint                         : true
-!Xft.dpi                              : 96
-!Xft.dpi                              : 1
-Xft.lcdfilter                        : lcddefault
-Xft.hinting                          : true
-Xft.hintstyle                        : hintslight
-Xft.rgba                             : rgba
-!! ------------------------------------------------------------------------------
-
-!! ------------------------------------------------------------------------------
-!! Xcursor theme
-!! ------------------------------------------------------------------------------
-Xcursor.theme                        : breeze_cursors
-Xcursor.size                         : 16
-!! ------------------------------------------------------------------------------
