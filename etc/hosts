@@ -46,6 +46,9 @@ ff02::2 ip6-allrouters
 # ---------------------------------------------------
 # ADB BLOCK
 # ---------------------------------------------------
+127.0.0.1   qvgjqhfnbdeur.com
+127.0.0.1   pads.cdnads.com
+127.0.0.1   uqie4nzy.com
 127.0.0.1   a-ads.com
 127.0.0.1   a01.uadexchange.com
 127.0.0.1   ad.a-ads.com
@@ -86,7 +89,7 @@ ff02::2 ip6-allrouters
 127.0.0.1   audio-sp-sto.spotify.com
 127.0.0.1   audio-sp-tyo.spotify.com
 127.0.0.1   audio-sp.spotify.com
-127.0.0.1   audio2.spotify.com
+# 127.0.0.1   audio2.spotify.com
 127.0.0.1   b.scorecardresearch.com
 127.0.0.1   beta.spotify.map.fastly.net
 127.0.0.1   bid.g.doubleclick.net

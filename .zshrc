@@ -226,5 +226,8 @@ source $ZSH/oh-my-zsh.sh
 #fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+#fzf
+[ -f ~/.zsh_aliases ] && source ~/.zsh_aliases
+
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/home/nabil/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;

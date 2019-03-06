@@ -38,6 +38,10 @@ set t_Co=256                             " set terminal 256 color
 set wrap                                 " Vim to word wrap visually
 set backspace=indent,eol,start           " Fix backspace indent
 
+if (has('termguicolors'))
+  set termguicolors
+endif
+
 " Change cursor shape in
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 let &t_SI = "\<Esc>[6 q"
@@ -52,10 +56,6 @@ let &t_EI = "\<Esc>[2 q"
 
 " vim theme configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if (has('termguicolors'))
-  set termguicolors
-endif
-
 syntax on
 colorscheme gruvbox
 let g:gruvbox_contrast_dark    = 'dark'
@@ -71,6 +71,17 @@ let g:webdevicons_enable_nerdtree=1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = " "
 let g:WebDevIconsUnicodeDecorateFolderNodes=1
 let g:DevIconsAppendArtifactFix=1
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:DevIconsEnableFoldersOpenClose = 1
 
+" highlight 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
+highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
+highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
+highlight clear SignColumn
 
+highlight GruvboxGreenSign guibg='#282828' guifg='#b8bb26'
+highlight GruvboxRedSign guibg='#282828' guifg='#fb4934'
+highlight GruvboxAquaSign guibg='#282828' guifg='#8ec07c'
+
+highlight! link NERDTreeFlags NERDTreeDir

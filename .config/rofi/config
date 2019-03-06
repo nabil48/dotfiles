@@ -9,7 +9,7 @@ rofi.display-drun         : drun:
 rofi.display-run          : run:
 rofi.display-keys         : key:
 rofi.sidebar-mode         : false
-rofi.modi                 : drun,run
+rofi.modi                 : drun,run,keys
 rofi.show                 : drun
 rofi.drun-match-fields    : name
 rofi.window-match-fields  : name

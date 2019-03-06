@@ -2,8 +2,8 @@
 !! URxvt configs
 !! ------------------------------------------------------------------------------
 !! fonts
-URxvt*font                      : xft:Iosevka Nerd Font:pixelsize=16:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
-URxvt*boldFont                  : xft:Iosevka Nerd Font:bold:pixelsize=16:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
+URxvt*font                      : xft:Iosevka Nerd Font:pixelsize=14:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
+URxvt*boldFont                  : xft:Iosevka Nerd Font:bold:pixelsize=14:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
 URxvt.letterSpace               : -0.5
 URxvt.lineSpace                 : 0
 URxvt.allow_bold                : true

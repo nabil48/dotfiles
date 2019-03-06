@@ -326,6 +326,7 @@ mode "$mode_gaps_left" {
 
 # enable floating mode for spesific window
 for_window [class="Yad"] floating enable
+for_window [class="qjackctl"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -372,7 +373,7 @@ bindsym $mod+F9 exec --no-startup-id xinput --disable "SynPS/2 Synaptics TouchPa
 bindsym $mod+Shift+F9 exec --no-startup-id xinput --enable "SynPS/2 Synaptics TouchPad"
 
 # Lockscreen
-bindsym XF86ScreenSaver exec --no-startup-id mantablockscreen
+bindsym XF86ScreenSaver exec --no-startup-id slimlock
 
 # Sleep
 bindsym XF86Sleep exec --no-startup-id systemctl suspend
@@ -434,7 +435,7 @@ exec_always killall compton; compton --dbus -b
 exec feh --bg-scale "$HOME/Pictures/wal HD/wallhaven/wallhaven-740247.jpg"
 exec_always $HOME/.config/polybar/launch.sh
 # exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
-exec xautolock -time 5 -locker mantablockscreen
+exec xautolock -time 5 -locker slimlock
 # exec xautolock -time 30 -locker "systemctl suspend"
 exec --no-startup-id xbacklight -set 40
 exec --no-startup-id clipmenud

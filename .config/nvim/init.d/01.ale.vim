@@ -2,11 +2,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_linters_explicit = 1
 
-highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
-highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
-highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
-highlight SignColumn guibg='#282828'
-
 let g:ale_linters = {
             \   'css': ['prettier'],
             \   'html': ['prettier'],
