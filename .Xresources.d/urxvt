@@ -2,8 +2,8 @@
 !! URxvt configs
 !! ------------------------------------------------------------------------------
 !! fonts
-URxvt*font                      : xft:Iosevka Nerd Font:size=10:antialiase=true
-URxvt*boldFont                  : xft:Iosevka Nerd Font:bold:size=10:antialiase=true
+URxvt*font                      : xft:Iosevka Nerd Font:pixelsize=16:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
+URxvt*boldFont                  : xft:Iosevka Nerd Font:bold:pixelsize=16:antialiase=false, xft:FantasqueSansMono Nerd Font Mono
 URxvt.letterSpace               : -0.5
 URxvt.lineSpace                 : 0
 URxvt.allow_bold                : true
@@ -13,13 +13,8 @@ URxvt*depth                     : 32
 URxvt*scrollTtyKeypress         : true
 URxvt*scrollTtyOutput           : false
 URxvt*scrollWithBuffer          : true
-URxvt.background                : [100]#282828
-URxvt.borderColor               : [100]#282828
 URxvt.borderless                : false
 URxvt.externalBorder            : 0 
-URxvt.foreground                : #ebdbb2
-URxvt.highlightColor            : #d79921
-URxvt.highlightTextColor        : #3c3836
 URxvt.iconFile                  : terminal
 URxvt.internalBorder            : 0
 URxvt.scrollBar                 : false
@@ -30,6 +25,17 @@ URxvt.secondaryScreen           : false
 URxvt.secondaryScroll           : false
 URxvt.termName                  : screen-256color
 URxvt.title                     : System Command Promt
+URxvt.skipBuiltinGlyphs         : false
+URxvt.buffered                  : true
+URxvt.iso14755                  : false
+URxvt.iso14755_52               : false
+
+!! color
+URxvt.foreground                : #ebdbb2
+URxvt.highlightColor            : #d79921
+URxvt.highlightTextColor        : #3c3836
+URxvt.background                : [100]#282828
+URxvt.borderColor               : [100]#282828
 
 !! cursor
 URxvt*cursorColor               : #ebdbb2
@@ -62,7 +68,3 @@ URxvt.keysym.Shift-Control-V    : perl:clipboard:paste
 URxvt.keysym.M-u                : perl:url-select:select_next
 URxvt.keysym.M-Escape           : perl:keyboard-select:activate
 URxvt.keysym.M-s                : perl:keyboard-select:search
-
-!! Others
-URxvt.iso14755                  : false
-URxvt.iso14755_52               : false

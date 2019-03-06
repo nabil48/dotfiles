@@ -2,6 +2,11 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_linters_explicit = 1
 
+highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
+highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
+highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
+highlight SignColumn guibg='#282828'
+
 let g:ale_linters = {
             \   'css': ['prettier'],
             \   'html': ['prettier'],
@@ -41,10 +46,6 @@ let g:ale_sign_warning             = 'WW'
 let g:ale_sign_info                = 'II'
 let g:ale_sign_column_always       = 1
 let g:ale_change_sign_column_color = 0
-
-highlight ALEErrorSign guibg='#e16f7e' guifg='#000000'
-highlight ALEWarningSign guibg='#fdc35f' guifg='#000000'
-highlight ALEInfoSign guibg='#8ca9bf' guifg='#000000'
 
 let g:ale_echo_msg_error_str   = 'E'
 let g:ale_echo_msg_warning_str = 'W'

@@ -1,5 +1,8 @@
 copier.sh
-*.log
-*.pid
-__pycache__
+.config/mpd/mpd.log
+.config/mpd/mpd.pid
+.config/mpd/mpdstate
+.config/ranger/bookmarks
+.config/ranger/history
+__pycache__/
 .config/rofi-tools
