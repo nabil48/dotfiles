@@ -381,6 +381,9 @@ bindsym XF86Sleep exec --no-startup-id systemctl suspend
 # Hibernate
 # bindsym XF86Suspend exec --no-startup-id systemctl hibernate
 
+# Sleep
+bindsym $mod+F8 exec --no-startup-id networkmanager_dmenu
+
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
 # set $name <color>

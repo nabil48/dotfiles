@@ -138,6 +138,9 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
+" php
+" Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+
 " Python
 Plug 'zchee/deoplete-jedi'
 Plug 'davidhalter/jedi-vim'
