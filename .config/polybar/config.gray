@@ -11,7 +11,7 @@
 background      = ${xrdb:background}
 foreground      = ${xrdb:foreground}
 
-background-alt  = #55282828
+background-alt  = #00282828
 
 black           = ${xrdb:color0}
 brightblack     = ${xrdb:color8}
@@ -79,7 +79,7 @@ bottom = true
 fixed-center = true
 
 background = ${colors.background}
-foreground = ${colors.brightwhite}
+foreground = ${colors.brightyellow}
 
 border-color = ${colors.background}
 border-top-size = 2
@@ -91,7 +91,7 @@ font-1 = ${fonts.font-1}
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-separator = " "
+separator = "╏"
 
 tray-position = right
 tray-padding = 0
@@ -102,7 +102,6 @@ modules-left = i3 mpd
 modules-right = wlan network temperature hdd0 hdd1 memory cpu backlight volume date session
 module-margin = 0
 module-padding = 0
-
 ;== Modules ===============================================
 
 ;== Modules Left ==========================================
@@ -153,7 +152,6 @@ label-focused-padding = 1
 label-mode = %name%
 
 label-unfocused = %name%
-label-unfocused-background = ${colors.brightblack}
 label-unfocused-foreground = ${colors.brightwhite}
 label-unfocused-padding = 1
 
@@ -189,7 +187,6 @@ icon-single = 綾
 icon-consume = ✀
 
 format-online-padding = 1
-format-online-background = ${colors.brightblack}
 format-online-foreground = ${colors.brightwhite}
 
 
@@ -204,13 +201,13 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-background = ${colors.brightblack}
+format-connected-
 format-connected-foreground = ${colors.brightwhite}
 format-connected-padding = 1
 format-connected-prefix =" "
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${colors.brightblack}
+format-disconnected-
 format-disconnected-foreground = ${colors.brightwhite}
 format-disconnected-padding = 1
 format-disconnected-prefix =" "
@@ -231,13 +228,12 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-background = ${colors.brightblack}
+format-connected-
 format-connected-foreground = ${colors.brightwhite}
 format-connected-padding = 1
 format-connected-prefix =" "
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${colors.brightblack}
 format-disconnected-foreground = ${colors.brightwhite}
 format-disconnected-padding = 1
 format-disconnected-prefix =" "
@@ -260,7 +256,6 @@ warn-temperature = 60
 units = true
 
 format = <label>
-format-background = ${colors.brightblack}
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 format-prefix = " "
@@ -282,7 +277,6 @@ interval = 1
 exec = hddtemp /dev/sda | cut -b 33-37
 
 format = <label>
-format-background = ${colors.brightblack}
 format-font = 1
 format-foreground = ${colors.brightwhite}
 format-padding = 1
@@ -297,7 +291,6 @@ interval = 1
 exec = hddtemp /dev/sdb | cut -b 33-37
 
 format = <label>
-format-background = ${colors.brightblack}
 format-font = 1
 format-foreground = ${colors.brightwhite}
 format-padding = 1
@@ -310,7 +303,6 @@ type = internal/cpu
 interval = 1
 
 format = <label>
-format-background = ${colors.brightblack}
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 
@@ -329,7 +321,6 @@ type = internal/memory
 interval = 1
 
 format = <label>
-format-background = ${colors.brightblack}
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 format-prefix = "﬙"
@@ -347,7 +338,6 @@ output = ${assets.bar-monitor}
 enable-scroll = false
 
 format = <label>
-format-background = ${colors.brightblack}
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 format-prefix = ""
@@ -365,13 +355,11 @@ mapped = true
 interval = 5
 
 format-muted = <label-muted>
-format-muted-background = ${colors.brightblack}
 format-muted-foreground = ${colors.brightwhite}
 format-muted-padding = 1
 format-muted-prefix = ""
 
 format-volume = <label-volume>
-format-volume-background = ${colors.brightblack}
 format-volume-foreground = ${colors.brightwhite}
 format-volume-padding = 1
 format-volume-prefix = ""
@@ -388,7 +376,6 @@ label-volume = %percentage:3:3%
 type = internal/date
 interval = 30
 
-format-background = ${colors.brightblack}
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 
@@ -406,6 +393,5 @@ click-left = "~/.config/polybar/script/session.sh"
 
 content-padding = 1
 content-font = 1
-content-background = ${colors.brightblack}
 content-foreground = ${colors.brightwhite}
 ;==========================================================
