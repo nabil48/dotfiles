@@ -7,6 +7,7 @@
 ;   The README contains alot of information
 ;
 ;==========================================================
+
 [colors]
 background      = ${xrdb:background}
 foreground      = ${xrdb:foreground}
@@ -53,7 +54,7 @@ mpd-host = 127.0.0.1
 mpd-port = 6006
 
 eth=enp2s0
-wlan=wlp3s0
+wlan=wlp0s29f7u3
 
 hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
 
@@ -98,7 +99,7 @@ tray-padding = 0
 tray-maxsize = 16
 ; tray-offset-x = 20%
 
-modules-left = i3 mpd
+modules-left = jgmenu i3 mpd
 modules-right = wlan network temperature hdd0 hdd1 memory cpu backlight volume date session
 module-margin = 0
 module-padding = 0
@@ -113,7 +114,6 @@ click-left = "jgmenu_run >/dev/null 2>&1 &"
 
 content-font = 1
 content-padding = 1
-content-background = ${colors.brightblack}
 content-foreground = ${colors.brightwhite}
 ;----------------------------------------------------------
 
@@ -201,13 +201,11 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-
 format-connected-foreground = ${colors.brightwhite}
 format-connected-padding = 1
 format-connected-prefix =" "
 
 format-disconnected = <label-disconnected>
-format-disconnected-
 format-disconnected-foreground = ${colors.brightwhite}
 format-disconnected-padding = 1
 format-disconnected-prefix =" "
@@ -228,7 +226,6 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-
 format-connected-foreground = ${colors.brightwhite}
 format-connected-padding = 1
 format-connected-prefix =" "

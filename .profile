@@ -12,3 +12,5 @@ export PATH="/home/nabil/.local/bin:$PATH"
 export PATH="/home/nabil/.toys:$PATH"
 # export PATH="/opt/lampp/bin:$PATH"
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
