@@ -1,5 +1,7 @@
 !! ------------------------------------------------------------------------------
-!! Xcursor theme
+!! Font configs
 !! ------------------------------------------------------------------------------
-Xcursor.theme : breeze_cursors
-Xcursor.size  : 16
+Xft.antialias : true
+Xft.rgba      : rgb
+Xft.hinting   : true
+Xft.hintstyle : hintslight

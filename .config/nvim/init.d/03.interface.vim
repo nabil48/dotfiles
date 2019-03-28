@@ -58,10 +58,11 @@ let &t_EI = "\<Esc>[2 q"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 colorscheme gruvbox
-let g:gruvbox_contrast_dark    = 'dark'
-let g:gruvbox_italic           = 1
-let g:gruvbox_improved_strings = 1
-let g:gruvbox_bold             = 1
+let g:gruvbox_contrast_dark     = 'dark'
+let g:gruvbox_italic            = 1
+let g:gruvbox_improved_strings  = 1
+let g:gruvbox_improved_warnings = 1
+let g:gruvbox_bold              = 1
 
 " vim theme configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

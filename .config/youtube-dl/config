@@ -1,0 +1,5 @@
+## Download Options
+--external-downloader aria2c
+
+## Video Format Options
+--format bestvideo+bestaudio

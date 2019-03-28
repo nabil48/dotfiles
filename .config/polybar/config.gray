@@ -43,7 +43,8 @@ brightwhite     = ${xrdb:color15}
 
 [fonts]
 font-0 = "Iosevka Nerd Font:size=10;2:Light"
-font-1 = "Material Icons:size=13;4"
+font-1 = "Iosevka Nerd Font:size=10;2:Light:bold"
+font-2 = "Material Icons:size=13;4"
 
 ;==========================================================
 
@@ -59,7 +60,6 @@ wlan=wlp0s29f7u3
 hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
 
 ;==========================================================
-
 
 [settings]
 screenchange-reload = true
@@ -80,7 +80,7 @@ bottom = true
 fixed-center = true
 
 background = ${colors.background}
-foreground = ${colors.brightyellow}
+foreground = ${colors.brightwhite}
 
 border-color = ${colors.background}
 border-top-size = 2
@@ -88,33 +88,50 @@ border-bottom-size = 2
 
 font-0 = ${fonts.font-0}
 font-1 = ${fonts.font-1}
+font-2 = ${fonts.font-2}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-separator = "╏"
-
 tray-position = right
 tray-padding = 0
 tray-maxsize = 16
-; tray-offset-x = 20%
 
-modules-left = jgmenu i3 mpd
-modules-right = wlan network temperature hdd0 hdd1 memory cpu backlight volume date session
+modules-left = i3 left mpd
+modules-right = wlan right network right temperature right hdd0 hdd1 right memory right cpu right backlight right volume right date right session
 module-margin = 0
 module-padding = 0
+
 ;== Modules ===============================================
 
-;== Modules Left ==========================================
-
-[module/jgmenu]
+[module/left]
 type = custom/text
-content = 
-click-left = "jgmenu_run >/dev/null 2>&1 &"
+content = ❱
 
 content-font = 1
 content-padding = 1
 content-foreground = ${colors.brightwhite}
+
+;----------------------------------------------------------
+
+[module/right]
+type = custom/text
+content = ❰
+
+content-font = 1
+content-padding = 1
+content-foreground = ${colors.brightwhite}
+
+;----------------------------------------------------------
+
+[module/jgmenu]
+type = custom/text
+content = 
+
+content-font = 1
+content-padding = 1
+content-foreground = ${colors.brightwhite}
+
 ;----------------------------------------------------------
 
 [module/i3]
@@ -142,7 +159,7 @@ ws-icon-default = 
 
 format = <label-state>
 
-label-font = 1
+label-font = 2
 
 label-focused = %name%
 label-focused-background = ${colors.brightwhite}
@@ -159,6 +176,7 @@ label-urgent = %name%
 
 label-visible = %name%
 label-visible-foreground = ${colors.brightwhite}
+
 ;----------------------------------------------------------
 
 [module/mpd]
@@ -189,8 +207,7 @@ icon-consume = ✀
 format-online-padding = 1
 format-online-foreground = ${colors.brightwhite}
 
-
-;==Module Right ==========================================
+;----------------------------------------------------------
 
 [module/network]
 type = internal/network

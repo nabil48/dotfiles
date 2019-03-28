@@ -26,5 +26,8 @@
         "enabled": false
       }
     }
+  },
+  "cquery":{
+      "snippetSupport": true
   }
 }

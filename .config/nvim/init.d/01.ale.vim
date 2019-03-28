@@ -9,7 +9,6 @@ let g:ale_linters = {
             \   'json': ['prettier'],
             \   'lua': ['luac'],
             \   'markdown': ['prettier'],
-            \   'python': ['pycodestyle'],
             \   'sass': ['stylelint'],
             \   'scss': ['prettier'],
             \   'vim': ['vint'],

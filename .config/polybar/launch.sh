@@ -9,7 +9,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 # for multimonitor
 if type "xrandr"; then
   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-    MONITOR=$m polybar --reload -c $HOME/.config/polybar/config.gray main &
+    MONITOR=$m polybar --reload -c $HOME/.config/polybar/config main &
   done
 else
   polybar --reload main &

@@ -6,20 +6,23 @@ let g:deoplete#enable_refresh_always = 1
 
 call deoplete#custom#source('_', 'matchers', ['matcher_full_fuzzy'])
 call deoplete#custom#option({
-            \ 'auto_complete_delay': 10,
-            \ 'auto_refresh_delay': 10,
+            \ 'auto_complete_delay': 0,
+            \ 'auto_refresh_delay': 5,
+            \ 'autocomplete': v:true,
             \ 'camel_case': v:true,
             \ 'on_insert_enter': v:true,
             \ 'on_text_changed_i': v:true,
-            \ 'smart_case': v:true,
+            \ 'refresh_always': v:true,
+            \ 'skip_multibyte': v:true,
+            \ 'smart_case': v:true
             \ })
 
-function! Multiple_cursors_before()
-    let g:deoplete#disable_auto_complete = 1
-endfunction
-function! Multiple_cursors_after()
-    let g:deoplete#disable_auto_complete = 0
-endfunction
+" function! Multiple_cursors_before()
+"     let g:deoplete#disable_auto_complete = 1
+" endfunction
+" function! Multiple_cursors_after()
+"     let g:deoplete#disable_auto_complete = 0
+" endfunction
 
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -56,9 +59,9 @@ let g:deoplete#sources#ternjs#filetypes = [
 
 " LanguageClient
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" call deoplete#custom#source('LanguageClient',
-"             \ 'min_pattern_length',
-"             \ 2)
+call deoplete#custom#source('LanguageClient',
+            \ 'min_pattern_length',
+            \ 2)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Php

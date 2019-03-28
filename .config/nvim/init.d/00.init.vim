@@ -17,6 +17,7 @@ au FocusGained,BufEnter * :checktime  " auto update trigger on buffer change or 
 au BufRead /tmp/mutt-* set tw=72      " Configuring editors to work with mutt                  "
 
 filetype on                           " required
+filetype plugin indent on
 
 set noautoread                           " make vim monitor realtime changes to a file
 set nocompatible                         " required
@@ -99,6 +100,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
+Plug 'saltstack/salt-vim'
 
 " Deoplete autocomplete
 if has('nvim')
@@ -112,10 +114,10 @@ endif
 " Plug 'Shougo/neosnippet-snippets'
 
 " vim lsp client
-" Plug 'autozimu/LanguageClient-neovim', {
-"             \ 'branch': 'next',
-"             \ 'do': 'bash install.sh',
-"             \ }
+Plug 'autozimu/LanguageClient-neovim', {
+            \ 'branch': 'next',
+            \ 'do': 'bash install.sh',
+            \ }
 
 " Programgin support
 " Language pack
@@ -142,7 +144,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 " Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 
 " Python
-Plug 'zchee/deoplete-jedi'
+" Plug 'zchee/deoplete-jedi'
 Plug 'davidhalter/jedi-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
 
