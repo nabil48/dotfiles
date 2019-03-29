@@ -56,7 +56,7 @@ font-2 = "Material Icons:size=13;4"
 bar-monitor = ${env:MONITOR:LVDS-1}
 
 mpd-host = 127.0.0.1
-mpd-port = 6006
+mpd-port = 6600
 
 eth=enp2s0
 wlan=wlp0s29f7u3
