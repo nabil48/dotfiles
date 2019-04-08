@@ -6,26 +6,26 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 
 ## Details
 
-| Item                  | Value                                     |
-| :-------------------- | :---------------------------------------- |
-| OS                    | Manjaro 18.0                              |
-| WM                    | I3-gaps, Openbox                          |
-| Shell                 | Zsh _(oh-my-zsh)_                         |
-| DM                    | Lightdm                                   |
-| Font                  | Iosevka Nerd Font, SauceCodePro Nerd Font |
-| Compositor            | Compton                                   |
-| Notification          | Dunst                                     |
-| Terminal              | URxvt, Termite                            |
-| Launcher              | rofi, dmenu, jgmenu                       |
-| Bar                   | polybar                                   |
-| Wallpaper             | feh                                       |
-| Lock Screen           | i3lock, mantablockscreen                  |
-| Logout / Shutdown     | rofi-tools                                |
-| Volume Control        | pulseaudio-ctl, amixer                    |
-| Brightness Controller | xbacklight                                |
-| Network Applet        | nm-applet                                 |
-| Bluetooth Applet      | blueman-applet                            |
-| Text Editor           | neovim, nano, vscode, sublime             |
+| Item                  | Value                                           |
+| :-------------------- | :---------------------------------------------- |
+| OS                    | Manjaro 18.0 & ArchLinux                        |
+| WM                    | I3-gaps, Openbox                                |
+| Shell                 | Zsh _([zimfw](https://github.com/zimfw/zimfw))_ |
+| DM                    | Lightdm, SLIM                                   |
+| Font                  | Iosevka, Iosevka Nerd Font                      |
+| Compositor            | Compton                                         |
+| Notification          | Dunst                                           |
+| Terminal              | URxvt, Termite, suckless terminal               |
+| Launcher              | rofi, dmenu, jgmenu                             |
+| Bar                   | polybar                                         |
+| Wallpaper             | feh                                             |
+| Lock Screen           | i3lock, mantablockscreen, slimlock              |
+| Logout / Shutdown     | rofi-tools                                      |
+| Volume Control        | pulseaudio-ctl, amixer                          |
+| Brightness Controller | xbacklight                                      |
+| Network Applet        | nm-applet, connman-gtk                          |
+| Bluetooth Applet      | blueman-applet                                  |
+| Text Editor           | neovim, nano, vscode, sublime                   |
 
 ## Table of Contents
 
@@ -51,6 +51,7 @@ Dotfiles are used to customize your system. The “dotfiles” name is derived f
 | Xresource  | [.Xresource](https://github.com/nabil48/dotfiles/blob/master/.Xresources) [.Xresource.d](https://github.com/nabil48/dotfiles/tree/master/.Xresources.d) |
 | Xterm      | [.Xresources.d/xterm](https://github.com/nabil48/dotfiles/blob/master/.Xresources.d/xterm)                                                              |
 | Zsh        | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zshrc)                                                                                        |
+| Zimfw        | [.zshrc](https://github.com/nabil48/dotfiles/blob/master/.zimrc)                                                                                        |
 
 ## ScreenShot
 
