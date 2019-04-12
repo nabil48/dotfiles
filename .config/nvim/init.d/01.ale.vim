@@ -4,7 +4,6 @@ let g:ale_linters_explicit = 1
 
 let g:ale_linters = {
             \   'css': ['prettier'],
-            \   'html': ['prettier'],
             \   'javascript': ['eslint'],
             \   'json': ['prettier'],
             \   'lua': ['luac'],
@@ -18,7 +17,6 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
             \   'css': ['prettier'],
-            \   'html': ['prettier'],
             \   'javascript': ['eslint'],
             \   'json': ['prettier'],
             \   'lua': ['luac'],

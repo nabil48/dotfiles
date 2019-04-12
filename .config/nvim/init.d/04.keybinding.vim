@@ -61,17 +61,17 @@ noremap <Leader>gr :Gremove<CR>
 map <Leader>/ :Commentary<CR>
 
 " Autoformat
-nmap <Leader>f :ALEFix<CR>
-nmap <Leader>F :Autoformat<CR>
+nmap <Leader>F :ALEFix<CR>
+nmap <Leader>f :Autoformat<CR>
 
 " Jedi-vim
-let g:jedi#goto_command             = '<leader>d'
-let g:jedi#goto_assignments_command = '<leader>g'
-let g:jedi#goto_definitions_command = ''
-let g:jedi#documentation_command    = 'K'
-let g:jedi#usages_command           = '<leader>n'
-let g:jedi#completions_command      = '<C-Space>'
-let g:jedi#rename_command           = '<leader>r'
+" let g:jedi#goto_command             = '<leader>d'
+" let g:jedi#goto_assignments_command = '<leader>g'
+" let g:jedi#goto_definitions_command = ''
+" let g:jedi#documentation_command    = 'K'
+" let g:jedi#usages_command           = '<leader>n'
+" let g:jedi#completions_command      = '<C-Space>'
+" let g:jedi#rename_command           = '<leader>r'
 
 " Deoplete
 " use tab to forward cycle
