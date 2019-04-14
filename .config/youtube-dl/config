@@ -1,5 +1,8 @@
 ## Download Options
---external-downloader aria2c
+# --external-downloader aria2c
 
 ## Video Format Options
---format bestvideo+bestaudio
+--format best
+
+## Filesystem Options
+--output %(title)s.%(ext)s

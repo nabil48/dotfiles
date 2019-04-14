@@ -42,26 +42,15 @@ brightwhite     = ${xrdb:color15}
 
 ;==========================================================
 
-
-[fonts]
+[assets]
 font-0 = "Iosevka Nerd Font:size=10;2:Light"
 font-1 = "Iosevka Nerd Font:size=10:weight=bold;2"
 font-2 = "Material Icons:size=13;4"
-
-
-;==========================================================
-
-
-[assets]
-bar-monitor = ${env:MONITOR:LVDS-1}
-
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
+monitor = ${env:MONITOR:LVDS-1}
 mpd-host = 127.0.0.1
 mpd-port = 6600
-
-eth=enp2s0
-wlan=wlp0s29f7u3
-
-hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input
+wlan=${env:WLAN}
 
 
 ;==========================================================
@@ -83,7 +72,7 @@ margin-bottom = 0
 
 
 [bar/main]
-monitor = ${assets.bar-monitor}
+monitor = ${assets.monitor}
 width = 100%
 height = 18
 bottom = true
@@ -96,9 +85,9 @@ border-color = ${colors.background}
 border-top-size = 2
 border-bottom-size = 2
 
-font-0 = ${fonts.font-0}
-font-1 = ${fonts.font-1}
-font-2 = ${fonts.font-2}
+font-0 = ${assets.font-0}
+font-1 = ${assets.font-1}
+font-2 = ${assets.font-2}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -279,12 +268,12 @@ udspeed-minwidth = 2
 accumulate-stats = true
 unknown-as-up = true
 
-format-connected = %{A1:networkmanager_dmenu:}<label-connected>%{A}
+format-connected = %{A1:connman-gtk:}<label-connected>%{A}
 format-connected-foreground = ${colors.brightwhite}
 format-connected-padding = 1
 format-connected-prefix =" "
 
-format-disconnected = %{A1:networkmanager_dmenu:}<label-disconnected>%{A}
+format-disconnected = %{A1:connman-gtk:}<label-disconnected>%{A}
 format-disconnected-foreground = ${colors.brightwhite}
 format-disconnected-padding = 1
 format-disconnected-prefix =" "
@@ -396,7 +385,7 @@ label-padding = 1
 
 [module/backlight]
 type = internal/xbacklight
-output = ${assets.bar-monitor}
+output = ${assets.monitor}
 enable-scroll = false
 
 format = <label>

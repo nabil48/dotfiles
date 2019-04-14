@@ -7,7 +7,7 @@ let mapleader=','
 nnoremap <A-l> :bn<cr>
 nnoremap <A-h> :bp<cr>
 nnoremap <leader>q :bp<cr>:bd #<cr>
-nnoremap <leader>qa :bufdo bwipeout<cr>
+nnoremap <leader>qa :bufdo bwipeout<cr>:Startify<cr>
 
 " moving
 no <left> <Nop>
@@ -43,6 +43,11 @@ nmap <C-A-h> <C-w>t<C-w>H
 " omni copletion
 imap <C-Space> <C-x><C-o>
 
+" Terminal mode keybinding
+tnoremap <Esc> <C-\><C-n>
+
+
+"" Plugin Keybind
 " NERDTree
 map <F2> :NERDTreeToggle<CR>
 map <C-\> :NERDTreeToggle<CR>
@@ -61,17 +66,17 @@ noremap <Leader>gr :Gremove<CR>
 map <Leader>/ :Commentary<CR>
 
 " Autoformat
-nmap <Leader>f :ALEFix<CR>
-nmap <Leader>F :Autoformat<CR>
+nmap <Leader>F :ALEFix<CR>
+nmap <Leader>f :Autoformat<CR>
 
 " Jedi-vim
-let g:jedi#goto_command             = '<leader>d'
-let g:jedi#goto_assignments_command = '<leader>g'
-let g:jedi#goto_definitions_command = ''
-let g:jedi#documentation_command    = 'K'
-let g:jedi#usages_command           = '<leader>n'
-let g:jedi#completions_command      = '<C-Space>'
-let g:jedi#rename_command           = '<leader>r'
+" let g:jedi#goto_command             = '<leader>d'
+" let g:jedi#goto_assignments_command = '<leader>g'
+" let g:jedi#goto_definitions_command = ''
+" let g:jedi#documentation_command    = 'K'
+" let g:jedi#usages_command           = '<leader>n'
+" let g:jedi#completions_command      = '<C-Space>'
+" let g:jedi#rename_command           = '<leader>r'
 
 " Deoplete
 " use tab to forward cycle
@@ -89,16 +94,16 @@ map <Leader>e <C-y>,
 nmap <silent> <Leader>ig :IndentGuidesToggle<CR>
 
 " lsp
-nnoremap <leader>ld :call LanguageClient#textDocument_definition()<CR>
-nnoremap <leader>lr :call LanguageClient#textDocument_rename()<CR>
-nnoremap <leader>lf :call LanguageClient#textDocument_formatting()<CR>
-nnoremap <leader>lt :call LanguageClient#textDocument_typeDefinition()<CR>
-nnoremap <leader>lx :call LanguageClient#textDocument_references()<CR>
 nnoremap <leader>la :call LanguageClient_workspace_applyEdit()<CR>
 nnoremap <leader>lc :call LanguageClient#textDocument_completion()<CR>
+nnoremap <leader>ld :call LanguageClient#textDocument_definition({'gotoCmd': 'split'})<CR>
+nnoremap <leader>lf :call LanguageClient#textDocument_formatting()<CR>
 nnoremap <leader>lh :call LanguageClient#textDocument_hover()<CR>
-nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
 nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
+nnoremap <leader>lr :call LanguageClient#textDocument_rename()<CR>
+nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
+nnoremap <leader>lt :call LanguageClient#textDocument_typeDefinition()<CR>
+nnoremap <leader>lx :call LanguageClient#textDocument_references()<CR>
 
 " color picker
 let g:vcoolor_map = '<Leader>c'
@@ -106,7 +111,8 @@ let g:vcool_ins_rgb_map = '<Leader>cr'
 let g:vcool_ins_hsl_map = '<Leader>ch'
 let g:vcool_ins_rgba_map = '<Leader>cR'
 
-" Terminal mode keybinding
-tnoremap <Esc> <C-\><C-n>
+" Tagbar
+noremap <Leader>tt :TagbarToggle<CR>
+noremap <F3> :TagbarToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

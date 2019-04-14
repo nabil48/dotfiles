@@ -1,10 +1,10 @@
 " lsp configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call LanguageClient#textDocument_definition({'gotoCmd': 'split'})
-
+set omnifunc=LanguageClient#complete
 set completefunc=LanguageClient#complete
 set formatexpr=LanguageClient#textDocument_rangeFormatting_sync()
 
+let g:LanguageClient_autoStart = 1
 let g:LanguageClient_autoStop = 1
 let g:LanguageClient_diagnosticsEnable = 1
 let g:LanguageClient_hoverPreview = 'Never'
@@ -15,14 +15,23 @@ let g:LanguageClient_useVirtualText = 0
 " let g:LanguageClient_loggingLevel = 'INFO'
 
 let g:LanguageClient_serverCommands = {
-            \ 'python': ['python', '-m', 'pyls'],
-            \ 'html': ['html-languageserver', '--stdio'],
-            \ 'css': ['css-languageserver', '--stdio'],
-            \ 'json': ['json-languageserver', '--stdio'],
             \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
             \ 'cpp': ['ccls', '--log-file=/tmp/cc.log'],
+            \ 'css': ['css-languageserver', '--stdio'],
             \ 'cuda': ['ccls', '--log-file=/tmp/cc.log'],
-            \ 'objc': ['ccls', '--log-file=/tmp/cc.log']
+            \ 'html': ['html-languageserver', '--stdio'],
+            \ 'javascript': ['typescript-language-server', '--stdio'],
+            \ 'javascript.jsx': ['typescript-language-server', '--stdio'],
+            \ 'json': ['json-languageserver', '--stdio'],
+            \ 'less': ['css-languageserver', '--stdio'],
+            \ 'objc': ['ccls', '--log-file=/tmp/cc.log'],
+            \ 'php': ['intelephense', '--stdio'],
+            \ 'python': ['python', '-m', 'pyls'],
+            \ 'sass': ['css-languageserver', '--stdio'],
+            \ 'scss': ['css-languageserver', '--stdio'],
+            \ 'typescript': ['typescript-language-server', '--stdio'],
+            \ 'typescript.tsx': ['typescript-language-server', '--stdio'],
+            \ 'yaml': ['yaml-language-server', '--stdio'],
             \ }
 let g:LanguageClient_diagnosticsDisplay = {
             \  1: {

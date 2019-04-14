@@ -11,7 +11,7 @@
         "enabled": false
       },
       "pycodestyle": {
-        "enabled": true
+        "enabled": false
       },
       "pydocstyle": {
         "enabled": false
@@ -23,7 +23,7 @@
         "enabled": false
       },
       "yapf": {
-        "enabled": false
+        "enabled": true
       }
     }
   },

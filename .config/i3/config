@@ -97,20 +97,25 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle move position center border pixel 2
+bindsym $mod+Shift+space floating toggle move position center border normal
 
 # resize floating window
 floating_minimum_size 75 x 50
-#floating_maximum_size 1350 x 730
+# floating_maximum_size 1350 x 730
 
 # window configuration
 title_align center
-default_border pixel 2
-default_floating_border pixel 2
+default_border normal
+default_floating_border normal
 hide_edge_borders smart
 
 # window spesific configuration
 # for_window [class=".*"] title_format "<b>%title</b>"
+for_window [class="vokoscreen"] floating enable
+for_window [class="Yad"] floating enable
+for_window [class="qjackctl"] floating enable
+for_window [class="PacketTracer7"] floating enable
+for_window [class="gnome-clocks"] floating enable
 
 # workspace layout
 # Define names for default workspaces for which we configure key bindings later on.
@@ -324,11 +329,6 @@ mode "$mode_gaps_left" {
         bindsym Escape mode "default"
 }
 
-# enable floating mode for spesific window
-for_window [class="Yad"] floating enable
-for_window [class="qjackctl"] floating enable
-for_window [class="PacketTracer7"] floating enable
-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 # bar {
@@ -386,7 +386,7 @@ bindsym XF86Sleep exec --no-startup-id systemctl suspend
 # bindsym XF86Suspend exec --no-startup-id systemctl hibernate
 
 # Network maanger
-bindsym $mod+F8 exec --no-startup-id networkmanager_dmenu
+bindsym $mod+F8 exec --no-startup-id connman-gtk
 
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
@@ -424,25 +424,24 @@ set $ared                                       #c67d6f
 
 # Changing colors
 # class                 border           backgr.         text            indicator       child_border
-client.focused          $bcyan           $bcyan          $background     $bcyan          $bcyan
-client.focused_inactive $background      $background     $foreground     $foreground     $bblack
-client.unfocused        $background      $background     $foreground     $background     $bblack
-client.urgent           $background      $background     $foreground     $background     $bblack
-client.placeholder      $background      $background     $foreground     $background     $bblack
+client.focused          $yellow          $yellow         $background     $yellow          $background
+client.focused_inactive $background          $background         $foreground     $background     $background
+client.unfocused        $background          $background         $foreground     $background     $background
+client.urgent           $background      $background     $foreground     $background     $background
+client.placeholder      $background      $background     $foreground     $background     $background
 client.background       $background
 
 
 # autostart program
+exec feh --bg-scale "$HOME/Pictures/wallhaven/wallhaven-626490.jpg"
 exec mpd
 exec pulseeffects --gapplication-service
+exec xautolock -time 10 -locker mantablockscreen
 exec xfce4-power-manager
-# exec nm-applet
-# exec blueman-applet
-exec_always killall compton; compton --dbus -b
-exec feh --bg-scale "$HOME/Pictures/wal HD/wallhaven/wallhaven-751547.png"
-exec_always $HOME/.config/polybar/launch.sh
-# exec_always --no-startup-id killall conky; conky -c $HOME/.config/conky/sidecard/conkyrc
-exec xautolock -time 5 -locker slimlock
-# exec xautolock -time 30 -locker "systemctl suspend"
-exec --no-startup-id xbacklight -set 40
+
 exec --no-startup-id clipmenud
+exec --no-startup-id lxpolkit
+exec --no-startup-id xbacklight -set 40
+
+exec_always $HOME/.config/polybar/launch.sh
+exec_always killall compton; compton --dbus -b
