@@ -96,7 +96,7 @@ tray-position = right
 tray-padding = 0
 tray-maxsize = 16
 
-modules-left = i3 mpd
+modules-left = jgmenu i3 mpd
 modules-right = wlan network right temperature hdd0 hdd1 right memory cpu right backlight right volume right date right session
 module-margin = 0
 module-padding = 0
@@ -139,13 +139,46 @@ content-foreground = ${colors.brightwhite}
 
 ;----------------------------------------------------------
 
+
 [module/session]
-type = custom/text
-content = "%{T2} Nabil%{T-}"
+type = custom/script
+interval = 60
+exec = getent passwd `whoami` | cut -d : -f 5
 click-left = "~/.config/polybar/script/session.sh"
 
-content-padding = 1
-content-foreground = ${colors.brightwhite}
+format = %{T2}<label>%{T-}
+format-font = 1
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+format-prefix = " "
+
+;----------------------------------------------------------
+
+
+[module/hdd0]
+type = custom/script
+interval = 1
+exec = hddtemp /dev/sda | cut -b 33-37
+
+format = <label>
+format-font = 1
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+format-prefix = " "
+
+
+;----------------------------------------------------------
+
+[module/hdd1]
+type = custom/script
+interval = 1
+exec = hddtemp /dev/sdb | cut -b 33-37
+
+format = <label>
+format-font = 1
+format-foreground = ${colors.brightwhite}
+format-padding = 1
+format-prefix = " "
 
 
 ;----------------------------------------------------------
@@ -316,35 +349,6 @@ label-warn = %temperature-c%
 ;----------------------------------------------------------
 
 
-[module/hdd0]
-type = custom/script
-interval = 1
-exec = hddtemp /dev/sda | cut -b 33-37
-
-format = <label>
-format-font = 1
-format-foreground = ${colors.brightwhite}
-format-padding = 1
-format-prefix = " "
-
-
-;----------------------------------------------------------
-
-[module/hdd1]
-type = custom/script
-interval = 1
-exec = hddtemp /dev/sdb | cut -b 33-37
-
-format = <label>
-format-font = 1
-format-foreground = ${colors.brightwhite}
-format-padding = 1
-format-prefix = " "
-
-
-;----------------------------------------------------------
-
-
 [module/cpu]
 type = internal/cpu
 interval = 1
@@ -373,7 +377,6 @@ format = <label>
 format-foreground = ${colors.brightwhite}
 format-padding = 1
 format-prefix = "﬙"
-format-suffix = "%"
 
 label = %gb_used%
 label-font = 1

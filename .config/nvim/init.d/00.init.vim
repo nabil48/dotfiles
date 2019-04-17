@@ -83,20 +83,19 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Utility
-Plug '/usr/share/fzf'
-Plug 'Chiel92/vim-autoformat'       " Provide easy code formatting in Vim by integrating existing code formatters.
+Plug 'Chiel92/vim-autoformat'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'godlygeek/tabular'            " Vim script for text filtering and alignment
-Plug 'jiangmiao/auto-pairs'         " Insert or delete brackets, parens, quotes in pair.
+Plug 'godlygeek/tabular'
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf.vim'
-Plug 'junegunn/vim-easy-align'      " A simple, easy-to-use Vim alignment plugin.
-Plug 'terryma/vim-multiple-cursors' " True Sublime Text style multiple selections for Vim
+Plug 'junegunn/vim-easy-align'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'           " plugin provides mappings to easily delete, change and add such surroundings in pairs.
 Plug 'tpope/vim-unimpaired'         " Pairs of handy bracket mappings
 " Plug 'w0rp/ale'                     " Linter, AutoComplete, LSP
-Plug 'saltstack/salt-vim'
+" Plug 'saltstack/salt-vim'
 
 " Deoplete autocomplete
 if has('nvim')
@@ -106,16 +105,13 @@ else
     Plug 'roxma/nvim-yarp'
     Plug 'roxma/vim-hug-neovim-rpc'
 endif
-" Plug 'Shougo/neosnippet'
-" Plug 'Shougo/neosnippet-snippets'
 
-" vim lsp client
+" Lsp Client
 Plug 'autozimu/LanguageClient-neovim', {
             \ 'branch': 'next',
             \ 'do': 'bash install.sh',
             \ }
 
-" Programgin support
 " Language pack
 Plug 'SirVer/ultisnips'             " ultimate snn for Vim
 Plug 'sheerun/vim-polyglot'         " A solid language pack for Vim.
@@ -123,7 +119,7 @@ Plug 'honza/vim-snippets'           " snippets files for various programming lan
 
  " CSS, SCSS, SASS, LESS
 " Plug 'groenewege/vim-less'
-" Plug 'cakebaker/scss-syntax.vim'  " Scss Support
+Plug 'cakebaker/scss-syntax.vim'
 
 " HTML Bundle
 Plug 'mattn/emmet-vim'
@@ -136,12 +132,11 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
-" php
-" Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
-
 " Python
 " Plug 'zchee/deoplete-jedi'
 " Plug 'davidhalter/jedi-vim'
+
+" Jinja2
 Plug 'Glench/Vim-Jinja2-Syntax'
 
 " vimL
