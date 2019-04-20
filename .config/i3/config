@@ -433,15 +433,15 @@ client.background       $background
 
 
 # autostart program
-exec feh --bg-scale "$HOME/Pictures/wallhaven/wallhaven-626490.jpg"
-exec mpd
+exec feh --bg-scale "$HOME/Pictures/wallhaven/wallhaven-757477.jpg"
 exec xautolock -time 10 -locker mantablockscreen
 exec xfce4-power-manager
 
+exec --no-startup-id mpd
+exec --no-startup-id lxpolkit
 exec --no-startup-id pulseeffects --gapplication-service
 exec --no-startup-id udiskie
 exec --no-startup-id clipmenud
-exec --no-startup-id lxpolkit
 exec --no-startup-id xbacklight -set 40
 
 exec_always $HOME/.config/polybar/launch.sh

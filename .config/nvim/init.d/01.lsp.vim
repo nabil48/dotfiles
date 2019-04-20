@@ -9,10 +9,10 @@ let g:LanguageClient_autoStop = 1
 let g:LanguageClient_diagnosticsEnable = 1
 let g:LanguageClient_hoverPreview = 'Never'
 let g:LanguageClient_serverStderr = '/tmp/LanguageServer.log'
-let g:LanguageClient_settingsPath = '~/.config/nvim/lspSettings.json'
+let g:LanguageClient_settingsPath = '~/.config/nvim/lspSettings.json' "https://github.com/autozimu/LanguageClient-neovim/issues/448
 let g:LanguageClient_useVirtualText = 0
-" let g:LanguageClient_loggingFile = '/tmp/LanguageClient.log'
-" let g:LanguageClient_loggingLevel = 'INFO'
+let g:LanguageClient_loggingLevel = 'ERROR'
+let g:LanguageClient_loggingFile = '/tmp/LanguageClient.log'
 
 let g:LanguageClient_serverCommands = {
       \ 'c': ['ccls', '--log-file=/tmp/cc.log'],

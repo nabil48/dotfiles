@@ -1,17 +1,18 @@
 {
   "pyls": {
     "plugins": {
-      "autopep8": {
-        "enabled": false
-      },
       "jedi_completion": {
         "include_params": false
+      },
+      "autopep8": {
+        "enabled": false
       },
       "mccabe": {
         "enabled": false
       },
       "pycodestyle": {
-        "enabled": true
+        "enabled": true,
+        "ignore": ["E402", "C0103"]
       },
       "pydocstyle": {
         "enabled": false
@@ -23,11 +24,31 @@
         "enabled": false
       },
       "yapf": {
+        "enabled": true
+      },
+      "pylint": {
         "enabled": false
       }
     }
   },
-  "cquery":{
-      "snippetSupport": true
+  "cquery": {
+    "snippetSupport": true
+  },
+  "http": {
+    "proxy": "",
+    "proxyStrictSSL": true
+  },
+  "json": {
+    "format": {
+      "enable": true
+    },
+    "schemas": [
+      {
+        "url": "http://json.schemastore.org/config",
+        "schema": {
+          "type": "array"
+        }
+      }
+    ]
   }
 }
