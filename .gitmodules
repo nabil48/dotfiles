@@ -1,3 +1,6 @@
 [submodule ".config/rofi-tools"]
 	path = .config/rofi-tools
 	url = git@github.com:nabil48/rofi-tools.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:nabil48/vimrc.git
