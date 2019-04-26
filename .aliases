@@ -1,4 +1,4 @@
 alias dir2iso="python ~/Project/tools/dir2iso.py"
 alias ytrename="python ~/Project/tools/Batch\ renamer.py"
 alias neofetch="neofetch --ascii ~/.config/neofetch/chess.txt"
-alias upgrade="sudo reflector --latest 5 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syyu"
+alias upgrade="pekmen;sudo reflector --latest 5 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syyu"
