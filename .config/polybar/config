@@ -84,6 +84,8 @@ foreground = ${colors.brightwhite}
 border-color = ${colors.background}
 border-top-size = 2
 border-bottom-size = 2
+border-left-size = 0
+border-right-size = 0
 
 font-0 = ${assets.font-0}
 font-1 = ${assets.font-1}
@@ -136,6 +138,8 @@ content-foreground = ${colors.brightwhite}
 [module/jgmenu]
 type = custom/text
 content = 
+
+click-left = rofi -show drun
 
 content-font = 1
 content-padding = 1

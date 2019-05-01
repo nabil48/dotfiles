@@ -2,11 +2,11 @@
 # User configuration sourced by interactive shells
 #
 
-# Define zim location
-export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
+# Define Zim location
+ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 
-# Start zim
-[[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
+# Start Zim
+[[ -s ${ZIM_HOME}/zimfw.zsh ]] && source ${ZIM_HOME}/zimfw.zsh
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -23,5 +23,5 @@ export GEM_HOME=$HOME/.gem
 export PATH="/home/nabil/.local/bin:$PATH"
 export PATH="/home/nabil/.toys:$PATH"
 # export PATH="/opt/lampp/bin:$PATH"
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"

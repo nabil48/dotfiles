@@ -433,7 +433,7 @@ client.background       $background
 
 
 # autostart program
-exec feh --bg-scale "$HOME/Pictures/wallhaven/wallhaven-757477.jpg"
+exec feh --bg-scale "$HOME/Pictures/wallhaven/wallhaven-719371.jpg"
 exec xautolock -time 10 -locker mantablockscreen
 exec xfce4-power-manager
 
