@@ -6,7 +6,7 @@
 zstyle ':zim:input' mode 'vi'
 
 # Select what modules you would like enabled. Modules are sourced in the order given.
-zstyle ':zim' modules directory environment git git-info history input utility steeef zsh-completions completion zsh-autosuggestions zsh-syntax-highlighting history-substring-search async pure
+zstyle ':zim' modules directory environment git git-info history input utility zsh-completions completion zsh-autosuggestions zsh-syntax-highlighting history-substring-search async pure
 
 # Modules setup configuration.
 # See https://github.com/zimfw/zimfw/blob/develop/README.md#module-customization
@@ -48,7 +48,7 @@ PURE_PROMPT_VICMD_SYMBOL=❮❮❮
 # ${PWD} are only evaluated once. Use prompt expansion strings for dynamic data.
 # See http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Simple-Prompt-Escapes
 # For example, '%n@%m: %1~' corresponds to 'username@host: /current/directory'.
-#zstyle ':zim:environment' termtitle '%n@%m: %1~'
+# zstyle ':zim:environment' termtitle '%n@%m: %1~'
 
 #
 # history
@@ -96,5 +96,5 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 # Customize the main highlighter styles.
 # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters/main.md#how-to-tweak-it
 typeset -A ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[comment]='fg=10'
+ZSH_HIGHLIGHT_STYLES[comment]='fg=8'
 
