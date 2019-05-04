@@ -1,5 +1,5 @@
 ## Download Options
-# --external-downloader aria2c
+--external-downloader aria2c
 
 ## Video Format Options
 --format bestvideo[height=720][ext=mp4]+bestaudio[ext=m4a]

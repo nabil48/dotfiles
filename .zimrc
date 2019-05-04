@@ -15,6 +15,7 @@ zstyle ':zim:module' zsh-autosuggestions 'url' 'zsh-users/zsh-autosuggestions'
 zstyle ':zim:module' zsh-syntax-highlighting 'url' 'zsh-users/zsh-syntax-highlighting'
 zstyle ':zim:module' async 'url' 'mafredri/zsh-async'
 zstyle ':zim:module' pure 'url' 'sindresorhus/pure'
+zstyle ':zim:module' spaceship 'url' 'denysdovhan/spaceship-prompt'
 
 ###################
 # MODULE SETTINGS #
@@ -83,7 +84,7 @@ SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
 
 # Customize the style that the suggestions are shown with.
 # See https://github.com/zsh-users/zsh-autosuggestions/blob/master/README.md#suggestion-highlight-style
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 #
 # zsh-syntax-highlighting

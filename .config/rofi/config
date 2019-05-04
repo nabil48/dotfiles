@@ -8,7 +8,7 @@ rofi.display-window       : Window:
 rofi.display-drun         : Apps:
 rofi.display-run          : Run:
 rofi.display-keys         : key:
-rofi.sidebar-mode         : true
+rofi.sidebar-mode         : false
 rofi.modi                 : drun,run,keys
 rofi.show                 : drun
 rofi.drun-match-fields    : name

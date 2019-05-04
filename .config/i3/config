@@ -116,6 +116,7 @@ for_window [class="Yad"] floating enable
 for_window [class="qjackctl"] floating enable
 for_window [class="PacketTracer7"] floating enable
 for_window [class="gnome-clocks"] floating enable
+for_window [class="pgadmin4"] border pixel 1
 
 # workspace layout
 # Define names for default workspaces for which we configure key bindings later on.
@@ -364,7 +365,7 @@ bindsym $mod+p exec --no-startup-id clipmenu
 bindsym $mod+Shift+p exec --no-startup-id rm -rf /tmp/clipmenu/*
 
 # Restart, Suspend, Shutdown, Logout Dialog
-bindsym $mod+End exec --no-startup-id ~/.config/rofi-tools/rofi-power
+bindsym $mod+End exec --no-startup-id ~/.config/rofi/scripts/rofi-sessions
 
 # Blank Space under i3
 bindsym $mod+o exec --no-startup-id i3-msg open
@@ -387,6 +388,9 @@ bindsym XF86Sleep exec --no-startup-id systemctl suspend
 
 # Network maanger
 bindsym $mod+F8 exec --no-startup-id connman-gtk
+
+# Keybind Bantuan
+bindsym $mod+F10 exec --no-startup-id rofi -modi "KEYBINDS:~/.config/rofi/scripts/keybind-helper" -show KEYBINDS -lines 6
 
 # read color from xresource
 # set_from_resource $<name> <resource_name> <fallback>
